@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Liste - https://francoispetitit.com/">
+    <title>How We Used React Virtualized to Boost Our Sale Page | François Petitit</title>
+    <meta name="description" content="François Petitit">
+    <meta property="og:title" content="How We Used React Virtualized to Boost Our Sale Page" />
+<meta property="og:description" content="This article was previously published here : https://medium.com/la-ruche-qui-dit-oui/how-we-used-react-virtualized-to-boost-our-sale-page-6e2f087039ca
+How we used React Virtualized to boost our sale page Our mission at La Ruche qui dit Oui ! is to provide good and fair products to our customers, directly from farmers and craftsmen.
+Since last year, we have been working to improve and expand our product offerings, bringing more and more producers and more and more products to our customers.
+Challenges arise at many levels: logistics, communication, marketing, but also the user experience offered by our website." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://francoispetitit.com/posts/how-we-used-react-virtualized-to-boost-our-sale-page/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2018-07-18T09:52:49+02:00" />
+<meta property="article:modified_time" content="2018-07-18T09:52:49+02:00" />
+
+    <meta itemprop="name" content="How We Used React Virtualized to Boost Our Sale Page">
+<meta itemprop="description" content="This article was previously published here : https://medium.com/la-ruche-qui-dit-oui/how-we-used-react-virtualized-to-boost-our-sale-page-6e2f087039ca
+How we used React Virtualized to boost our sale page Our mission at La Ruche qui dit Oui ! is to provide good and fair products to our customers, directly from farmers and craftsmen.
+Since last year, we have been working to improve and expand our product offerings, bringing more and more producers and more and more products to our customers.
+Challenges arise at many levels: logistics, communication, marketing, but also the user experience offered by our website."><meta itemprop="datePublished" content="2018-07-18T09:52:49+02:00" />
+<meta itemprop="dateModified" content="2018-07-18T09:52:49+02:00" />
+<meta itemprop="wordCount" content="1434">
+<meta itemprop="keywords" content="" />
+    
+    <link rel="canonical" href="https://francoispetitit.com/posts/how-we-used-react-virtualized-to-boost-our-sale-page/">
+    <link rel="icon" href="https://francoispetitit.com//assets/favicon.ico">
+    <link rel="dns-prefetch" href="https://www.google-analytics.com">
+    <link href="https://www.google-analytics.com" rel="preconnect" crossorigin>
+    <link rel="alternate" type="application/atom+xml" title="François Petitit" href="https://francoispetitit.com//atom.xml" />
+    <link rel="alternate" type="application/json" title="François Petitit" href="https://francoispetitit.com//feed.json" />
+    <link rel="shortcut icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII=">
+    
+    
+    <style>*,:after,:before{box-sizing:border-box;padding:0}body{font:1rem/1.5 '-apple-system',BlinkMacSystemFont,avenir next,avenir,helvetica,helvetica neue,ubuntu,roboto,noto,segoe ui,arial,sans-serif;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;padding:2rem;background:#f5f5f5;color:#000}.skip-link{position:absolute;top:-40px;left:0;background:#eee;z-index:100}.skip-link:focus{top:0}h1,h2,h3,h4,h5,strong,b{font-size:inherit;font-weight:600}header{line-height:2;padding-bottom:1.5rem}.link{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-decoration:none}.time{font-variant-numeric:tabular-nums;white-space:nowrap}blockquote{border-left:5px solid #eee;padding-left:1rem;margin:0}a,a:visited{color:inherit}a:hover,a.heading-link{text-decoration:none}pre{padding:.5rem;overflow:auto;overflow-x:scroll;overflow-wrap:normal}code,pre{font-family:San Francisco Mono,Monaco,consolas,lucida console,dejavu sans mono,bitstream vera sans mono,monospace;font-size:normal;font-size:small;background:#eee}code{margin:.1rem;border:none}ul{list-style-type:square}ul,ol{padding-left:1.2rem}.list{line-height:2;list-style-type:none;padding-left:0}.list li{padding-bottom:.1rem}.meta{color:#777}.content{max-width:70ch;margin:0 auto}header{line-height:2;display:flex;justify-content:space-between;padding-bottom:1rem}header a{text-decoration:none}header ul{list-style-type:none;padding:0}header li,header a{display:inline}h2.post{padding-top:.5rem}header ul a:first-child{padding-left:1rem}.nav{height:1px;background:#000;content:'';max-width:10%}.list li{display:flex;align-items:baseline}.list li time{flex:initial}.hr-list{margin-top:0;margin-bottom:0;margin-right:.5rem;margin-left:.5rem;height:1px;border:0;border-bottom:1px dotted #ccc;flex:1 0 1rem}.m,hr{border:0;margin:3rem 0}img{max-width:100%;height:auto}.post-date{margin:5% 0}.index-date{color:#9a9a9a}.animate-blink{animation:opacity 1s infinite;opacity:1}@keyframes opacity{0%{opacity:1}50%{opacity:.5}100%{opacity:0}}.tags{display:flex;justify-content:space-between}.tags ul{padding:0;margin:0}.tags li{display:inline}.avatar{height:120px;width:120px;position:relative;margin:-10px 0 0 15px;float:right;border-radius:50%}table{width:100%;border-collapse:collapse}th,td{border:1px solid #ddd;text-align:left;padding:8px}th{background-color:#f2f2f2} </style>
+  
+    
+  
+  
+  <script type="application/ld+json">
+  {
+      "@context": "http://schema.org",
+      "@type": "BlogPosting",
+      "articleSection": "posts",
+      "name": "How We Used React Virtualized to Boost Our Sale Page",
+      "headline": "How We Used React Virtualized to Boost Our Sale Page",
+      "alternativeHeadline": "",
+      "description": "This article was previously published here : https:\/\/medium.com\/la-ruche-qui-dit-oui\/how-we-used-react-virtualized-to-boost-our-sale-page-6e2f087039ca\nHow we used React Virtualized to boost our sale page Our mission at La Ruche qui dit Oui ! is to provide good and fair products to our customers, directly from farmers and craftsmen.\nSince last year, we have been working to improve and expand our product offerings, bringing more and more producers and more and more products to our customers.\nChallenges arise at many levels: logistics, communication, marketing, but also the user experience offered by our website.",
+      "inLanguage": "fr-fr",
+      "isFamilyFriendly": "true",
+      "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https:\/\/francoispetitit.com\/posts\/how-we-used-react-virtualized-to-boost-our-sale-page\/"
+      },
+      "author" : {
+          "@type": "Person",
+          "name": ""
+      },
+      "creator" : {
+          "@type": "Person",
+          "name": ""
+      },
+      "accountablePerson" : {
+          "@type": "Person",
+          "name": ""
+      },
+      "copyrightHolder" : "François Petitit",
+      "copyrightYear" : "2018",
+      "dateCreated": "2018-07-18T09:52:49.00Z",
+      "datePublished": "2018-07-18T09:52:49.00Z",
+      "dateModified": "2018-07-18T09:52:49.00Z",
+      "publisher":{
+          "@type":"Organization",
+          "name": "François Petitit",
+          "url": "https://francoispetitit.com/",
+          "logo": {
+              "@type": "ImageObject",
+              "url": "https:\/\/francoispetitit.com\/assets\/favicon.ico",
+              "width":"32",
+              "height":"32"
+          }
+      },
+      "image": "https://francoispetitit.com/assets/favicon.ico",
+      "url" : "https:\/\/francoispetitit.com\/posts\/how-we-used-react-virtualized-to-boost-our-sale-page\/",
+      "wordCount" : "1434",
+      "genre" : [ ],
+      "keywords" : [ ]
+  }
+  </script>
+  
+  
+  </head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to main</a>
+  <main id="main">
+  <div class="content">
+    <header>
+<p style="padding: 0;margin: 0;">
+  <a href="/">
+    <b>François Petitit</b>
+    <span class="text-stone-500 animate-blink">▮</span>
+  </a>
+</p>
+<ul style="padding: 0;margin: 0;">
+  
+  
+  <li class="">
+    <a href="/posts/"><span>Post</span></a>
+    
+  <li class="">
+    <a href="/about/"><span>About</span></a>
+    
+  </li>
+</ul>
+</header>
+<hr class="hr-list" style="padding: 0;margin: 0;">
+    <section>
+      <h2 class="post">How We Used React Virtualized to Boost Our Sale Page</h2>
+      <p>This article was previously published here : <a href="https://medium.com/la-ruche-qui-dit-oui/how-we-used-react-virtualized-to-boost-our-sale-page-6e2f087039ca">https://medium.com/la-ruche-qui-dit-oui/how-we-used-react-virtualized-to-boost-our-sale-page-6e2f087039ca</a></p>
+<h1 id="how-we-used-react-virtualized-to-boost-our-sale-page">How we used React Virtualized to boost our sale page</h1>
+<p>Our mission at <a href="https://laruchequiditoui.fr/fr">La Ruche qui dit Oui !</a> is to provide good and fair products to our customers, directly from farmers and craftsmen.</p>
+<p>Since last year, we have been working to improve and expand our product offerings, bringing more and more producers and more and more products to our customers.</p>
+<p>Challenges arise at many levels: logistics, communication, marketing, but also the user experience offered by our website.</p>
+<p>This article focuses on what we did, as Web developers, to handle more and more farmers and more and more products on our new sale page :</p>
+<p><img
+  src="image.png"
+  alt="Our new sale page"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<p>But before getting to the code, let’s see what we wanted to change on this page.</p>
+<h2 id="the-old-sale-page-why-we-chose-to-abandon-it">The old sale page: why we chose to abandon it</h2>
+<p>The sale page looked like that, until the last few weeks:</p>
+<p><img
+  src="image-1.png"
+  alt="Farewell, old page"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<p>When this page was designed and implemented, there were only dozens or a few hundreds products per sale. It worked fine at the beginning, but as the number of offers was growing up, we identified some limitations that were problematic:</p>
+<ul>
+<li>a fundamental pattern of our navigation wasn’t understood by the user, especially the newcomers: the products are ordered by farms (because we want to highlight our farmers). Some users dropped their orders or had to spend more time to compare the products, and as you know, on a e-commerce website, more time means less sales…</li>
+<li>on iOS devices, the browser crashed when there were too many products — due to a lack of memory. We used a pagination but it made the sale harder to navigate.</li>
+<li>on large screens, the products were also displayed by batches of 20: when the user was coming to a category, the first 20 were displayed, then when the user scrolled to the bottom, the next 20 were added at the bottom of the list, and so on. Fast scrolling navigation was a bit jerky.</li>
+<li>on large screen, the page didn’t use all the width of the page: it was a shame because we could have displayed more products.</li>
+<li>access to categories, subcategories and organic filters was only possible when the user was on top of the page. Discovering the whole range of products was not easy and organic filters deserved to be more visible.</li>
+</ul>
+<p>So, we needed to improve the discoverability of the whole catalog, and the navigation inside it.</p>
+<p>After a few weeks of user testing and design adjustments, we finally decided to implement this new page:</p>
+<p><img
+  src="image-2.png"
+  alt="The home screen of the new sale page : a selection of products"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<p>The main technical challenge of the new sale page was the “all products” category:</p>
+<p><img
+  src="image-3.png"
+  alt="The “All products” category"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<p>As you may guess viewing the screenshot, there are now 2 ways to navigate inside a category:</p>
+<ul>
+<li>the user can scroll into the products list, from the first product to the last one (sometimes there are more than 2000 products).</li>
+<li>or the user can click on a farm in the farms list on the left side: the list will automatically scroll up or down to the first product of the farmer.</li>
+</ul>
+<p>So, let’s see how we handled displaying long lists and browsing into them in our code.</p>
+<h2 id="handle-long-list-with-react--react-virtualized">Handle long list with React : React-virtualized</h2>
+<p>At La Ruche qui dit Oui !, we chose about 2 years ago to develop all our new Web front-end features with React.</p>
+<p>React is very powerful to manipulate the DOM efficiently thanks to its use of shadow DOM. We aim to provide the most fluid and responsive interfaces thanks to React.</p>
+<p>In its documentation, React provides some guidelines to optimize performances. In particular, there is a paragraph about “Virtualize Long Lists” :</p>
+<blockquote>
+<p>Virtualize Long Lists</p>
+<p>If your application renders long lists of data (hundreds or thousands of rows), we recommended using a technique known as “windowing”. This technique only renders a small subset of your rows at any given time, and can dramatically reduce the time it takes to re-render the components as well as the number of DOM nodes created.</p>
+<p>React Virtualized is one popular windowing library. It provides several reusable components for displaying lists, grids, and tabular data. You can also create your own windowing component, like Twitter did, if you want something more tailored to your application’s specific use case.</p>
+</blockquote>
+<p>Windowing is pretty easy to understand with the capture below, displaying the content of the DOM at a precise moment : only a dozen of rows are rendered into the DOM, no matter the total number of rows. React Virtualized will remove the rows that are no longer visible and add the newly visible each time the user scrolls into the page.</p>
+<p><img
+  src="image-4.png"
+  alt="At every moment, only a subset of the whole list is present in the DOM"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<p>So as the documentation mentioned React Virtualized, and as it seemed to handle our use cases, we chose to use it to implement the new features.</p>
+<h2 id="how-we-use-react-virtualized">How we use React Virtualized</h2>
+<p>We managed to isolate all our usage of React Virtualized in only one component, called “ProductsList.jsx”.</p>
+<p>Finally, we used 2 components from the library: List and WindowScroller. Our imports look like this:</p>
+<script src="https://gist.github.com/fpetitit/775ba62467c257c737f4d413902ab5ab.js"></script>
+<p>Note that the explicit path used in the import directives are due to the recommendation from <a href="https://medium.com/la-ruche-qui-dit-oui/how-we-used-react-virtualized-to-boost-our-sale-page-6e2f087039ca#:~:text=the%20recommendation%20from-,here,-and%20could%20be">here</a> and could be removed if you’re using Webpack 4.</p>
+<p><code>List</code> allows to display a windowed list of elements.</p>
+<p><code>WindowScroller</code> allows the <code>List</code> component to be scrolled based on the window&rsquo;s scroll positions. Also, the scrollbar will reflect the length of the list and the current position.</p>
+<p>Now let’s render these components in the <code>render</code> function of our <code>ProductsList</code> component:</p>
+<script src="https://gist.github.com/fpetitit/79e217389fb23d42d0789bdedcee53cf.js"></script>
+<p>The properties passed to the List component can be divided in 3 parts: the content of the list, the dimensions of the list, and handling the user interactions.</p>
+<p>###The content of the list</p>
+<p>Giving the content is done by passing a function as the rowRenderer property, that will return the React component corresponding to the index of the desired row:</p>
+<script src="https://gist.github.com/fpetitit/499eb8cbe1b32ebef85251b9d6598196.js"></script>
+<p>(R is for <a href="http://ramdajs.com/">RamdaJS</a>)</p>
+<p>Where farmsAndProductsComponents is a pre-computed array that contains React components displaying either a farmer card or a product card. This part of the code is pretty obvious, but will be complicated to handle the dimension of the list.</p>
+<h3 id="handling-the-dimension-of-the-list">Handling the dimension of the list</h3>
+<p>One of the key thing that must be done to handle the scrollbar of the window is to be able to know the size of the entire list.</p>
+<p>So we set fixed height to our components, according to their types (farmer card or product card) and the width of the window (the cards heights are bigger on small screen than on large screen), and passed the function as the rowHeight prop:</p>
+<p><a href="https://gist.github.com/fpetitit/5f94f76477670b6db561fb1f885509f7">https://gist.github.com/fpetitit/5f94f76477670b6db561fb1f885509f7</a></p>
+<h3 id="handling-the-user-interaction">Handling the user interaction</h3>
+<p>If we stopped here, the user could scroll into the list, use the scrollbar, and know where it situated into the list.</p>
+<p>But we wanted to provide an other way to navigate, by displaying the list of the producers, displaying the current producer (the one corresponding to the first visible product in the screen), and going to an other producer by clicking on its name. This is the purpose of the menu on the left side, in large screen:</p>
+<p><img
+  src="image-5.png"
+  alt="The producers list in the sticky menu"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+
+The producers list in the sticky menu</p>
+<h3 id="displaying-the-current-farm">Displaying the current farm</h3>
+<p>To do that, we added a “scrollY” attribute to our list components:</p>
+<p><a href="https://gist.github.com/fpetitit/bd6c592cd76cd7417be8e35078f34a55">https://gist.github.com/fpetitit/bd6c592cd76cd7417be8e35078f34a55</a></p>
+<p>It allowed us to determine the current producer by looking for the first element of the list having a scrollY visible according to <code>window.pageYOffset</code>:</p>
+<p><a href="https://gist.github.com/fpetitit/c9e3de2a22182e9a9995eb94c70847c0">https://gist.github.com/fpetitit/c9e3de2a22182e9a9995eb94c70847c0</a></p>
+<h3 id="going-to-a-specific-producer">Going to a specific producer</h3>
+<p>Finally, going to a specific producer was done by calculating the position of the producer card by accumulating the heights of the previous components from the list and scrolling to the position:</p>
+<p><a href="https://gist.github.com/fpetitit/60995479f18922d6caf54dcd602376d2">https://gist.github.com/fpetitit/60995479f18922d6caf54dcd602376d2</a></p>
+<h3 id="conclusion--the-pros-and-cons-of-react-virtualized">Conclusion : the pros and cons of React Virtualized</h3>
+<p>We are quite happy of our new sale page and React Virtualized was really a great tool to help use prototyping and developing all the features that we wanted.</p>
+<p>The performance are very good, it works well on all the browsers that we support, especially on the most difficult to support for us which are IE 11 and Safari Mobile on relatively old iOS devices.</p>
+<p>We were concerned by 2 problems until now. Both are due to the fact that the whole list is never present into the DOM:</p>
+<ul>
+<li>searching into the list by the find function of the browsers (“ctrl + f”) is working only in the visible rows, but we provide a Search functionality in the sale page that the user should use instead of the browser’s function, and that provides more intelligent results</li>
+<li>some CSS rules cannot be used, for example selectors like <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/:first-of-type">first-of-type</a></li>
+</ul>
+<p>If you have faced challenges of the same type, please share your experiences in the comments of this blog post :)</p>
+
+      
+      <div class="post-date">
+        <span class="g time">July 18, 2018 </span> &#8729;
+         
+      </div>
+      
+    </section>
+    
+    
+    <div id="comments">
+      
+<script src="https://utteranc.es/client.js"
+    repo=canhtran/maverick
+    issue-term="pathname"
+    theme=github-light
+    crossorigin="anonymous"
+    async>
+</script>
+
+
+    </div>
+    
+    
+  </div>
+</main>
+</body>
+</html>
