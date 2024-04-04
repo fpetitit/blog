@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Liste - https://francoispetitit.com/">
+    <title>Les Nouvelles Architectures Web Et Leur Impact Sur Les Dsi Partie 2 | François Petitit</title>
+    <meta name="description" content="François Petitit">
+    <meta property="og:title" content="Les Nouvelles Architectures Web Et Leur Impact Sur Les Dsi Partie 2" />
+<meta property="og:description" content="cet article a été publié une première fois le 29/10/2013 sur le blog d&rsquo;OCTO Technology : https://blog.octo.com/les-nouvelles-architectures-front-web-et-leur-impact-sur-la-dsi-partie-2
+Dans la partie 1 de cet article, nous avons traité des nouvelles architectures front-end basées sur des applications Web massivement Javascript appelant des API offertes par un serveur back-end : les nouvelles architectures front Web et leur impact sur les DSI - Partie 1.
+Nous avons vu qu&rsquo;elles sont apparues ces dernières années grâce à l&rsquo;augmentation des performances des navigateurs et à l&rsquo;amélioration des outils d&rsquo;industrialisation des développements Javascript." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://francoispetitit.com/posts/les-nouvelles-architectures-web-et-leur-impact-sur-les-dsi-partie-2/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2013-10-30T15:11:39+02:00" />
+<meta property="article:modified_time" content="2013-10-30T15:11:39+02:00" />
+
+    <meta itemprop="name" content="Les Nouvelles Architectures Web Et Leur Impact Sur Les Dsi Partie 2">
+<meta itemprop="description" content="cet article a été publié une première fois le 29/10/2013 sur le blog d&rsquo;OCTO Technology : https://blog.octo.com/les-nouvelles-architectures-front-web-et-leur-impact-sur-la-dsi-partie-2
+Dans la partie 1 de cet article, nous avons traité des nouvelles architectures front-end basées sur des applications Web massivement Javascript appelant des API offertes par un serveur back-end : les nouvelles architectures front Web et leur impact sur les DSI - Partie 1.
+Nous avons vu qu&rsquo;elles sont apparues ces dernières années grâce à l&rsquo;augmentation des performances des navigateurs et à l&rsquo;amélioration des outils d&rsquo;industrialisation des développements Javascript."><meta itemprop="datePublished" content="2013-10-30T15:11:39+02:00" />
+<meta itemprop="dateModified" content="2013-10-30T15:11:39+02:00" />
+<meta itemprop="wordCount" content="1798">
+<meta itemprop="keywords" content="" />
+    
+    <link rel="canonical" href="https://francoispetitit.com/posts/les-nouvelles-architectures-web-et-leur-impact-sur-les-dsi-partie-2/">
+    <link rel="icon" href="https://francoispetitit.com//assets/favicon.ico">
+    <link rel="dns-prefetch" href="https://www.google-analytics.com">
+    <link href="https://www.google-analytics.com" rel="preconnect" crossorigin>
+    <link rel="alternate" type="application/atom+xml" title="François Petitit" href="https://francoispetitit.com//atom.xml" />
+    <link rel="alternate" type="application/json" title="François Petitit" href="https://francoispetitit.com//feed.json" />
+    <link rel="shortcut icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII=">
+    
+    
+    <style>*,:after,:before{box-sizing:border-box;padding:0}body{font:1rem/1.5 '-apple-system',BlinkMacSystemFont,avenir next,avenir,helvetica,helvetica neue,ubuntu,roboto,noto,segoe ui,arial,sans-serif;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;padding:2rem;background:#f5f5f5;color:#000}.skip-link{position:absolute;top:-40px;left:0;background:#eee;z-index:100}.skip-link:focus{top:0}h1,h2,h3,h4,h5,strong,b{font-size:inherit;font-weight:600}header{line-height:2;padding-bottom:1.5rem}.link{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-decoration:none}.time{font-variant-numeric:tabular-nums;white-space:nowrap}blockquote{border-left:5px solid #eee;padding-left:1rem;margin:0}a,a:visited{color:inherit}a:hover,a.heading-link{text-decoration:none}pre{padding:.5rem;overflow:auto;overflow-x:scroll;overflow-wrap:normal}code,pre{font-family:San Francisco Mono,Monaco,consolas,lucida console,dejavu sans mono,bitstream vera sans mono,monospace;font-size:normal;font-size:small;background:#eee}code{margin:.1rem;border:none}ul{list-style-type:square}ul,ol{padding-left:1.2rem}.list{line-height:2;list-style-type:none;padding-left:0}.list li{padding-bottom:.1rem}.meta{color:#777}.content{max-width:70ch;margin:0 auto}header{line-height:2;display:flex;justify-content:space-between;padding-bottom:1rem}header a{text-decoration:none}header ul{list-style-type:none;padding:0}header li,header a{display:inline}h2.post{padding-top:.5rem}header ul a:first-child{padding-left:1rem}.nav{height:1px;background:#000;content:'';max-width:10%}.list li{display:flex;align-items:baseline}.list li time{flex:initial}.hr-list{margin-top:0;margin-bottom:0;margin-right:.5rem;margin-left:.5rem;height:1px;border:0;border-bottom:1px dotted #ccc;flex:1 0 1rem}.m,hr{border:0;margin:3rem 0}img{max-width:100%;height:auto}.post-date{margin:5% 0}.index-date{color:#9a9a9a}.animate-blink{animation:opacity 1s infinite;opacity:1}@keyframes opacity{0%{opacity:1}50%{opacity:.5}100%{opacity:0}}.tags{display:flex;justify-content:space-between}.tags ul{padding:0;margin:0}.tags li{display:inline}.avatar{height:120px;width:120px;position:relative;margin:-10px 0 0 15px;float:right;border-radius:50%}table{width:100%;border-collapse:collapse}th,td{border:1px solid #ddd;text-align:left;padding:8px}th{background-color:#f2f2f2} </style>
+  
+    
+  
+  
+  <script type="application/ld+json">
+  {
+      "@context": "http://schema.org",
+      "@type": "BlogPosting",
+      "articleSection": "posts",
+      "name": "Les Nouvelles Architectures Web Et Leur Impact Sur Les Dsi Partie 2",
+      "headline": "Les Nouvelles Architectures Web Et Leur Impact Sur Les Dsi Partie 2",
+      "alternativeHeadline": "",
+      "description": "cet article a été publié une première fois le 29\/10\/2013 sur le blog d\u0026rsquo;OCTO Technology : https:\/\/blog.octo.com\/les-nouvelles-architectures-front-web-et-leur-impact-sur-la-dsi-partie-2\nDans la partie 1 de cet article, nous avons traité des nouvelles architectures front-end basées sur des applications Web massivement Javascript appelant des API offertes par un serveur back-end : les nouvelles architectures front Web et leur impact sur les DSI - Partie 1.\nNous avons vu qu\u0026rsquo;elles sont apparues ces dernières années grâce à l\u0026rsquo;augmentation des performances des navigateurs et à l\u0026rsquo;amélioration des outils d\u0026rsquo;industrialisation des développements Javascript.",
+      "inLanguage": "fr-fr",
+      "isFamilyFriendly": "true",
+      "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https:\/\/francoispetitit.com\/posts\/les-nouvelles-architectures-web-et-leur-impact-sur-les-dsi-partie-2\/"
+      },
+      "author" : {
+          "@type": "Person",
+          "name": ""
+      },
+      "creator" : {
+          "@type": "Person",
+          "name": ""
+      },
+      "accountablePerson" : {
+          "@type": "Person",
+          "name": ""
+      },
+      "copyrightHolder" : "François Petitit",
+      "copyrightYear" : "2013",
+      "dateCreated": "2013-10-30T15:11:39.00Z",
+      "datePublished": "2013-10-30T15:11:39.00Z",
+      "dateModified": "2013-10-30T15:11:39.00Z",
+      "publisher":{
+          "@type":"Organization",
+          "name": "François Petitit",
+          "url": "https://francoispetitit.com/",
+          "logo": {
+              "@type": "ImageObject",
+              "url": "https:\/\/francoispetitit.com\/assets\/favicon.ico",
+              "width":"32",
+              "height":"32"
+          }
+      },
+      "image": "https://francoispetitit.com/assets/favicon.ico",
+      "url" : "https:\/\/francoispetitit.com\/posts\/les-nouvelles-architectures-web-et-leur-impact-sur-les-dsi-partie-2\/",
+      "wordCount" : "1798",
+      "genre" : [ ],
+      "keywords" : [ ]
+  }
+  </script>
+  
+  
+  </head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to main</a>
+  <main id="main">
+  <div class="content">
+    <header>
+<p style="padding: 0;margin: 0;">
+  <a href="/">
+    <b>François Petitit</b>
+    <span class="text-stone-500 animate-blink">▮</span>
+  </a>
+</p>
+<ul style="padding: 0;margin: 0;">
+  
+  
+  <li class="">
+    <a href="/posts/"><span>Post</span></a>
+    
+  <li class="">
+    <a href="/about/"><span>About</span></a>
+    
+  </li>
+</ul>
+</header>
+<hr class="hr-list" style="padding: 0;margin: 0;">
+    <section>
+      <h2 class="post">Les Nouvelles Architectures Web Et Leur Impact Sur Les Dsi Partie 2</h2>
+      <p><em>cet article a été publié une première fois le 29/10/2013 sur le blog d&rsquo;OCTO Technology : <a href="https://blog.octo.com/les-nouvelles-architectures-front-web-et-leur-impact-sur-la-dsi-partie-2">https://blog.octo.com/les-nouvelles-architectures-front-web-et-leur-impact-sur-la-dsi-partie-2</a></em></p>
+<p>Dans la <a href="https://www.francoispetitit.com/posts/les-nouvelles-architectures-web-et-leur-impact-sur-les-dsi-partie-1/">partie 1 de cet article</a>, nous avons traité des nouvelles architectures front-end basées sur des applications Web massivement Javascript appelant des API offertes par un serveur back-end : les nouvelles architectures front Web et leur impact sur les DSI - Partie 1.</p>
+<p>Nous avons vu qu&rsquo;elles sont apparues ces dernières années grâce à l&rsquo;augmentation des performances des navigateurs et à l&rsquo;amélioration des outils d&rsquo;industrialisation des développements Javascript.</p>
+<p>Dans cette seconde partie, nous nous intéresserons aux raisons pour lesquelles on devrait choisir ces nouvelles architectures, aux opportunités qu&rsquo;elles offrent, et aux conséquences sur les organisations des directions informatiques.</p>
+<h2 id="pourquoi-utiliser-ces-nouvelles-archis">Pourquoi utiliser ces nouvelles archis?</h2>
+<h3 id="pour-mutualiser-le-code-back-end-pour-de-multiples-clients">Pour mutualiser le code back-end pour de multiples clients</h3>
+<p><img
+  src="image.png"
+  alt="schema API front back"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<p>Un atout majeur de cette architecture est la mise en place d&rsquo;une API : orientée fonctionnel et développée dans une technologie standard comme JSON sur HTTP, celle-ci pourra être utilisée par de nombreux autres clients que l&rsquo;application Web initiale. De plus, c&rsquo;est un pattern d&rsquo;architecture déjà connu car c&rsquo;est en général celui utilisé par les applications mobiles : on a donc déjà une certaine expérience dans les DSI pour mettre en place une brique de Web services faisant une façade devant la complexité du SI et utilisable par les applications mobiles. Cependant avec une architecture Web MVC server-side, on aurait dû développer tout d&rsquo;abord le service côté serveur qui appelle le back-office métier, puis l&rsquo;expose à l&rsquo;application Web. Avec une architecture MV* côté client, on n&rsquo;a plus besoin de cette couche et consommer directement les services de l&rsquo;API si elle existe déjà. De même, si on part de zéro, on peut investir dès le début sur une API &ldquo;propre&rdquo; débarrassée de toute spécificité liée à la technologie utilisée pour les IHM.</p>
+<h3 id="-et-ouvrir-une-api-vers-lextérieur-">&hellip; et ouvrir une API vers l&rsquo;extérieur ?</h3>
+<p>Si vous détenez une API pour vos applications, la rendre accessible à l&rsquo;extérieur sera d&rsquo;autant plus facilitée. Je vous invite à relire cet article sur notre blog : les Patterns des Grands du Web : « OpenAPI » ou écosystème ouvert. Cela nécessite bien évidemment d&rsquo;autres éléments, notamment une démarche particulière et la mise en place d&rsquo;un écosystème pour les clients de l&rsquo;API, mais avoir déjà développé les services est une opportunité à bien considérer !</p>
+<h2 id="pour-améliorer-la-productivité-des-développements">Pour améliorer la productivité des développements</h2>
+<p>Avec le recul que nous avons chez OCTO, où l&rsquo;on a déjà réalisé sur cette architecture et mis en production plus d&rsquo;une dizaine de projets de tous types, Web mobile ou desktop, applications métier ou de Dataviz, utiliser des technologies comme AngularJS et BackboneJS améliore sensiblement la productivité, par-rapport à utiliser des frameworks MVC server-side comme JSF ou GWT par exemple dans le monde Java. Cela est tout de même plus nuancé si l&rsquo;on compare avec des outils de développements plus proche du Web comme Rails ou PHP, où les archis MV* côté client conservent tout de même l&rsquo;avantage de la consommation d&rsquo;API agnostiques comme vu précédemment. Mais si on a des serveurs sur Java ou .Net par exemple, et qu&rsquo;on ne veut pas introduire un nouveau middleware dans son infra, alors la productivité des développements front-end avec des technologies comme AngularJS sera un très fort atout.</p>
+<h2 id="pour-produire-des-applications-web-plus-puissantes-plus-riches-plus-ergonomiques">Pour produire des applications Web plus puissantes, plus riches, plus ergonomiques</h2>
+<p>Au-delà de la productivité, il faut aussi comparer le produit final. Or quand on développe avec un framework MV*, on développe toute l&rsquo;application dans et pour le navigateur. Cela permet au développeur d&rsquo;accéder directement et facilement à tous les services offerts par celui-ci, et depuis l&rsquo;avènement de HTML5 ils sont nombreux : stockage de données, offline, accès au système de fichier, multi-threading, push de données&hellip; Nous n&rsquo;exploitons aujourd&rsquo;hui même pas 10% des capacités de nos navigateurs, et cela non pas par manque de cas d&rsquo;usages mais par manque de facilités pour le développement JavaScript dans le navigateur. Or justement avec ces nouvelles technologies, on gagne la possibilité d&rsquo;expérimenter souvent et rapidement car l&rsquo;environnement de développement est extrêmement rapide (notamment le <strong>live-reload</strong> qui permet de recharger du code dans le navigateur à peine après avoir enregistré un fichier source et à l&rsquo;utilisation de NodeJs en serveur de développement, beaucoup plus rapide que les serveurs Java ou .Net). On se ré-approprie véritablement le navigateur, qui n&rsquo;est plus la boîte noire qui vous veut du mal comme quand il fallait sans cesse débugger du code sur les navigateurs standards du marchés. Il est la nouvelle plateforme, qui vous ouvre des nouveaux horizons de créativité.</p>
+<p><img
+  src="image-1.png"
+  alt="HTML5 offre de nombreuses nouvelles fonctionnalités"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<p>Combien en utilisez-vous aujourd&rsquo;hui? Combien en exploiterez-vous dans 1 an?</p>
+<h2 id="pour-remplacer-une-application-lourde-complexe-et-la-déployer-en-saas">Pour remplacer une application lourde complexe et la déployer en SAAS</h2>
+<p>Les éditeurs sont sont de plus en plus nombreux à porter leurs solutions client lourd vers des technologies Web. On pourra évoquer Google Apps qui fournit un webmail bien connu et une suite office depuis longtemps. Mais on est encore plus frappé par la dernière mouture de Microsoft Office, Office 365, qui est intégralement sur le cloud, et de modèle de vente par licence à des abonnements en mode SAAS. Cela est rendu possible par l&rsquo;exploitation des nouvelles capacités des navigateurs, et utiliser des architectures MV* massivement Javascript et bien outillées est clairement la solution aujourd&rsquo;hui pour adresser ces besoins.</p>
+<p>Enfin, un domaine jusqu&rsquo;ici souvent réservé aux applications lourdes est celui des applications métiers complexes. Cela s&rsquo;expliquait principalement par un manque de performances des technos Web. Les DSI souhaitent généralement se désendetter de technologies de clients lourds comme VB ou Swing, mais peu de nouvelles solutions pérennes et ouvertes ont émergé. Un des derniers challenger était Flex, mais son destin est entre les mains d&rsquo;Adobe et ne semble guère rassurant. Un autre est .Net avec WPF, lié à l&rsquo;écosystème Microsoft. GWT avait tenté et réussi à rendre le développement d&rsquo;applications Web relativement complexes un choix réaliste. Mais de même Google, toujours pionnier en matière technologique, a décidé de réduire ses investissements sur cette plateforme, et d&rsquo;embaucher les développeurs du framework AngularJS et de développer la plateforme Dart. L&rsquo;alternative à la conservation des anciennes applications est aujourd&rsquo;hui à chercher dans les nouvelles architectures Web. On restera tout de même encore mesurés devant un relatif manque de maturité des technologies avant de déclencher des refontes d&rsquo;applications complexes, non pas que les plateformes elles-mêmes (le Web et les navigateurs) ne soient assez matures, mais que les technologies de développements évoluent très vite et peuvent induire un coût de maintenance non négligeable pour une DSI qui n&rsquo;est pas &ldquo;pure player&rdquo; du Web.</p>
+<h2 id="quels-impacts-sur-ma-dsi">Quels impacts sur ma DSI?</h2>
+<p>Les impacts de ces technologies sur la DSI du point de vue technique sont finalement assez faibles : on savait déjà développer et faire tourner des applications Web en production. De même, la mise en place d&rsquo;une API implique peu de nouveautés et les patterns pour les sécuriser sont déjà connus car utilisés dans les applications mobiles et les RIA.</p>
+<p>La nouveauté est plus à chercher dans les compétences requises pour le développement, et notamment en JavaScript.</p>
+<h2 id="le-besoin-de-nouvelles-compétences-javascript">Le besoin de nouvelles compétences JavaScript</h2>
+<p>Il faut revenir à 5 ou 10 ans en arrière pour comprendre l&rsquo;aversion des DSI au développement en JavaScript. A l&rsquo;époque, ce langage était très difficilement maintenable car il offre nativement peu de garde-fous : par de typage, pas de compilation, pas de modèle objet&hellip; JavaScript était vu comme un langage de bidouilleurs à bannir en production et dont le seul mérite était d&rsquo;être utilisé par tous les navigateurs. A l&rsquo;aune du Web 2.0, pour faire des applications Web plus riches, on a donc créé des frameworks de développements pour générer du JavaScript sans en écrire : JSF, GWT, ASP.Net, etc. Les limites engendrées par ces librairies (difficultés à introduire du comportement non standard, complexité de debuggage, dépendances fortes avec les éditeurs de librairies) ainsi que l&rsquo;illusion de pouvoir confier à des développeurs purement &ldquo;backs&rdquo; Java ou .Net ont conduits à des désillusions tant sur les applications produites que sur la productivité.</p>
+<p>Avec les nouveaux frameworks MV*, on retrouve une liberté dans les développements et une meilleure productivité, à condition d&rsquo;accepter de développer directement en JavaScript. Le prix à payer est donc l&rsquo;acquisition de compétences en JavaScript, et même de nouvelles compétences : typiquement, il ne s&rsquo;agit plus de savoir intégrer un plug-in jQuery pour apporter un peu de dynamisme à une page web statique, mais de développer une application entière avec du JavaScript et un framework approprié.</p>
+<p>Des connaissances en architecture applicative et en industrialisation des développements (tests, etc.) sont un pré-requis pour ces nouvelles technologies. Heureusement, la facilité d&rsquo;utilisation des derniers frameworks MV* et les cadres structurants qu&rsquo;ils offrent permettent de réduire très largement le ticket d&rsquo;entrée pour un développeur encore non expert.</p>
+<p>Et c&rsquo;est bien là le fait majeur de cette évolution : <em><em>la prise en main du développement d&rsquo;applications MV</em> côté client est désormais aussi aisée que celle d&rsquo;applications MVC classiques.</em>*</p>
+<h2 id="la-tentation-de-créer-des-équipes-par-technos-front-end-et-back-end">La tentation de créer des équipes par technos front-end et back-end</h2>
+<p>Le découplage technologique grandissant entre technologies front Web HTML/CSS/JavaScript et back (sauf à utiliser NodeJS sur le serveur!) engendrent une plus grande distinction entre les développeurs suivant la couche technique sur laquelle ils travaillent. C&rsquo;est une opportunité d&rsquo;améliorer l&rsquo;expertise sur une technologie et la complexification fonctionnelle des applications le nécessite souvent, mais c&rsquo;est aussi un risque de perdre une certaine polyvalence.</p>
+<p>Un autre impact concerne l&rsquo;organisation des équipes : on pourra plus facilement dédier des équipes au développement front et d&rsquo;autres au développement back. Mais cette idée a déjà été abordé dans cet article, où l&rsquo;on constate qu&rsquo;elle n&rsquo;est pas forcément le meilleur choix : <a href="https://blog.octo.com/feature-team/">https://blog.octo.com/feature-team/</a>. En synthèse si vous n&rsquo;avez pas le temps de le relire, le mode d&rsquo;organisation le plus efficace est plutôt de grouper les équipes en &ldquo;feature teams&rdquo; dédiées à des fonctionnalité et couvrant l&rsquo;ensemble des compétences nécessaires pour les mettre en place.</p>
+<h2 id="conclusion--quelques-écueils-à-éviter">Conclusion : quelques écueils à éviter</h2>
+<p>En conclusion, on gardera à l&rsquo;esprit que les nouvelles architecture Web apportent de grandes opportunités pour le développement d&rsquo;applications et les usages pouvant être faits par les utilisateurs finaux et les DSI.</p>
+<p>On évoquera tout de même quelques axes de réflexions à ne pas écarter lors d&rsquo;un choix de technologies : - ces solutions ne sont pas forcément les meilleurs pour tous les cas d&rsquo;usages : par exemple pour un site statique, on peut trouver des solutions plus performantes par-rapport aux performances et au référencement - la comparaison avec des applications natives, véritable point de tension dans les choix pour adresser les usages en mobilité, n&rsquo;est pas encore à l&rsquo;avantage du Web : il reste toujours de nombreuses choses possibles en natif impossibles en Web. A chaque contexte correspondra une stratégie de choix différente.</p>
+<h2 id="pour-aller-plus-loin">Pour aller plus loin</h2>
+<p>une présentation de Julien Jakubowski à Devoxx sur l&rsquo;industrialisation avec JavaScript : <a href="http://parleys.com/play/517bf74ee4b0736a5fa66a38/chapter0/about">http://parleys.com/play/517bf74ee4b0736a5fa66a38/chapter0/about</a>
+sur la problématique de référencement de single page application : <a href="https://blog.octo.com/seo-spa-angular/">https://blog.octo.com/seo-spa-angular/</a></p>
+
+      
+      <div class="post-date">
+        <span class="g time">October 30, 2013 </span> &#8729;
+         
+      </div>
+      
+    </section>
+    
+    
+    <div id="comments">
+      
+<script src="https://utteranc.es/client.js"
+    repo=canhtran/maverick
+    issue-term="pathname"
+    theme=github-light
+    crossorigin="anonymous"
+    async>
+</script>
+
+
+    </div>
+    
+    
+  </div>
+</main>
+</body>
+</html>

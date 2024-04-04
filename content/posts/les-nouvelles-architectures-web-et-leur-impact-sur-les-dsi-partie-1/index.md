@@ -4,8 +4,6 @@ date = 2013-10-29T15:11:39+02:00
 draft = false
 +++
 
-# Les nouvelles architectures front Web et leur impact sur les DSI - Partie 1
-
 *cet article a été publié une première fois le 29/10/2013 sur le blog d'OCTO Technology : https://blog.octo.com/les-nouvelles-architectures-front-web-et-leur-impact-sur-les-dsi-partie-1*
 
 Les applications Web évoluent. Depuis les premiers sites en HTML statique jusqu'aux applications AJAX de ces dernières années, en passant par les multiples technologies de sites Web dynamiques (PHP, ASP, Java, Rails...), les architectures applicatives et les outils pour les mettre en place connaissent régulièrement des avancées majeures et des points de ruptures.
