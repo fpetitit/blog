@@ -2,7 +2,7 @@
 
 <img class="avatar" src="/assets/images/fpe-hope.jpeg" alt="avatar">
 
-Hey, I'm François Petitit - I'm François Petitit, a human being who lives in France, has been working in software development for a long time, and has many passions ;)
+Hey, I'm François Petitit - a human being who lives in France, has been working in software development for a long time, and has many passions ;)
 
 Currently, I work as a co-founder CTO of an innovative property management company : [www.owwner.com](Owwner). 
 
