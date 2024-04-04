@@ -7,21 +7,11 @@
     
     <language>en</language>
     <copyright>Copyright 2024, Calvin Tran</copyright>
-    <lastBuildDate>Thu, 04 Apr 2024 12:01:46 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 04 Apr 2024 11:29:13 +0200</lastBuildDate>
     <generator>Hugo - gohugo.io</generator>
     <docs>http://cyber.harvard.edu/rss/rss.html</docs>
     <atom:link href="http://localhost:1313//atom.xml" rel="self" type="application/atom+xml"/>
     
-    
-    <item>
-      <title>Paris Web Openid Connect France Connect</title>
-      <link>http://localhost:1313/posts/paris-web-openid-connect-france-connect/</link>
-      <description>&lt;iframe src=&#34;https://player.vimeo.com/video/143169752?h=e8a06887a2&#34; width=&#34;640&#34; height=&#34;360&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; fullscreen; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;a href=&#34;https://vimeo.com/143169752&#34;&gt;OpenID Connect, le nouveau standard d&amp;#039;authentification sur le web : mise en oeuvre sur FranceConnect&lt;/a&gt; from &lt;a href=&#34;https://vimeo.com/parisweb&#34;&gt;Paris Web&lt;/a&gt; on &lt;a href=&#34;https://vimeo.com&#34;&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</description>
-      <author>François Petitit</author>
-      <guid>http://localhost:1313/posts/paris-web-openid-connect-france-connect/</guid>
-      <pubDate>Thu, 04 Apr 2024 12:01:46 +0200</pubDate>
-    </item>
     
     <item>
       <title>How We Used React Virtualized to Boost Our Sale Page</title>
@@ -112,7 +102,7 @@
 &lt;p&gt;We managed to isolate all our usage of React Virtualized in only one component, called “ProductsList.jsx”.&lt;/p&gt;
 &lt;p&gt;Finally, we used 2 components from the library: List and WindowScroller. Our imports look like this:&lt;/p&gt;
 &lt;script src=&#34;https://gist.github.com/fpetitit/775ba62467c257c737f4d413902ab5ab.js&#34;&gt;&lt;/script&gt;
-&lt;p&gt;Note that the explicit path used in the import directives are due to the recommendation from &lt;a href=&#34;https://medium.com/la-ruche-qui-dit-oui/how-we-used-react-virtualized-to-boost-our-sale-page-6e2f087039ca#:~:text=the%20recommendation%20from-,here,-and%20could%20be&#34;&gt;here&lt;/a&gt; and could be removed if you’re using Webpack 4.&lt;/p&gt;
+&lt;p&gt;the explicit path used in the import directives are due to the recommendation from &lt;a href=&#34;https://medium.com/la-ruche-qui-dit-oui/how-we-used-react-virtualized-to-boost-our-sale-page-6e2f087039ca#:~:text=the%20recommendation%20from-,here,-and%20could%20be&#34;&gt;here&lt;/a&gt; and could be removed if you’re using Webpack 4.&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;List&lt;/code&gt; allows to display a windowed list of elements.&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;WindowScroller&lt;/code&gt; allows the &lt;code&gt;List&lt;/code&gt; component to be scrolled based on the window&amp;rsquo;s scroll positions. Also, the scrollbar will reflect the length of the list and the current position.&lt;/p&gt;
 &lt;p&gt;Now let’s render these components in the &lt;code&gt;render&lt;/code&gt; function of our &lt;code&gt;ProductsList&lt;/code&gt; component:&lt;/p&gt;
@@ -126,7 +116,7 @@
 &lt;h3 id=&#34;handling-the-dimension-of-the-list&#34;&gt;Handling the dimension of the list&lt;/h3&gt;
 &lt;p&gt;One of the key thing that must be done to handle the scrollbar of the window is to be able to know the size of the entire list.&lt;/p&gt;
 &lt;p&gt;So we set fixed height to our components, according to their types (farmer card or product card) and the width of the window (the cards heights are bigger on small screen than on large screen), and passed the function as the rowHeight prop:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://gist.github.com/fpetitit/5f94f76477670b6db561fb1f885509f7&#34;&gt;https://gist.github.com/fpetitit/5f94f76477670b6db561fb1f885509f7&lt;/a&gt;&lt;/p&gt;
+&lt;script src=&#34;https://gist.github.com/fpetitit/5f94f76477670b6db561fb1f885509f7.js&#34;&gt;&lt;/script&gt;
 &lt;h3 id=&#34;handling-the-user-interaction&#34;&gt;Handling the user interaction&lt;/h3&gt;
 &lt;p&gt;If we stopped here, the user could scroll into the list, use the scrollbar, and know where it situated into the list.&lt;/p&gt;
 &lt;p&gt;But we wanted to provide an other way to navigate, by displaying the list of the producers, displaying the current producer (the one corresponding to the first visible product in the screen), and going to an other producer by clicking on its name. This is the purpose of the menu on the left side, in large screen:&lt;/p&gt;
@@ -142,12 +132,12 @@
 The producers list in the sticky menu&lt;/p&gt;
 &lt;h3 id=&#34;displaying-the-current-farm&#34;&gt;Displaying the current farm&lt;/h3&gt;
 &lt;p&gt;To do that, we added a “scrollY” attribute to our list components:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://gist.github.com/fpetitit/bd6c592cd76cd7417be8e35078f34a55&#34;&gt;https://gist.github.com/fpetitit/bd6c592cd76cd7417be8e35078f34a55&lt;/a&gt;&lt;/p&gt;
+&lt;script src=&#34;https://gist.github.com/fpetitit/bd6c592cd76cd7417be8e35078f34a55&#34;&gt;&lt;/script&gt;
 &lt;p&gt;It allowed us to determine the current producer by looking for the first element of the list having a scrollY visible according to &lt;code&gt;window.pageYOffset&lt;/code&gt;:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://gist.github.com/fpetitit/c9e3de2a22182e9a9995eb94c70847c0&#34;&gt;https://gist.github.com/fpetitit/c9e3de2a22182e9a9995eb94c70847c0&lt;/a&gt;&lt;/p&gt;
+&lt;script src=&#34;https://gist.github.com/fpetitit/c9e3de2a22182e9a9995eb94c70847c0.js&#34;&gt;&lt;/script&gt;
 &lt;h3 id=&#34;going-to-a-specific-producer&#34;&gt;Going to a specific producer&lt;/h3&gt;
 &lt;p&gt;Finally, going to a specific producer was done by calculating the position of the producer card by accumulating the heights of the previous components from the list and scrolling to the position:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://gist.github.com/fpetitit/60995479f18922d6caf54dcd602376d2&#34;&gt;https://gist.github.com/fpetitit/60995479f18922d6caf54dcd602376d2&lt;/a&gt;&lt;/p&gt;
+&lt;script src=&#34;https://gist.github.com/fpetitit/60995479f18922d6caf54dcd602376d2.js&#34;&gt;&lt;/script&gt;
 &lt;h3 id=&#34;conclusion--the-pros-and-cons-of-react-virtualized&#34;&gt;Conclusion : the pros and cons of React Virtualized&lt;/h3&gt;
 &lt;p&gt;We are quite happy of our new sale page and React Virtualized was really a great tool to help use prototyping and developing all the features that we wanted.&lt;/p&gt;
 &lt;p&gt;The performance are very good, it works well on all the browsers that we support, especially on the most difficult to support for us which are IE 11 and Safari Mobile on relatively old iOS devices.&lt;/p&gt;
@@ -161,6 +151,24 @@ The producers list in the sticky menu&lt;/p&gt;
       <author>François Petitit</author>
       <guid>http://localhost:1313/posts/how-we-used-react-virtualized-to-boost-our-sale-page/</guid>
       <pubDate>Wed, 18 Jul 2018 09:52:49 +0200</pubDate>
+    </item>
+    
+    <item>
+      <title>Paris Web Openid Connect France Connect</title>
+      <link>http://localhost:1313/posts/paris-web-openid-connect-france-connect/</link>
+      <description>&lt;h1 id=&#34;présentation-à-paris-web---openid-connect--mise-en-oeuvre-sur-france-connect&#34;&gt;Présentation à Paris Web - OpenID Connect : mise en oeuvre sur France Connect&lt;/h1&gt;
+&lt;p&gt;J&amp;rsquo;ai eu la chance et l&amp;rsquo;opportunité de présenter un retour d&amp;rsquo;expérience à Paris Web : il s&amp;rsquo;agit de l&amp;rsquo;utilisation du protocole OpenID Connect sur le projet France Connect, lorsque j&amp;rsquo;étais le Technical Leader de l&amp;rsquo;équipe.&lt;/p&gt;
+&lt;p&gt;La vidéo est disponibile ici :&lt;/p&gt;
+&lt;iframe src=&#34;https://player.vimeo.com/video/143169752?h=e8a06887a2&#34; width=&#34;640&#34; height=&#34;360&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; fullscreen; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href=&#34;https://vimeo.com/143169752&#34;&gt;OpenID Connect, le nouveau standard d&amp;#039;authentification sur le web : mise en oeuvre sur FranceConnect&lt;/a&gt; from &lt;a href=&#34;https://vimeo.com/parisweb&#34;&gt;Paris Web&lt;/a&gt; on &lt;a href=&#34;https://vimeo.com&#34;&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;le-sujet&#34;&gt;Le sujet&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://franceconnect.gouv.fr/&#34;&gt;FranceConnect&lt;/a&gt; est un nouvel outil visant à améliorer l&amp;rsquo;accès aux administrations françaises en facilitant l&amp;rsquo;authentification et l&amp;rsquo;identification des usagers. Pour cela, nous avons mis en oeuvre le protocole &lt;a href=&#34;https://openid.net/developers/how-connect-works/&#34;&gt;OpenID Connect&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Ce protocole ouvert basé sur OAuth2, successeur de OpenID, et soutenu par des grands acteurs, permet à une application cliente d&amp;rsquo;utiliser n&amp;rsquo;importe quel fournisseur d&amp;rsquo;identité pourvu qu&amp;rsquo;il implémente aussi ce standard.&lt;/p&gt;
+&lt;p&gt;Nous verrons dans cette présentation quels sont les cas d&amp;rsquo;usages de ce protocole (authentification sur le web, sur des applications mobiles…), quels sont ses avantages et inconvénients, et comment le mettre en oeuvre avec Node.js.&lt;/p&gt;
+</description>
+      <author>François Petitit</author>
+      <guid>http://localhost:1313/posts/paris-web-openid-connect-france-connect/</guid>
+      <pubDate>Sat, 10 Oct 2015 12:01:46 +0200</pubDate>
     </item>
     
     <item>

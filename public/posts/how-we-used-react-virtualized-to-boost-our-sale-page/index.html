@@ -23,7 +23,7 @@ How we used React Virtualized to boost our sale page Our mission at La Ruche qui
 Since last year, we have been working to improve and expand our product offerings, bringing more and more producers and more and more products to our customers.
 Challenges arise at many levels: logistics, communication, marketing, but also the user experience offered by our website."><meta itemprop="datePublished" content="2018-07-18T09:52:49+02:00" />
 <meta itemprop="dateModified" content="2018-07-18T09:52:49+02:00" />
-<meta itemprop="wordCount" content="1434">
+<meta itemprop="wordCount" content="1430">
 <meta itemprop="keywords" content="" />
     
     <link rel="canonical" href="http://localhost:1313/posts/how-we-used-react-virtualized-to-boost-our-sale-page/">
@@ -85,7 +85,7 @@ Challenges arise at many levels: logistics, communication, marketing, but also t
       },
       "image": "http://localhost:1313/assets/favicon.ico",
       "url" : "http:\/\/localhost:1313\/posts\/how-we-used-react-virtualized-to-boost-our-sale-page\/",
-      "wordCount" : "1434",
+      "wordCount" : "1430",
       "genre" : [ ],
       "keywords" : [ ]
   }
@@ -220,7 +220,7 @@ Challenges arise at many levels: logistics, communication, marketing, but also t
 <h3 id="handling-the-dimension-of-the-list">Handling the dimension of the list</h3>
 <p>One of the key thing that must be done to handle the scrollbar of the window is to be able to know the size of the entire list.</p>
 <p>So we set fixed height to our components, according to their types (farmer card or product card) and the width of the window (the cards heights are bigger on small screen than on large screen), and passed the function as the rowHeight prop:</p>
-<p><a href="https://gist.github.com/fpetitit/5f94f76477670b6db561fb1f885509f7">https://gist.github.com/fpetitit/5f94f76477670b6db561fb1f885509f7</a></p>
+<script src="https://gist.github.com/fpetitit/5f94f76477670b6db561fb1f885509f7.js"></script>
 <h3 id="handling-the-user-interaction">Handling the user interaction</h3>
 <p>If we stopped here, the user could scroll into the list, use the scrollbar, and know where it situated into the list.</p>
 <p>But we wanted to provide an other way to navigate, by displaying the list of the producers, displaying the current producer (the one corresponding to the first visible product in the screen), and going to an other producer by clicking on its name. This is the purpose of the menu on the left side, in large screen:</p>
@@ -236,12 +236,12 @@ Challenges arise at many levels: logistics, communication, marketing, but also t
 The producers list in the sticky menu</p>
 <h3 id="displaying-the-current-farm">Displaying the current farm</h3>
 <p>To do that, we added a “scrollY” attribute to our list components:</p>
-<p><a href="https://gist.github.com/fpetitit/bd6c592cd76cd7417be8e35078f34a55">https://gist.github.com/fpetitit/bd6c592cd76cd7417be8e35078f34a55</a></p>
+<script src="https://gist.github.com/fpetitit/bd6c592cd76cd7417be8e35078f34a55"></script>
 <p>It allowed us to determine the current producer by looking for the first element of the list having a scrollY visible according to <code>window.pageYOffset</code>:</p>
-<p><a href="https://gist.github.com/fpetitit/c9e3de2a22182e9a9995eb94c70847c0">https://gist.github.com/fpetitit/c9e3de2a22182e9a9995eb94c70847c0</a></p>
+<script src="https://gist.github.com/fpetitit/c9e3de2a22182e9a9995eb94c70847c0.js"></script>
 <h3 id="going-to-a-specific-producer">Going to a specific producer</h3>
 <p>Finally, going to a specific producer was done by calculating the position of the producer card by accumulating the heights of the previous components from the list and scrolling to the position:</p>
-<p><a href="https://gist.github.com/fpetitit/60995479f18922d6caf54dcd602376d2">https://gist.github.com/fpetitit/60995479f18922d6caf54dcd602376d2</a></p>
+<script src="https://gist.github.com/fpetitit/60995479f18922d6caf54dcd602376d2.js"></script>
 <h3 id="conclusion--the-pros-and-cons-of-react-virtualized">Conclusion : the pros and cons of React Virtualized</h3>
 <p>We are quite happy of our new sale page and React Virtualized was really a great tool to help use prototyping and developing all the features that we wanted.</p>
 <p>The performance are very good, it works well on all the browsers that we support, especially on the most difficult to support for us which are IE 11 and Safari Mobile on relatively old iOS devices.</p>

@@ -4,11 +4,11 @@
 
 Hey, I'm François Petitit - a human being who lives in France, has been working in software development for a long time, and has many passions ;)
 
-Currently, I work as a co-founder CTO of an innovative property management company : [www.owwner.com](Owwner). 
+Currently, I work as a co-founder CTO of an innovative property management company : [Owwner](https://www.owwner.com). 
 
-Before that, I spent several years as a senior Web developer at [La Ruche qui dit Oui!](www.laruchequiditoui.fr) a great ethical and fair trade e-commerce platform.
+Before that, I spent several years as a senior Web developer at [La Ruche qui dit Oui!](https://www.laruchequiditoui.fr) a great ethical and fair trade e-commerce platform.
 
-And even before that, I started my career at [OCTO Technology](www.octo.com), an extraordinary IT consultancy, as a consultant and leader of the front-end web tribe.
+And even before that, I started my career at [OCTO Technology](https://www.octo.com), an extraordinary IT consultancy, as a consultant and leader of the front-end web tribe.
 
 My main interests are web development and product design.
 

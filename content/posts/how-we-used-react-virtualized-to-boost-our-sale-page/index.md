@@ -109,7 +109,7 @@ One of the key thing that must be done to handle the scrollbar of the window is 
 
 So we set fixed height to our components, according to their types (farmer card or product card) and the width of the window (the cards heights are bigger on small screen than on large screen), and passed the function as the rowHeight prop:
 
-https://gist.github.com/fpetitit/5f94f76477670b6db561fb1f885509f7
+<script src="https://gist.github.com/fpetitit/5f94f76477670b6db561fb1f885509f7.js"></script>
 
 ### Handling the user interaction
 
@@ -126,17 +126,17 @@ The producers list in the sticky menu
 
 To do that, we added a “scrollY” attribute to our list components:
 
-https://gist.github.com/fpetitit/bd6c592cd76cd7417be8e35078f34a55
+<script src="https://gist.github.com/fpetitit/bd6c592cd76cd7417be8e35078f34a55"></script>
 
 It allowed us to determine the current producer by looking for the first element of the list having a scrollY visible according to `window.pageYOffset`:
 
-https://gist.github.com/fpetitit/c9e3de2a22182e9a9995eb94c70847c0
+<script src="https://gist.github.com/fpetitit/c9e3de2a22182e9a9995eb94c70847c0.js"></script>
 
 ### Going to a specific producer
 
 Finally, going to a specific producer was done by calculating the position of the producer card by accumulating the heights of the previous components from the list and scrolling to the position:
 
-https://gist.github.com/fpetitit/60995479f18922d6caf54dcd602376d2
+<script src="https://gist.github.com/fpetitit/60995479f18922d6caf54dcd602376d2.js"></script>
 
 
 ### Conclusion : the pros and cons of React Virtualized
