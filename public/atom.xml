@@ -3,31 +3,31 @@
     
     <title>François Petitit</title>
     <description>François Petitit</description>
-    <link>https://francoispetitit.com/</link>
+    <link>http://localhost:1313/</link>
     
     <language>en</language>
     <copyright>Copyright 2024, Calvin Tran</copyright>
     <lastBuildDate>Wed, 03 Apr 2024 10:38:12 +0200</lastBuildDate>
     <generator>Hugo - gohugo.io</generator>
     <docs>http://cyber.harvard.edu/rss/rss.html</docs>
-    <atom:link href="https://francoispetitit.com//atom.xml" rel="self" type="application/atom+xml"/>
+    <atom:link href="http://localhost:1313//atom.xml" rel="self" type="application/atom+xml"/>
     
     
     <item>
       <title>Hello</title>
-      <link>https://francoispetitit.com/posts/hello/</link>
+      <link>http://localhost:1313/posts/hello/</link>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;This is &lt;strong&gt;bold&lt;/strong&gt; text, and this is &lt;em&gt;emphasized&lt;/em&gt; text.&lt;/p&gt;
 &lt;p&gt;Visit the &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; website!&lt;/p&gt;
 </description>
       <author>François Petitit</author>
-      <guid>https://francoispetitit.com/posts/hello/</guid>
+      <guid>http://localhost:1313/posts/hello/</guid>
       <pubDate>Wed, 03 Apr 2024 10:38:12 +0200</pubDate>
     </item>
     
     <item>
       <title>How We Used React Virtualized to Boost Our Sale Page</title>
-      <link>https://francoispetitit.com/posts/how-we-used-react-virtualized-to-boost-our-sale-page/</link>
+      <link>http://localhost:1313/posts/how-we-used-react-virtualized-to-boost-our-sale-page/</link>
       <description>&lt;p&gt;This article was previously published here : &lt;a href=&#34;https://medium.com/la-ruche-qui-dit-oui/how-we-used-react-virtualized-to-boost-our-sale-page-6e2f087039ca&#34;&gt;https://medium.com/la-ruche-qui-dit-oui/how-we-used-react-virtualized-to-boost-our-sale-page-6e2f087039ca&lt;/a&gt;&lt;/p&gt;
 &lt;h1 id=&#34;how-we-used-react-virtualized-to-boost-our-sale-page&#34;&gt;How we used React Virtualized to boost our sale page&lt;/h1&gt;
 &lt;p&gt;Our mission at &lt;a href=&#34;https://laruchequiditoui.fr/fr&#34;&gt;La Ruche qui dit Oui !&lt;/a&gt; is to provide good and fair products to our customers, directly from farmers and craftsmen.&lt;/p&gt;
@@ -161,7 +161,7 @@ The producers list in the sticky menu&lt;/p&gt;
 &lt;p&gt;If you have faced challenges of the same type, please share your experiences in the comments of this blog post :)&lt;/p&gt;
 </description>
       <author>François Petitit</author>
-      <guid>https://francoispetitit.com/posts/how-we-used-react-virtualized-to-boost-our-sale-page/</guid>
+      <guid>http://localhost:1313/posts/how-we-used-react-virtualized-to-boost-our-sale-page/</guid>
       <pubDate>Wed, 18 Jul 2018 09:52:49 +0200</pubDate>
     </item>
     
