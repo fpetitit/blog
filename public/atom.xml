@@ -172,6 +172,82 @@ The producers list in the sticky menu&lt;/p&gt;
     </item>
     
     <item>
+      <title>Les Nouvelles Architectures Web Et Leur Impact Sur Les Dsi</title>
+      <link>https://francoispetitit.com/posts/les-nouvelles-architectures-web-et-leur-impact-sur-les-dsi-partie-1/</link>
+      <description>&lt;h1 id=&#34;les-nouvelles-architectures-front-web-et-leur-impact-sur-les-dsi---partie-1&#34;&gt;Les nouvelles architectures front Web et leur impact sur les DSI - Partie 1&lt;/h1&gt;
+&lt;p&gt;&lt;em&gt;cet article a été publié une première fois le 29/10/2013 sur le blog d&amp;rsquo;OCTO Technology : &lt;a href=&#34;https://blog.octo.com/les-nouvelles-architectures-front-web-et-leur-impact-sur-les-dsi-partie-1&#34;&gt;https://blog.octo.com/les-nouvelles-architectures-front-web-et-leur-impact-sur-les-dsi-partie-1&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Les applications Web évoluent. Depuis les premiers sites en HTML statique jusqu&amp;rsquo;aux applications AJAX de ces dernières années, en passant par les multiples technologies de sites Web dynamiques (PHP, ASP, Java, Rails&amp;hellip;), les architectures applicatives et les outils pour les mettre en place connaissent régulièrement des avancées majeures et des points de ruptures.&lt;/p&gt;
+&lt;p&gt;Depuis deux ans, nous voyons venir une nouvelle vague technologique qui submerge le paysage des applications Web. Celle-ci n&amp;rsquo;a pas encore de nom bien défini comme ont pu l&amp;rsquo;avoir les RIA ou AJAX. Nous les appellerons les &amp;ldquo;architectures MV* côté client&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;Elles se constituent principalement de ce principe d&amp;rsquo;architecture : le serveur ne doit plus gérer l&amp;rsquo;affichage mais seulement envoyer des données brutes à afficher, et toute la génération des écrans et la gestion des interactions avec l&amp;rsquo;utilisateur doivent être géré côté client, c&amp;rsquo;est-à-dire dans le navigateur.&lt;/p&gt;
+&lt;p&gt;Dans ce billet, nous préciserons cette architecture et expliquer les raisons de son émergence. Dans un second billet, nous verrons pourquoi il est pertinent de les mettre en place dès aujourd&amp;rsquo;hui, les opportunités qu&amp;rsquo;elles offrent, et quels sont les impacts à prévoir pour les DSI.&lt;/p&gt;
+&lt;h2 id=&#34;les-nouvelles-archis-front-web--de-quoi-parle-t-on-&#34;&gt;Les nouvelles archis front Web : de quoi parle-t-on ?&lt;/h2&gt;
+&lt;p&gt;Le schéma ci-dessous illustre l&amp;rsquo;évolution des architectures d&amp;rsquo;applications Web :&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;image.png&#34;
+  alt=&#34;évolution des architectures web&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;modèle-1--application-web-classique&#34;&gt;Modèle 1 : application Web classique&lt;/h3&gt;
+&lt;p&gt;Dans le premier schema, l&amp;rsquo;application Web est principalement exécutée côté serveur. Celui-ci envoie donc directement au navigateur les pages HTML, le CSS et éventuellement du JavaScript pour faire quelques comportement riches. Ensuite, à chaque action utilisateur nécessitant de nouvelles données, le serveur est interrogé et renvoie la nouvelle page HTML.&lt;/p&gt;
+&lt;h3 id=&#34;modèle-2--application-web-ajax&#34;&gt;Modèle 2 : application Web AJAX&lt;/h3&gt;
+&lt;p&gt;Le deuxième schema introduit le pattern AJAX, pour Asynchronous Javascript And XML. apparu au milieu des années 2000 (voir l&amp;rsquo;article de Jesse James Garrett : &lt;a href=&#34;http://www.adaptivepath.com/ideas/ajax-new-approach-web-applications/&#34;&gt;http://www.adaptivepath.com/ideas/ajax-new-approach-web-applications/&lt;/a&gt; ).&lt;/p&gt;
+&lt;p&gt;Ce principe d&amp;rsquo;architecture permet de rendre l&amp;rsquo;application plus réactive en réduisant les échanges entre le navigateur et le serveur : lorsqu&amp;rsquo;une action utilisateur engendre un appel client pour récupérer des nouvelles données, on ne va rafraîchir qu&amp;rsquo;une portion de l&amp;rsquo;écran et non plus toute la page. Le serveur va alors renvoyer seulement des fragments d&amp;rsquo;IHM. Cela nécessitait la mise en place d&amp;rsquo;outils JavaScript côté client pour gérer ces rafraîchissements partiels, que ce soit par exemple en utilisant la librairie jQuery et sa fonction $.ajax, ou en utilisant des outils plus intégrés aux plateformes serveurs comme Java Server Faces ou Google Web Toolkit pour Java.&lt;/p&gt;
+&lt;p&gt;Cette architecture apportait plus de réactivité mais aussi plus de complexité. Les outils pour la mettre en place engendraient de nombreux écueils : l&amp;rsquo;&lt;strong&gt;utilisation massive de jQuery rendait une application impossible à maintenir&lt;/strong&gt; sans mettre en place des règles d&amp;rsquo;architectures techniques précises et nécessitant de très fortes compétences (ce qu&amp;rsquo;offrent aujourd&amp;rsquo;hui les frameworks MV* comme Backbone JS ou AngularJS), et &lt;strong&gt;les frameworks côté serveur comme JSF pour Java étaient trop lourds et trop complexes&lt;/strong&gt; malgré leur volonté apparente de simplifier les développements, induisant de nombreux bugs et problèmes de performances.&lt;/p&gt;
+&lt;h3 id=&#34;modèle-3--application-web-mv-côté-client&#34;&gt;Modèle 3 : application Web MV* côté client&lt;/h3&gt;
+&lt;p&gt;Le troisième schéma représente la nouvelle architecture dont il est question ici : les &lt;em&gt;&lt;em&gt;architectures MV&lt;/em&gt; côté client&lt;/em&gt;*. Le principe est ici en rupture avec les deux premières : cette fois le &lt;strong&gt;serveur ne renvoie que des données brutes non mises en forme pour l&amp;rsquo;affichage. C&amp;rsquo;est côté client, dans le navigateur, que l&amp;rsquo;écran est généré.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Le terme &lt;strong&gt;MV&lt;/strong&gt;* se réfère au pattern MVC pour [http://fr.wikipedia.org/wiki/Mod%C3%A8le-vue-contr%C3%B4leur](&lt;strong&gt;Modèle Vue Contrôleur&lt;/strong&gt;), qui est très utilisé côté serveur pour découper les différentes problématiques de gestion des vues et des données. Nous utilisons de plus en plus le terme MV* pour les nouvelles architectures afin de montrer que l&amp;rsquo;implémentation dans les applications est souvent, par pragmatisme, un peu différente du MVC pur. Cela reste un débat d&amp;rsquo;expert&amp;hellip;&lt;/p&gt;
+&lt;p&gt;L&amp;rsquo;important dans cette nouvelle architecture est donc le &lt;strong&gt;déplacement de toute la logique d&amp;rsquo;IHM du serveur vers le client&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Cette séparation des responsabilités entre le serveur et le client qui n&amp;rsquo;est pas une nouveauté en soi a été remise au goût du jour par les applications natives pour mobiles, consommant des API indépendantes des clients consommateurs. Les nouvelles architectures d&amp;rsquo;applications Web étendent ce choix aux applications Web.&lt;/p&gt;
+&lt;p&gt;Pourquoi ces nouvelles architectures n&amp;rsquo;ont pas été mises en oeuvre plus tôt ?
+Au fond, le langage JavaScript existe depuis que le Web existe, le principe ne semble pas si révolutionnaire que ça surtout qu&amp;rsquo;il s&amp;rsquo;apparente fortement aux applications client-serveur classiques existant avant le Web, alors pourquoi ne pas avoir pensé à ces architectures plus tôt ?&lt;/p&gt;
+&lt;p&gt;La réponse est simple : ce n&amp;rsquo;était pas possible, sauf à s&amp;rsquo;appeler Google !&lt;/p&gt;
+&lt;p&gt;En effet, 2 facteurs bridaient les possibilités de développement JavaScript :&lt;/p&gt;
+&lt;p&gt;les capacités et les performances limitées des navigateurs
+le manque d&amp;rsquo;industrialisation du développement JavaScript
+La fin des limitations des navigateurs
+Le premier point était évident jusqu&amp;rsquo;à l&amp;rsquo;arrivée des dernières version d&amp;rsquo;Internet Explorer 9 et encore plus Internet Explorer 10. Les lenteurs et les nombreux bugs des versions précédentes d&amp;rsquo;Internet Explorer interdisaient de déployer des applications utilisant massivement JavaScript.&lt;/p&gt;
+&lt;p&gt;Sauf à disposer de la force de frappe d&amp;rsquo;une équipe d&amp;rsquo;ingénieurs Google, vouloir développer un Gmail dans Internet Explorer 6 n&amp;rsquo;était tout simplement pas réaliste.&lt;/p&gt;
+&lt;p&gt;Cela a bien changé depuis que Firefox et encore plus Chrome ont bousculé le marché et que Microsoft a rattrapé son retard, comme le montre le graphique ci-dessous :&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;image-1.png&#34;
+  alt=&#34;Résultats des navigateurs par-rapport au test de performances Javascript Sunspider
+&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;Montrant les résultats des tests de performances JavaScript Sunspider de différents navigateurs, ce schema illustre parfaitement la rupture qui est arrivée aux alentours de 2010, avec l&amp;rsquo;amélioration des performances d&amp;rsquo;Internet Explorer : &lt;strong&gt;les performances entre IE 6 et IE8 à ce test ont été améliorées d&amp;rsquo;un facteur x25 en passant de 177000 ms à 7000 ms !&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Depuis les performances continuent de s&amp;rsquo;améliorer sensiblement, et cela couplé aux nouvelles capacités des terminaux aussi bien mobiles que fixes permet d&amp;rsquo;utiliser le navigateurs pour autre chose que l&amp;rsquo;affichage de pages Web : générer les pages dynamiquement, faire du dessin 2D ou 3D, exécuter des algorithmes complexes, etc.&lt;/p&gt;
+&lt;p&gt;L&amp;rsquo;industrialisation du développement JavaScript
+Avoir une plateforme d&amp;rsquo;exécution puissante ne servirait à rien si on ne pouvait pas développer efficacement pour.&lt;/p&gt;
+&lt;p&gt;La deuxième révolution technologique du développement Web concerne justement l&amp;rsquo;outillage de développement JavaScript.&lt;/p&gt;
+&lt;p&gt;Si vous suivez le blog OCTO, vous avez déjà pu voir passer des articles concernant par exemple &lt;strong&gt;AngularJS&lt;/strong&gt; ou &lt;strong&gt;Grunt&lt;/strong&gt;. Ce sont justement deux outils illustrant le nouvel écosystème de développement JavaScript, que l&amp;rsquo;on peut résumer en deux grandes familles d&amp;rsquo;outils :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;les frameworks de développement&lt;/strong&gt; : là où on utilisait déjà des librairies comme jQuery, qui facilitaient certains développement en JavaScript, les développeurs disposent désormais de véritables frameworks permettant de structurer l&amp;rsquo;application. L&amp;rsquo;intérêt de ces frameworks est double : accélérer les développements et assurer une bonne maintenabilité du code. Parmi les plus connus aujourd&amp;rsquo;hui on trouve notamment AngularJS, BackboneJS et EmberJS.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;les outils d&amp;rsquo;industrialisation&lt;/strong&gt; : l&amp;rsquo;industrialisation des développements JavaScript a explosé ces deux dernières années, en s&amp;rsquo;inspirant fortement de ce qui a déjà été fait pour les autres plateformes comme Java. &lt;strong&gt;De la même manière que les développeurs Java utilisent Maven pour automatiser le build et les tests de leurs applications, les développeurs JavaScript peuvent aujourd&amp;rsquo;hui utiliser Grunt pour automatiser les tests et la construction de leur application&lt;/strong&gt;, ainsi que le workflow spécifique au développement front : concaténation des fichiers, obfuscation, minification, génération de sprites CSS, etc. L&amp;rsquo;ensemble de ces outils a déjà été abordé dans cet article du blog : &lt;a href=&#34;https://blog.octo.com/jenkins-pour-le-back-notepad-pour-le-front/&#34;&gt;https://blog.octo.com/jenkins-pour-le-back-notepad-pour-le-front/&lt;/a&gt; .&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;L&amp;rsquo;industrialisation du développement Javascript est par ailleurs poussée également par le fait que l&amp;rsquo;utilisation de Javascript s&amp;rsquo;étend à d&amp;rsquo;autres domaines que les applications Web, et notamment au développement serveur avec NodeJS. Cela d&amp;rsquo;autant plus frappant que NodeJS est utilisé comme socle technique par GruntJS et ses nombreux plug-ins.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;En conclusion, tous les outils sont là en 2013 pour faire du développement JavaScript de manière efficace et industrielle.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Conclusion de la première partie
+Dans cet article, nous avons présenté ce que l&amp;rsquo;on entend par &amp;ldquo;architectures MV* côté client&amp;rdquo;, et pourquoi elles émergent aujourd&amp;rsquo;hui.&lt;/p&gt;
+&lt;p&gt;Dans les parties suivantes, &lt;strong&gt;nous verrons pourquoi il faut utiliser ces architectures dès aujourd&amp;rsquo;hui, quels sont les écueils à éviter et quels sont les impacts sur vos DSI.&lt;/strong&gt;&lt;/p&gt;
+</description>
+      <author>François Petitit</author>
+      <guid>https://francoispetitit.com/posts/les-nouvelles-architectures-web-et-leur-impact-sur-les-dsi-partie-1/</guid>
+      <pubDate>Tue, 29 Oct 2013 15:11:39 +0200</pubDate>
+    </item>
+    
+    <item>
       <title>Paris Web Atelier HTML5 Pour Mon Ordinateur Et Mon Mobile</title>
       <link>https://francoispetitit.com/posts/paris-web-atelier-html5-pour-mon-ordinateur-et-mon-mobile/</link>
       <description>&lt;p&gt;In 2010, with my friend and former colleague Mickael Morier, I presented a workshop at &lt;a href=&#34;https://www.paris-web.fr/&#34;&gt;Paris Web&lt;/a&gt; entitled &amp;ldquo;HTML5 for my computer and my mobile&amp;rdquo;.&lt;/p&gt;

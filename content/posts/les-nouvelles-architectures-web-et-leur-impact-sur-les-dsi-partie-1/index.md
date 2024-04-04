@@ -1,7 +1,7 @@
 +++
 title = 'Les Nouvelles Architectures Web Et Leur Impact Sur Les Dsi'
 date = 2013-10-29T15:11:39+02:00
-draft = true
+draft = false
 +++
 
 # Les nouvelles architectures front Web et leur impact sur les DSI - Partie 1
