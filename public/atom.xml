@@ -258,7 +258,7 @@ sur la problématique de référencement de single page application : &lt;a href
     
     <item>
       <title>Les Nouvelles Architectures Web Et Leur Impact Sur Les Dsi Partie 1</title>
-      <link>https://francoispetitit.com/posts/les-nouvelles-architectures-web-et-leur-impact-sur-les-dsi-partie-1/</link>
+      <link>https://francoispetitit.com/posts/les-nouvelles-architectures-web-et-leur-impact-sur-les-dsi/</link>
       <description>&lt;p&gt;&lt;em&gt;cet article a été publié une première fois le 29/10/2013 sur le blog d&amp;rsquo;OCTO Technology : &lt;a href=&#34;https://blog.octo.com/les-nouvelles-architectures-front-web-et-leur-impact-sur-les-dsi-partie-1&#34;&gt;https://blog.octo.com/les-nouvelles-architectures-front-web-et-leur-impact-sur-les-dsi-partie-1&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Les applications Web évoluent. Depuis les premiers sites en HTML statique jusqu&amp;rsquo;aux applications AJAX de ces dernières années, en passant par les multiples technologies de sites Web dynamiques (PHP, ASP, Java, Rails&amp;hellip;), les architectures applicatives et les outils pour les mettre en place connaissent régulièrement des avancées majeures et des points de ruptures.&lt;/p&gt;
 &lt;p&gt;Depuis deux ans, nous voyons venir une nouvelle vague technologique qui submerge le paysage des applications Web. Celle-ci n&amp;rsquo;a pas encore de nom bien défini comme ont pu l&amp;rsquo;avoir les RIA ou AJAX. Nous les appellerons les &amp;ldquo;architectures MV* côté client&amp;rdquo;.&lt;/p&gt;
@@ -327,7 +327,7 @@ Dans cet article, nous avons présenté ce que l&amp;rsquo;on entend par &amp;ld
 &lt;p&gt;Dans les parties suivantes, &lt;strong&gt;nous verrons pourquoi il faut utiliser ces architectures dès aujourd&amp;rsquo;hui, quels sont les écueils à éviter et quels sont les impacts sur vos DSI.&lt;/strong&gt;&lt;/p&gt;
 </description>
       <author>François Petitit</author>
-      <guid>https://francoispetitit.com/posts/les-nouvelles-architectures-web-et-leur-impact-sur-les-dsi-partie-1/</guid>
+      <guid>https://francoispetitit.com/posts/les-nouvelles-architectures-web-et-leur-impact-sur-les-dsi/</guid>
       <pubDate>Tue, 29 Oct 2013 15:11:39 +0200</pubDate>
     </item>
     
