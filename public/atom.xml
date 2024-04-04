@@ -3,19 +3,19 @@
     
     <title>François Petitit</title>
     <description>François Petitit</description>
-    <link>http://localhost:1313/</link>
+    <link>https://francoispetitit.com/</link>
     
     <language>en</language>
     <copyright>Copyright 2024, Calvin Tran</copyright>
     <lastBuildDate>Thu, 04 Apr 2024 11:29:13 +0200</lastBuildDate>
     <generator>Hugo - gohugo.io</generator>
     <docs>http://cyber.harvard.edu/rss/rss.html</docs>
-    <atom:link href="http://localhost:1313//atom.xml" rel="self" type="application/atom+xml"/>
+    <atom:link href="https://francoispetitit.com//atom.xml" rel="self" type="application/atom+xml"/>
     
     
     <item>
       <title>How We Used React Virtualized to Boost Our Sale Page</title>
-      <link>http://localhost:1313/posts/how-we-used-react-virtualized-to-boost-our-sale-page/</link>
+      <link>https://francoispetitit.com/posts/how-we-used-react-virtualized-to-boost-our-sale-page/</link>
       <description>&lt;p&gt;This article was previously published here : &lt;a href=&#34;https://medium.com/la-ruche-qui-dit-oui/how-we-used-react-virtualized-to-boost-our-sale-page-6e2f087039ca&#34;&gt;https://medium.com/la-ruche-qui-dit-oui/how-we-used-react-virtualized-to-boost-our-sale-page-6e2f087039ca&lt;/a&gt;&lt;/p&gt;
 &lt;h1 id=&#34;how-we-used-react-virtualized-to-boost-our-sale-page&#34;&gt;How we used React Virtualized to boost our sale page&lt;/h1&gt;
 &lt;p&gt;Our mission at &lt;a href=&#34;https://laruchequiditoui.fr/fr&#34;&gt;La Ruche qui dit Oui !&lt;/a&gt; is to provide good and fair products to our customers, directly from farmers and craftsmen.&lt;/p&gt;
@@ -102,7 +102,7 @@
 &lt;p&gt;We managed to isolate all our usage of React Virtualized in only one component, called “ProductsList.jsx”.&lt;/p&gt;
 &lt;p&gt;Finally, we used 2 components from the library: List and WindowScroller. Our imports look like this:&lt;/p&gt;
 &lt;script src=&#34;https://gist.github.com/fpetitit/775ba62467c257c737f4d413902ab5ab.js&#34;&gt;&lt;/script&gt;
-&lt;p&gt;the explicit path used in the import directives are due to the recommendation from &lt;a href=&#34;https://medium.com/la-ruche-qui-dit-oui/how-we-used-react-virtualized-to-boost-our-sale-page-6e2f087039ca#:~:text=the%20recommendation%20from-,here,-and%20could%20be&#34;&gt;here&lt;/a&gt; and could be removed if you’re using Webpack 4.&lt;/p&gt;
+&lt;p&gt;Note that the explicit path used in the import directives are due to the recommendation from &lt;a href=&#34;https://medium.com/la-ruche-qui-dit-oui/how-we-used-react-virtualized-to-boost-our-sale-page-6e2f087039ca#:~:text=the%20recommendation%20from-,here,-and%20could%20be&#34;&gt;here&lt;/a&gt; and could be removed if you’re using Webpack 4.&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;List&lt;/code&gt; allows to display a windowed list of elements.&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;WindowScroller&lt;/code&gt; allows the &lt;code&gt;List&lt;/code&gt; component to be scrolled based on the window&amp;rsquo;s scroll positions. Also, the scrollbar will reflect the length of the list and the current position.&lt;/p&gt;
 &lt;p&gt;Now let’s render these components in the &lt;code&gt;render&lt;/code&gt; function of our &lt;code&gt;ProductsList&lt;/code&gt; component:&lt;/p&gt;
@@ -149,13 +149,13 @@ The producers list in the sticky menu&lt;/p&gt;
 &lt;p&gt;If you have faced challenges of the same type, please share your experiences in the comments of this blog post :)&lt;/p&gt;
 </description>
       <author>François Petitit</author>
-      <guid>http://localhost:1313/posts/how-we-used-react-virtualized-to-boost-our-sale-page/</guid>
+      <guid>https://francoispetitit.com/posts/how-we-used-react-virtualized-to-boost-our-sale-page/</guid>
       <pubDate>Wed, 18 Jul 2018 09:52:49 +0200</pubDate>
     </item>
     
     <item>
       <title>Paris Web Openid Connect France Connect</title>
-      <link>http://localhost:1313/posts/paris-web-openid-connect-france-connect/</link>
+      <link>https://francoispetitit.com/posts/paris-web-openid-connect-france-connect/</link>
       <description>&lt;h1 id=&#34;présentation-à-paris-web---openid-connect--mise-en-oeuvre-sur-france-connect&#34;&gt;Présentation à Paris Web - OpenID Connect : mise en oeuvre sur France Connect&lt;/h1&gt;
 &lt;p&gt;J&amp;rsquo;ai eu la chance et l&amp;rsquo;opportunité de présenter un retour d&amp;rsquo;expérience à Paris Web : il s&amp;rsquo;agit de l&amp;rsquo;utilisation du protocole OpenID Connect sur le projet France Connect, lorsque j&amp;rsquo;étais le Technical Leader de l&amp;rsquo;équipe.&lt;/p&gt;
 &lt;p&gt;La vidéo est disponibile ici :&lt;/p&gt;
@@ -167,17 +167,17 @@ The producers list in the sticky menu&lt;/p&gt;
 &lt;p&gt;Nous verrons dans cette présentation quels sont les cas d&amp;rsquo;usages de ce protocole (authentification sur le web, sur des applications mobiles…), quels sont ses avantages et inconvénients, et comment le mettre en oeuvre avec Node.js.&lt;/p&gt;
 </description>
       <author>François Petitit</author>
-      <guid>http://localhost:1313/posts/paris-web-openid-connect-france-connect/</guid>
+      <guid>https://francoispetitit.com/posts/paris-web-openid-connect-france-connect/</guid>
       <pubDate>Sat, 10 Oct 2015 12:01:46 +0200</pubDate>
     </item>
     
     <item>
       <title>Paris Web Atelier HTML5 Pour Mon Ordinateur Et Mon Mobile</title>
-      <link>http://localhost:1313/posts/paris-web-atelier-html5-pour-mon-ordinateur-et-mon-mobile/</link>
+      <link>https://francoispetitit.com/posts/paris-web-atelier-html5-pour-mon-ordinateur-et-mon-mobile/</link>
       <description>&lt;p&gt;In 2010, with my friend and former colleague Mickael Morier, I presented a workshop at &lt;a href=&#34;https://www.paris-web.fr/&#34;&gt;Paris Web&lt;/a&gt; entitled &amp;ldquo;HTML5 for my computer and my mobile&amp;rdquo;.&lt;/p&gt;
 &lt;iframe src=&#34;http://www.dailymotion.com/embed/video/xh43oe?logo=0&#34; width=&#34;594&#34; height=&#34;475&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;</description>
       <author>François Petitit</author>
-      <guid>http://localhost:1313/posts/paris-web-atelier-html5-pour-mon-ordinateur-et-mon-mobile/</guid>
+      <guid>https://francoispetitit.com/posts/paris-web-atelier-html5-pour-mon-ordinateur-et-mon-mobile/</guid>
       <pubDate>Sun, 10 Oct 2010 11:46:52 +0200</pubDate>
     </item>
     

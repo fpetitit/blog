@@ -2,24 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://francoispetitit.com/</loc>
     <lastmod>2024-04-04T11:29:13+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://francoispetitit.com/about/</loc>
     <lastmod>2024-04-04T11:29:13+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/how-we-used-react-virtualized-to-boost-our-sale-page/</loc>
+    <loc>https://francoispetitit.com/posts/how-we-used-react-virtualized-to-boost-our-sale-page/</loc>
     <lastmod>2018-07-18T09:52:49+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://francoispetitit.com/posts/</loc>
     <lastmod>2018-07-18T09:52:49+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/paris-web-openid-connect-france-connect/</loc>
+    <loc>https://francoispetitit.com/posts/paris-web-openid-connect-france-connect/</loc>
     <lastmod>2015-10-10T12:01:46+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/paris-web-atelier-html5-pour-mon-ordinateur-et-mon-mobile/</loc>
+    <loc>https://francoispetitit.com/posts/paris-web-atelier-html5-pour-mon-ordinateur-et-mon-mobile/</loc>
     <lastmod>2010-10-10T11:46:52+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://francoispetitit.com/tags/</loc>
   </url>
 </urlset>
