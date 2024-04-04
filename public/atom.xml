@@ -7,11 +7,35 @@
     
     <language>en</language>
     <copyright>Copyright 2024, Calvin Tran</copyright>
-    <lastBuildDate>Thu, 04 Apr 2024 11:29:13 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 04 Apr 2024 15:37:14 +0200</lastBuildDate>
     <generator>Hugo - gohugo.io</generator>
     <docs>http://cyber.harvard.edu/rss/rss.html</docs>
     <atom:link href="https://francoispetitit.com//atom.xml" rel="self" type="application/atom+xml"/>
     
+    
+    <item>
+      <title>Writing a New Blog With Hugo</title>
+      <link>https://francoispetitit.com/posts/writing-a-new-blog-with-hugo/</link>
+      <description>&lt;p&gt;As you can see from this post, I&amp;rsquo;ve just launched a new blog.&lt;/p&gt;
+&lt;p&gt;It already includes a few old articles published elsewhere, here and there, and I&amp;rsquo;ll try to publish new ones regularly.&lt;/p&gt;
+&lt;p&gt;But let&amp;rsquo;s get technical !&lt;/p&gt;
+&lt;p&gt;This blog has been developed using the following tools:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Hugo as the blog engine: &lt;a href=&#34;https://gohugo.io/&#34;&gt;https://gohugo.io/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Github to store the code, compile the production version and deploy on Github Pages . You can take a look at the source code here : &lt;a href=&#34;https://github.com/fpetitit/blog&#34;&gt;https://github.com/fpetitit/blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.ovhcloud.com/fr/&#34;&gt;OVH Cloud&lt;/a&gt; to manage the domain name&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;why-did-i-choose-hugo&#34;&gt;Why did I choose Hugo?&lt;/h2&gt;
+&lt;p&gt;There are a huge number of blog generation tools available. For example, I used &lt;a href=&#34;https://jekyllrb.com/&#34;&gt;Jekyll&lt;/a&gt; for a long time for similar purposes.
+I&amp;rsquo;m also inevitably thinking of Wordpress, which is heavy and complex but still a potential alternative, and which still adds a lot of possibilities.&lt;/p&gt;
+&lt;p&gt;Finally, I chose Hugo mainly because a web design site that I&amp;rsquo;ve been following closely for years recently made this choice.
+It&amp;rsquo;s Smashing Magazine, and they detail their migration in an article : &lt;a href=&#34;https://www.smashingmagazine.com/2019/05/switch-wordpress-hugo/&#34;&gt;https://www.smashingmagazine.com/2019/05/switch-wordpress-hugo/&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Well, OK, since then they&amp;rsquo;ve switched to TinyCMS. But TinyCMS was far too heavy for my little blog ;)&lt;/p&gt;
+</description>
+      <author>François Petitit</author>
+      <guid>https://francoispetitit.com/posts/writing-a-new-blog-with-hugo/</guid>
+      <pubDate>Thu, 04 Apr 2024 15:37:14 +0200</pubDate>
+    </item>
     
     <item>
       <title>How We Used React Virtualized to Boost Our Sale Page</title>
@@ -233,7 +257,7 @@ sur la problématique de référencement de single page application : &lt;a href
     </item>
     
     <item>
-      <title>Les Nouvelles Architectures Web Et Leur Impact Sur Les Dsi</title>
+      <title>Les Nouvelles Architectures Web Et Leur Impact Sur Les Dsi Partie 1</title>
       <link>https://francoispetitit.com/posts/les-nouvelles-architectures-web-et-leur-impact-sur-les-dsi-partie-1/</link>
       <description>&lt;p&gt;&lt;em&gt;cet article a été publié une première fois le 29/10/2013 sur le blog d&amp;rsquo;OCTO Technology : &lt;a href=&#34;https://blog.octo.com/les-nouvelles-architectures-front-web-et-leur-impact-sur-les-dsi-partie-1&#34;&gt;https://blog.octo.com/les-nouvelles-architectures-front-web-et-leur-impact-sur-les-dsi-partie-1&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Les applications Web évoluent. Depuis les premiers sites en HTML statique jusqu&amp;rsquo;aux applications AJAX de ces dernières années, en passant par les multiples technologies de sites Web dynamiques (PHP, ASP, Java, Rails&amp;hellip;), les architectures applicatives et les outils pour les mettre en place connaissent régulièrement des avancées majeures et des points de ruptures.&lt;/p&gt;

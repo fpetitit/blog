@@ -3,15 +3,18 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://francoispetitit.com/</loc>
-    <lastmod>2024-04-04T11:29:13+02:00</lastmod>
+    <lastmod>2024-04-04T15:37:14+02:00</lastmod>
+  </url><url>
+    <loc>https://francoispetitit.com/posts/</loc>
+    <lastmod>2024-04-04T15:37:14+02:00</lastmod>
+  </url><url>
+    <loc>https://francoispetitit.com/posts/writing-a-new-blog-with-hugo/</loc>
+    <lastmod>2024-04-04T15:37:14+02:00</lastmod>
   </url><url>
     <loc>https://francoispetitit.com/about/</loc>
     <lastmod>2024-04-04T11:29:13+02:00</lastmod>
   </url><url>
     <loc>https://francoispetitit.com/posts/how-we-used-react-virtualized-to-boost-our-sale-page/</loc>
-    <lastmod>2018-07-18T09:52:49+02:00</lastmod>
-  </url><url>
-    <loc>https://francoispetitit.com/posts/</loc>
     <lastmod>2018-07-18T09:52:49+02:00</lastmod>
   </url><url>
     <loc>https://francoispetitit.com/posts/paris-web-openid-connect-france-connect/</loc>
