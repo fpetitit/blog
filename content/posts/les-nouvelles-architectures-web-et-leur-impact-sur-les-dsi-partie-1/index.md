@@ -1,5 +1,5 @@
 +++
-title = 'Les Nouvelles Architectures Web Et Leur Impact Sur Les Dsi'
+title = 'Les Nouvelles Architectures Web Et Leur Impact Sur Les Dsi Partie 1'
 date = 2013-10-29T15:11:39+02:00
 draft = false
 +++
