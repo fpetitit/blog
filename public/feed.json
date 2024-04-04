@@ -28,6 +28,21 @@
         "name": "François Petitit",
         "url": "http://localhost:1313/"
       }
+    },
+    
+    {
+      "id": "c919fa3e91246abacf6c5945fe7bbb0a71be85bd",
+      "title": "Paris Web Atelier HTML5 Pour Mon Ordinateur Et Mon Mobile",
+      "summary": "",
+      "content_text": "In 2010, with my friend and former colleague Mickael Morier, I presented a workshop at Paris Web entitled \u0026ldquo;HTML5 for my computer and my mobile\u0026rdquo;.\n",
+      "content_html": "\u003cp\u003eIn 2010, with my friend and former colleague Mickael Morier, I presented a workshop at \u003ca href=\"https://www.paris-web.fr/\"\u003eParis Web\u003c/a\u003e entitled \u0026ldquo;HTML5 for my computer and my mobile\u0026rdquo;.\u003c/p\u003e\n\u003ciframe src=\"http://www.dailymotion.com/embed/video/xh43oe?logo=0\" width=\"594\" height=\"475\" frameborder=\"0\"\u003e\u003c/iframe\u003e",
+      "url": "http://localhost:1313/posts/paris-web-atelier-html5-pour-mon-ordinateur-et-mon-mobile/",
+      "date_published": "10106-10-09T1046:1010:00+02:00",
+      "date_modified": "10106-10-09T1046:1010:00+02:00",
+      "author": {
+        "name": "François Petitit",
+        "url": "http://localhost:1313/"
+      }
     }
     
   ]

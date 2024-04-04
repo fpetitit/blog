@@ -153,5 +153,15 @@ The producers list in the sticky menu&lt;/p&gt;
       <pubDate>Wed, 18 Jul 2018 09:52:49 +0200</pubDate>
     </item>
     
+    <item>
+      <title>Paris Web Atelier HTML5 Pour Mon Ordinateur Et Mon Mobile</title>
+      <link>http://localhost:1313/posts/paris-web-atelier-html5-pour-mon-ordinateur-et-mon-mobile/</link>
+      <description>&lt;p&gt;In 2010, with my friend and former colleague Mickael Morier, I presented a workshop at &lt;a href=&#34;https://www.paris-web.fr/&#34;&gt;Paris Web&lt;/a&gt; entitled &amp;ldquo;HTML5 for my computer and my mobile&amp;rdquo;.&lt;/p&gt;
+&lt;iframe src=&#34;http://www.dailymotion.com/embed/video/xh43oe?logo=0&#34; width=&#34;594&#34; height=&#34;475&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;</description>
+      <author>François Petitit</author>
+      <guid>http://localhost:1313/posts/paris-web-atelier-html5-pour-mon-ordinateur-et-mon-mobile/</guid>
+      <pubDate>Sun, 10 Oct 2010 11:46:52 +0200</pubDate>
+    </item>
+    
   </channel>
 </rss>
