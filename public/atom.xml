@@ -7,11 +7,21 @@
     
     <language>en</language>
     <copyright>Copyright 2024, Calvin Tran</copyright>
-    <lastBuildDate>Thu, 04 Apr 2024 11:29:13 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 04 Apr 2024 12:01:46 +0200</lastBuildDate>
     <generator>Hugo - gohugo.io</generator>
     <docs>http://cyber.harvard.edu/rss/rss.html</docs>
     <atom:link href="http://localhost:1313//atom.xml" rel="self" type="application/atom+xml"/>
     
+    
+    <item>
+      <title>Paris Web Openid Connect France Connect</title>
+      <link>http://localhost:1313/posts/paris-web-openid-connect-france-connect/</link>
+      <description>&lt;iframe src=&#34;https://player.vimeo.com/video/143169752?h=e8a06887a2&#34; width=&#34;640&#34; height=&#34;360&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; fullscreen; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href=&#34;https://vimeo.com/143169752&#34;&gt;OpenID Connect, le nouveau standard d&amp;#039;authentification sur le web : mise en oeuvre sur FranceConnect&lt;/a&gt; from &lt;a href=&#34;https://vimeo.com/parisweb&#34;&gt;Paris Web&lt;/a&gt; on &lt;a href=&#34;https://vimeo.com&#34;&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</description>
+      <author>François Petitit</author>
+      <guid>http://localhost:1313/posts/paris-web-openid-connect-france-connect/</guid>
+      <pubDate>Thu, 04 Apr 2024 12:01:46 +0200</pubDate>
+    </item>
     
     <item>
       <title>How We Used React Virtualized to Boost Our Sale Page</title>

@@ -16,6 +16,21 @@
 
     
     {
+      "id": "b365f886c6540df51d5423c319a4b664794095c0",
+      "title": "Paris Web Openid Connect France Connect",
+      "summary": "",
+      "content_text": " OpenID Connect, le nouveau standard d\u0026#039;authentification sur le web : mise en oeuvre sur FranceConnect from Paris Web on Vimeo.\n",
+      "content_html": "\u003ciframe src=\"https://player.vimeo.com/video/143169752?h=e8a06887a2\" width=\"640\" height=\"360\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture\" allowfullscreen\u003e\u003c/iframe\u003e\n\u003cp\u003e\u003ca href=\"https://vimeo.com/143169752\"\u003eOpenID Connect, le nouveau standard d\u0026#039;authentification sur le web : mise en oeuvre sur FranceConnect\u003c/a\u003e from \u003ca href=\"https://vimeo.com/parisweb\"\u003eParis Web\u003c/a\u003e on \u003ca href=\"https://vimeo.com\"\u003eVimeo\u003c/a\u003e.\u003c/p\u003e",
+      "url": "http://localhost:1313/posts/paris-web-openid-connect-france-connect/",
+      "date_published": "4046-04-09T41:44:00+02:00",
+      "date_modified": "4046-04-09T41:44:00+02:00",
+      "author": {
+        "name": "François Petitit",
+        "url": "http://localhost:1313/"
+      }
+    },
+    
+    {
       "id": "ddab5ff15afb8acd087338c06d0e5c19e22f1dee",
       "title": "How We Used React Virtualized to Boost Our Sale Page",
       "summary": "",
