@@ -7,11 +7,29 @@
     
     <language>en</language>
     <copyright>Copyright 2024, Calvin Tran</copyright>
-    <lastBuildDate>Thu, 04 Apr 2024 15:37:14 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 05 Apr 2024 13:48:04 +0200</lastBuildDate>
     <generator>Hugo - gohugo.io</generator>
     <docs>http://cyber.harvard.edu/rss/rss.html</docs>
     <atom:link href="https://francoispetitit.com//atom.xml" rel="self" type="application/atom+xml"/>
     
+    
+    <item>
+      <title>IA - the Beginning of the End of the Party ?</title>
+      <link>https://francoispetitit.com/posts/ia-the-beginning-of-the-end-of-the-party/</link>
+      <description>&lt;p&gt;I learned this morning that Stability AI, the company that develops and operates the Stable Diffusion image generator, is in financial trouble:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.theregister.com/2024/04/03/stability_ai_bills/&#34;&gt;https://www.theregister.com/2024/04/03/stability_ai_bills/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;On the face of it, the reason is simple: to generate images via AI, you need a lot of calculations, and therefore a lot of GPUs.
+And that&amp;rsquo;s expensive. Very expensive: $99 million per year, according to the article.
+And generative AI, which can generate images and videos, currently generates very little revenue. 11 million, according to the article. And not enough funds have been raised.&lt;/p&gt;
+&lt;p&gt;Apparently, management has been completely renewed, and all is not lost for Stability AI.&lt;/p&gt;
+&lt;p&gt;Nevertheless, when I step back and ask myself the question of financing these mega infrastructures, I ask myself this question:&lt;/p&gt;
+&lt;p&gt;Is this the &lt;em&gt;end of the first phase of generative AI, that of pure innovation&lt;/em&gt;, and the &lt;em&gt;beginning of rationalization&lt;/em&gt;?&lt;/p&gt;
+&lt;p&gt;And for the end-users that we all are, perhaps the end of free services&amp;hellip;&lt;/p&gt;
+</description>
+      <author>François Petitit</author>
+      <guid>https://francoispetitit.com/posts/ia-the-beginning-of-the-end-of-the-party/</guid>
+      <pubDate>Fri, 05 Apr 2024 13:48:04 +0200</pubDate>
+    </item>
     
     <item>
       <title>Writing a New Blog With Hugo</title>

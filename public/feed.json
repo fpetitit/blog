@@ -16,6 +16,21 @@
 
     
     {
+      "id": "591b634b08647f3f8671602f1c2bc9545248743c",
+      "title": "IA - the Beginning of the End of the Party ?",
+      "summary": "",
+      "content_text": "I learned this morning that Stability AI, the company that develops and operates the Stable Diffusion image generator, is in financial trouble:\nhttps://www.theregister.com/2024/04/03/stability_ai_bills/\nOn the face of it, the reason is simple: to generate images via AI, you need a lot of calculations, and therefore a lot of GPUs. And that\u0026rsquo;s expensive. Very expensive: $99 million per year, according to the article. And generative AI, which can generate images and videos, currently generates very little revenue. 11 million, according to the article. And not enough funds have been raised.\nApparently, management has been completely renewed, and all is not lost for Stability AI.\nNevertheless, when I step back and ask myself the question of financing these mega infrastructures, I ask myself this question:\nIs this the end of the first phase of generative AI, that of pure innovation, and the beginning of rationalization?\nAnd for the end-users that we all are, perhaps the end of free services\u0026hellip;\n",
+      "content_html": "\u003cp\u003eI learned this morning that Stability AI, the company that develops and operates the Stable Diffusion image generator, is in financial trouble:\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://www.theregister.com/2024/04/03/stability_ai_bills/\"\u003ehttps://www.theregister.com/2024/04/03/stability_ai_bills/\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eOn the face of it, the reason is simple: to generate images via AI, you need a lot of calculations, and therefore a lot of GPUs.\nAnd that\u0026rsquo;s expensive. Very expensive: $99 million per year, according to the article.\nAnd generative AI, which can generate images and videos, currently generates very little revenue. 11 million, according to the article. And not enough funds have been raised.\u003c/p\u003e\n\u003cp\u003eApparently, management has been completely renewed, and all is not lost for Stability AI.\u003c/p\u003e\n\u003cp\u003eNevertheless, when I step back and ask myself the question of financing these mega infrastructures, I ask myself this question:\u003c/p\u003e\n\u003cp\u003eIs this the \u003cem\u003eend of the first phase of generative AI, that of pure innovation\u003c/em\u003e, and the \u003cem\u003ebeginning of rationalization\u003c/em\u003e?\u003c/p\u003e\n\u003cp\u003eAnd for the end-users that we all are, perhaps the end of free services\u0026hellip;\u003c/p\u003e\n",
+      "url": "https://francoispetitit.com/posts/ia-the-beginning-of-the-end-of-the-party/",
+      "date_published": "5046-05-09T448:55:00+02:00",
+      "date_modified": "5046-05-09T448:55:00+02:00",
+      "author": {
+        "name": "François Petitit",
+        "url": "https://francoispetitit.com/"
+      }
+    },
+    
+    {
       "id": "1171f431f5f01c5079e9df9d8a79533809931408",
       "title": "Writing a New Blog With Hugo",
       "summary": "",
