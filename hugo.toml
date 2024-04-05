@@ -1,7 +1,7 @@
 baseURL = 'https://francoispetitit.com'
 languageCode = 'fr-fr'
 title = 'François Petitit'
-paginate = 3
+paginate = 10
 theme = 'DoIt'
 
 [permalinks]
@@ -62,5 +62,15 @@ theme = 'DoIt'
 [outputFormats.JSON]
   mediatype = "application/json"
   baseName = "feed"
+
+[params.home.profile]
+  enable = true
+  # Gravatar Email for preferred avatar in home page
+  gravatarEmail = "francois.petitit@gmail.com"
+  # URL of avatar shown in home page
+  avatarURL = "/images/avatar.webp"
+  # URL the avatar links to
+  avatarLinkURL = ""
+
 
 ignoreErrors = ["error-remote-getjson"]
