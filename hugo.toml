@@ -2,7 +2,7 @@ baseURL = 'https://francoispetitit.com'
 languageCode = 'fr-fr'
 title = 'François Petitit'
 paginate = 3
-theme = 'maverick'
+theme = 'DoIt'
 
 [permalinks]
   pages = "/:slug"

@@ -1,363 +1,72 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    
-    <title>François Petitit</title>
-    <description>François Petitit</description>
-    <link>https://francoispetitit.com/</link>
-    
-    <language>en</language>
-    <copyright>Copyright 2024, Calvin Tran</copyright>
-    <lastBuildDate>Fri, 05 Apr 2024 13:48:04 +0200</lastBuildDate>
-    <generator>Hugo - gohugo.io</generator>
-    <docs>http://cyber.harvard.edu/rss/rss.html</docs>
-    <atom:link href="https://francoispetitit.com//atom.xml" rel="self" type="application/atom+xml"/>
-    
-    
-    <item>
-      <title>IA - the Beginning of the End of the Party ?</title>
-      <link>https://francoispetitit.com/posts/ia-the-beginning-of-the-end-of-the-party/</link>
-      <description>&lt;p&gt;I learned this morning that Stability AI, the company that develops and operates the Stable Diffusion image generator, is in financial trouble:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.theregister.com/2024/04/03/stability_ai_bills/&#34;&gt;https://www.theregister.com/2024/04/03/stability_ai_bills/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;On the face of it, the reason is simple: to generate images via AI, you need a lot of calculations, and therefore a lot of GPUs.
-And that&amp;rsquo;s expensive. Very expensive: $99 million per year, according to the article.
-And generative AI, which can generate images and videos, currently generates very little revenue. 11 million, according to the article. And not enough funds have been raised.&lt;/p&gt;
-&lt;p&gt;Apparently, management has been completely renewed, and all is not lost for Stability AI.&lt;/p&gt;
-&lt;p&gt;Nevertheless, when I step back and ask myself the question of financing these mega infrastructures, I ask myself this question:&lt;/p&gt;
-&lt;p&gt;Is this the &lt;em&gt;end of the first phase of generative AI, that of pure innovation&lt;/em&gt;, and the &lt;em&gt;beginning of rationalization&lt;/em&gt;?&lt;/p&gt;
-&lt;p&gt;And for the end-users that we all are, perhaps the end of free services&amp;hellip;&lt;/p&gt;
-</description>
-      <author>François Petitit</author>
-      <guid>https://francoispetitit.com/posts/ia-the-beginning-of-the-end-of-the-party/</guid>
-      <pubDate>Fri, 05 Apr 2024 13:48:04 +0200</pubDate>
-    </item>
-    
-    <item>
-      <title>Writing a New Blog With Hugo</title>
-      <link>https://francoispetitit.com/posts/writing-a-new-blog-with-hugo/</link>
-      <description>&lt;p&gt;As you can see from this post, I&amp;rsquo;ve just launched a new blog.&lt;/p&gt;
-&lt;p&gt;It already includes a few old articles published elsewhere, here and there, and I&amp;rsquo;ll try to publish new ones regularly.&lt;/p&gt;
-&lt;p&gt;But let&amp;rsquo;s get technical !&lt;/p&gt;
-&lt;p&gt;This blog has been developed using the following tools:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Hugo as the blog engine: &lt;a href=&#34;https://gohugo.io/&#34;&gt;https://gohugo.io/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Github to store the code, compile the production version and deploy on Github Pages . You can take a look at the source code here : &lt;a href=&#34;https://github.com/fpetitit/blog&#34;&gt;https://github.com/fpetitit/blog&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.ovhcloud.com/fr/&#34;&gt;OVH Cloud&lt;/a&gt; to manage the domain name&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;why-did-i-choose-hugo&#34;&gt;Why did I choose Hugo?&lt;/h2&gt;
-&lt;p&gt;There are a huge number of blog generation tools available. For example, I used &lt;a href=&#34;https://jekyllrb.com/&#34;&gt;Jekyll&lt;/a&gt; for a long time for similar purposes.
-I&amp;rsquo;m also inevitably thinking of Wordpress, which is heavy and complex but still a potential alternative, and which still adds a lot of possibilities.&lt;/p&gt;
-&lt;p&gt;Finally, I chose Hugo mainly because a web design site that I&amp;rsquo;ve been following closely for years recently made this choice.
-It&amp;rsquo;s Smashing Magazine, and they detail their migration in an article : &lt;a href=&#34;https://www.smashingmagazine.com/2019/05/switch-wordpress-hugo/&#34;&gt;https://www.smashingmagazine.com/2019/05/switch-wordpress-hugo/&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Well, OK, since then they&amp;rsquo;ve switched to TinyCMS. But TinyCMS was far too heavy for my little blog ;)&lt;/p&gt;
-</description>
-      <author>François Petitit</author>
-      <guid>https://francoispetitit.com/posts/writing-a-new-blog-with-hugo/</guid>
-      <pubDate>Thu, 04 Apr 2024 15:37:14 +0200</pubDate>
-    </item>
-    
-    <item>
-      <title>How We Used React Virtualized to Boost Our Sale Page</title>
-      <link>https://francoispetitit.com/posts/how-we-used-react-virtualized-to-boost-our-sale-page/</link>
-      <description>&lt;p&gt;This article was previously published here : &lt;a href=&#34;https://medium.com/la-ruche-qui-dit-oui/how-we-used-react-virtualized-to-boost-our-sale-page-6e2f087039ca&#34;&gt;https://medium.com/la-ruche-qui-dit-oui/how-we-used-react-virtualized-to-boost-our-sale-page-6e2f087039ca&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id=&#34;how-we-used-react-virtualized-to-boost-our-sale-page&#34;&gt;How we used React Virtualized to boost our sale page&lt;/h1&gt;
-&lt;p&gt;Our mission at &lt;a href=&#34;https://laruchequiditoui.fr/fr&#34;&gt;La Ruche qui dit Oui !&lt;/a&gt; is to provide good and fair products to our customers, directly from farmers and craftsmen.&lt;/p&gt;
-&lt;p&gt;Since last year, we have been working to improve and expand our product offerings, bringing more and more producers and more and more products to our customers.&lt;/p&gt;
-&lt;p&gt;Challenges arise at many levels: logistics, communication, marketing, but also the user experience offered by our website.&lt;/p&gt;
-&lt;p&gt;This article focuses on what we did, as Web developers, to handle more and more farmers and more and more products on our new sale page :&lt;/p&gt;
-&lt;p&gt;&lt;img
-  src=&#34;image.png&#34;
-  alt=&#34;Our new sale page&#34;
-  loading=&#34;lazy&#34;
-  decoding=&#34;async&#34;
-  class=&#34;full-width&#34;
-/&gt;
-
-&lt;/p&gt;
-&lt;p&gt;But before getting to the code, let’s see what we wanted to change on this page.&lt;/p&gt;
-&lt;h2 id=&#34;the-old-sale-page-why-we-chose-to-abandon-it&#34;&gt;The old sale page: why we chose to abandon it&lt;/h2&gt;
-&lt;p&gt;The sale page looked like that, until the last few weeks:&lt;/p&gt;
-&lt;p&gt;&lt;img
-  src=&#34;image-1.png&#34;
-  alt=&#34;Farewell, old page&#34;
-  loading=&#34;lazy&#34;
-  decoding=&#34;async&#34;
-  class=&#34;full-width&#34;
-/&gt;
-
-&lt;/p&gt;
-&lt;p&gt;When this page was designed and implemented, there were only dozens or a few hundreds products per sale. It worked fine at the beginning, but as the number of offers was growing up, we identified some limitations that were problematic:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;a fundamental pattern of our navigation wasn’t understood by the user, especially the newcomers: the products are ordered by farms (because we want to highlight our farmers). Some users dropped their orders or had to spend more time to compare the products, and as you know, on a e-commerce website, more time means less sales…&lt;/li&gt;
-&lt;li&gt;on iOS devices, the browser crashed when there were too many products — due to a lack of memory. We used a pagination but it made the sale harder to navigate.&lt;/li&gt;
-&lt;li&gt;on large screens, the products were also displayed by batches of 20: when the user was coming to a category, the first 20 were displayed, then when the user scrolled to the bottom, the next 20 were added at the bottom of the list, and so on. Fast scrolling navigation was a bit jerky.&lt;/li&gt;
-&lt;li&gt;on large screen, the page didn’t use all the width of the page: it was a shame because we could have displayed more products.&lt;/li&gt;
-&lt;li&gt;access to categories, subcategories and organic filters was only possible when the user was on top of the page. Discovering the whole range of products was not easy and organic filters deserved to be more visible.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;So, we needed to improve the discoverability of the whole catalog, and the navigation inside it.&lt;/p&gt;
-&lt;p&gt;After a few weeks of user testing and design adjustments, we finally decided to implement this new page:&lt;/p&gt;
-&lt;p&gt;&lt;img
-  src=&#34;image-2.png&#34;
-  alt=&#34;The home screen of the new sale page : a selection of products&#34;
-  loading=&#34;lazy&#34;
-  decoding=&#34;async&#34;
-  class=&#34;full-width&#34;
-/&gt;
-
-&lt;/p&gt;
-&lt;p&gt;The main technical challenge of the new sale page was the “all products” category:&lt;/p&gt;
-&lt;p&gt;&lt;img
-  src=&#34;image-3.png&#34;
-  alt=&#34;The “All products” category&#34;
-  loading=&#34;lazy&#34;
-  decoding=&#34;async&#34;
-  class=&#34;full-width&#34;
-/&gt;
-
-&lt;/p&gt;
-&lt;p&gt;As you may guess viewing the screenshot, there are now 2 ways to navigate inside a category:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;the user can scroll into the products list, from the first product to the last one (sometimes there are more than 2000 products).&lt;/li&gt;
-&lt;li&gt;or the user can click on a farm in the farms list on the left side: the list will automatically scroll up or down to the first product of the farmer.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;So, let’s see how we handled displaying long lists and browsing into them in our code.&lt;/p&gt;
-&lt;h2 id=&#34;handle-long-list-with-react--react-virtualized&#34;&gt;Handle long list with React : React-virtualized&lt;/h2&gt;
-&lt;p&gt;At La Ruche qui dit Oui !, we chose about 2 years ago to develop all our new Web front-end features with React.&lt;/p&gt;
-&lt;p&gt;React is very powerful to manipulate the DOM efficiently thanks to its use of shadow DOM. We aim to provide the most fluid and responsive interfaces thanks to React.&lt;/p&gt;
-&lt;p&gt;In its documentation, React provides some guidelines to optimize performances. In particular, there is a paragraph about “Virtualize Long Lists” :&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Virtualize Long Lists&lt;/p&gt;
-&lt;p&gt;If your application renders long lists of data (hundreds or thousands of rows), we recommended using a technique known as “windowing”. This technique only renders a small subset of your rows at any given time, and can dramatically reduce the time it takes to re-render the components as well as the number of DOM nodes created.&lt;/p&gt;
-&lt;p&gt;React Virtualized is one popular windowing library. It provides several reusable components for displaying lists, grids, and tabular data. You can also create your own windowing component, like Twitter did, if you want something more tailored to your application’s specific use case.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Windowing is pretty easy to understand with the capture below, displaying the content of the DOM at a precise moment : only a dozen of rows are rendered into the DOM, no matter the total number of rows. React Virtualized will remove the rows that are no longer visible and add the newly visible each time the user scrolls into the page.&lt;/p&gt;
-&lt;p&gt;&lt;img
-  src=&#34;image-4.png&#34;
-  alt=&#34;At every moment, only a subset of the whole list is present in the DOM&#34;
-  loading=&#34;lazy&#34;
-  decoding=&#34;async&#34;
-  class=&#34;full-width&#34;
-/&gt;
-
-&lt;/p&gt;
-&lt;p&gt;So as the documentation mentioned React Virtualized, and as it seemed to handle our use cases, we chose to use it to implement the new features.&lt;/p&gt;
-&lt;h2 id=&#34;how-we-use-react-virtualized&#34;&gt;How we use React Virtualized&lt;/h2&gt;
-&lt;p&gt;We managed to isolate all our usage of React Virtualized in only one component, called “ProductsList.jsx”.&lt;/p&gt;
-&lt;p&gt;Finally, we used 2 components from the library: List and WindowScroller. Our imports look like this:&lt;/p&gt;
-&lt;script src=&#34;https://gist.github.com/fpetitit/775ba62467c257c737f4d413902ab5ab.js&#34;&gt;&lt;/script&gt;
-&lt;p&gt;Note that the explicit path used in the import directives are due to the recommendation from &lt;a href=&#34;https://medium.com/la-ruche-qui-dit-oui/how-we-used-react-virtualized-to-boost-our-sale-page-6e2f087039ca#:~:text=the%20recommendation%20from-,here,-and%20could%20be&#34;&gt;here&lt;/a&gt; and could be removed if you’re using Webpack 4.&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;List&lt;/code&gt; allows to display a windowed list of elements.&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;WindowScroller&lt;/code&gt; allows the &lt;code&gt;List&lt;/code&gt; component to be scrolled based on the window&amp;rsquo;s scroll positions. Also, the scrollbar will reflect the length of the list and the current position.&lt;/p&gt;
-&lt;p&gt;Now let’s render these components in the &lt;code&gt;render&lt;/code&gt; function of our &lt;code&gt;ProductsList&lt;/code&gt; component:&lt;/p&gt;
-&lt;script src=&#34;https://gist.github.com/fpetitit/79e217389fb23d42d0789bdedcee53cf.js&#34;&gt;&lt;/script&gt;
-&lt;p&gt;The properties passed to the List component can be divided in 3 parts: the content of the list, the dimensions of the list, and handling the user interactions.&lt;/p&gt;
-&lt;p&gt;###The content of the list&lt;/p&gt;
-&lt;p&gt;Giving the content is done by passing a function as the rowRenderer property, that will return the React component corresponding to the index of the desired row:&lt;/p&gt;
-&lt;script src=&#34;https://gist.github.com/fpetitit/499eb8cbe1b32ebef85251b9d6598196.js&#34;&gt;&lt;/script&gt;
-&lt;p&gt;(R is for &lt;a href=&#34;http://ramdajs.com/&#34;&gt;RamdaJS&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;Where farmsAndProductsComponents is a pre-computed array that contains React components displaying either a farmer card or a product card. This part of the code is pretty obvious, but will be complicated to handle the dimension of the list.&lt;/p&gt;
-&lt;h3 id=&#34;handling-the-dimension-of-the-list&#34;&gt;Handling the dimension of the list&lt;/h3&gt;
-&lt;p&gt;One of the key thing that must be done to handle the scrollbar of the window is to be able to know the size of the entire list.&lt;/p&gt;
-&lt;p&gt;So we set fixed height to our components, according to their types (farmer card or product card) and the width of the window (the cards heights are bigger on small screen than on large screen), and passed the function as the rowHeight prop:&lt;/p&gt;
-&lt;script src=&#34;https://gist.github.com/fpetitit/5f94f76477670b6db561fb1f885509f7.js&#34;&gt;&lt;/script&gt;
-&lt;h3 id=&#34;handling-the-user-interaction&#34;&gt;Handling the user interaction&lt;/h3&gt;
-&lt;p&gt;If we stopped here, the user could scroll into the list, use the scrollbar, and know where it situated into the list.&lt;/p&gt;
-&lt;p&gt;But we wanted to provide an other way to navigate, by displaying the list of the producers, displaying the current producer (the one corresponding to the first visible product in the screen), and going to an other producer by clicking on its name. This is the purpose of the menu on the left side, in large screen:&lt;/p&gt;
-&lt;p&gt;&lt;img
-  src=&#34;image-5.png&#34;
-  alt=&#34;The producers list in the sticky menu&#34;
-  loading=&#34;lazy&#34;
-  decoding=&#34;async&#34;
-  class=&#34;full-width&#34;
-/&gt;
-
-
-The producers list in the sticky menu&lt;/p&gt;
-&lt;h3 id=&#34;displaying-the-current-farm&#34;&gt;Displaying the current farm&lt;/h3&gt;
-&lt;p&gt;To do that, we added a “scrollY” attribute to our list components:&lt;/p&gt;
-&lt;script src=&#34;https://gist.github.com/fpetitit/bd6c592cd76cd7417be8e35078f34a55&#34;&gt;&lt;/script&gt;
-&lt;p&gt;It allowed us to determine the current producer by looking for the first element of the list having a scrollY visible according to &lt;code&gt;window.pageYOffset&lt;/code&gt;:&lt;/p&gt;
-&lt;script src=&#34;https://gist.github.com/fpetitit/c9e3de2a22182e9a9995eb94c70847c0.js&#34;&gt;&lt;/script&gt;
-&lt;h3 id=&#34;going-to-a-specific-producer&#34;&gt;Going to a specific producer&lt;/h3&gt;
-&lt;p&gt;Finally, going to a specific producer was done by calculating the position of the producer card by accumulating the heights of the previous components from the list and scrolling to the position:&lt;/p&gt;
-&lt;script src=&#34;https://gist.github.com/fpetitit/60995479f18922d6caf54dcd602376d2.js&#34;&gt;&lt;/script&gt;
-&lt;h3 id=&#34;conclusion--the-pros-and-cons-of-react-virtualized&#34;&gt;Conclusion : the pros and cons of React Virtualized&lt;/h3&gt;
-&lt;p&gt;We are quite happy of our new sale page and React Virtualized was really a great tool to help use prototyping and developing all the features that we wanted.&lt;/p&gt;
-&lt;p&gt;The performance are very good, it works well on all the browsers that we support, especially on the most difficult to support for us which are IE 11 and Safari Mobile on relatively old iOS devices.&lt;/p&gt;
-&lt;p&gt;We were concerned by 2 problems until now. Both are due to the fact that the whole list is never present into the DOM:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;searching into the list by the find function of the browsers (“ctrl + f”) is working only in the visible rows, but we provide a Search functionality in the sale page that the user should use instead of the browser’s function, and that provides more intelligent results&lt;/li&gt;
-&lt;li&gt;some CSS rules cannot be used, for example selectors like &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/CSS/:first-of-type&#34;&gt;first-of-type&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;If you have faced challenges of the same type, please share your experiences in the comments of this blog post :)&lt;/p&gt;
-</description>
-      <author>François Petitit</author>
-      <guid>https://francoispetitit.com/posts/how-we-used-react-virtualized-to-boost-our-sale-page/</guid>
-      <pubDate>Wed, 18 Jul 2018 09:52:49 +0200</pubDate>
-    </item>
-    
-    <item>
-      <title>Paris Web Openid Connect France Connect</title>
-      <link>https://francoispetitit.com/posts/paris-web-openid-connect-france-connect/</link>
-      <description>&lt;h1 id=&#34;présentation-à-paris-web---openid-connect--mise-en-oeuvre-sur-france-connect&#34;&gt;Présentation à Paris Web - OpenID Connect : mise en oeuvre sur France Connect&lt;/h1&gt;
-&lt;p&gt;J&amp;rsquo;ai eu la chance et l&amp;rsquo;opportunité de présenter un retour d&amp;rsquo;expérience à Paris Web : il s&amp;rsquo;agit de l&amp;rsquo;utilisation du protocole OpenID Connect sur le projet France Connect, lorsque j&amp;rsquo;étais le Technical Leader de l&amp;rsquo;équipe.&lt;/p&gt;
-&lt;p&gt;La vidéo est disponibile ici :&lt;/p&gt;
-&lt;iframe src=&#34;https://player.vimeo.com/video/143169752?h=e8a06887a2&#34; width=&#34;640&#34; height=&#34;360&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; fullscreen; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;a href=&#34;https://vimeo.com/143169752&#34;&gt;OpenID Connect, le nouveau standard d&amp;#039;authentification sur le web : mise en oeuvre sur FranceConnect&lt;/a&gt; from &lt;a href=&#34;https://vimeo.com/parisweb&#34;&gt;Paris Web&lt;/a&gt; on &lt;a href=&#34;https://vimeo.com&#34;&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;le-sujet&#34;&gt;Le sujet&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://franceconnect.gouv.fr/&#34;&gt;FranceConnect&lt;/a&gt; est un nouvel outil visant à améliorer l&amp;rsquo;accès aux administrations françaises en facilitant l&amp;rsquo;authentification et l&amp;rsquo;identification des usagers. Pour cela, nous avons mis en oeuvre le protocole &lt;a href=&#34;https://openid.net/developers/how-connect-works/&#34;&gt;OpenID Connect&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Ce protocole ouvert basé sur OAuth2, successeur de OpenID, et soutenu par des grands acteurs, permet à une application cliente d&amp;rsquo;utiliser n&amp;rsquo;importe quel fournisseur d&amp;rsquo;identité pourvu qu&amp;rsquo;il implémente aussi ce standard.&lt;/p&gt;
-&lt;p&gt;Nous verrons dans cette présentation quels sont les cas d&amp;rsquo;usages de ce protocole (authentification sur le web, sur des applications mobiles…), quels sont ses avantages et inconvénients, et comment le mettre en oeuvre avec Node.js.&lt;/p&gt;
-</description>
-      <author>François Petitit</author>
-      <guid>https://francoispetitit.com/posts/paris-web-openid-connect-france-connect/</guid>
-      <pubDate>Sat, 10 Oct 2015 12:01:46 +0200</pubDate>
-    </item>
-    
-    <item>
-      <title>Les Nouvelles Architectures Web Et Leur Impact Sur Les Dsi Partie 2</title>
-      <link>https://francoispetitit.com/posts/les-nouvelles-architectures-web-et-leur-impact-sur-les-dsi-partie-2/</link>
-      <description>&lt;p&gt;&lt;em&gt;cet article a été publié une première fois le 29/10/2013 sur le blog d&amp;rsquo;OCTO Technology : &lt;a href=&#34;https://blog.octo.com/les-nouvelles-architectures-front-web-et-leur-impact-sur-la-dsi-partie-2&#34;&gt;https://blog.octo.com/les-nouvelles-architectures-front-web-et-leur-impact-sur-la-dsi-partie-2&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Dans la &lt;a href=&#34;https://www.francoispetitit.com/posts/les-nouvelles-architectures-web-et-leur-impact-sur-les-dsi-partie-1/&#34;&gt;partie 1 de cet article&lt;/a&gt;, nous avons traité des nouvelles architectures front-end basées sur des applications Web massivement Javascript appelant des API offertes par un serveur back-end : les nouvelles architectures front Web et leur impact sur les DSI - Partie 1.&lt;/p&gt;
-&lt;p&gt;Nous avons vu qu&amp;rsquo;elles sont apparues ces dernières années grâce à l&amp;rsquo;augmentation des performances des navigateurs et à l&amp;rsquo;amélioration des outils d&amp;rsquo;industrialisation des développements Javascript.&lt;/p&gt;
-&lt;p&gt;Dans cette seconde partie, nous nous intéresserons aux raisons pour lesquelles on devrait choisir ces nouvelles architectures, aux opportunités qu&amp;rsquo;elles offrent, et aux conséquences sur les organisations des directions informatiques.&lt;/p&gt;
-&lt;h2 id=&#34;pourquoi-utiliser-ces-nouvelles-archis&#34;&gt;Pourquoi utiliser ces nouvelles archis?&lt;/h2&gt;
-&lt;h3 id=&#34;pour-mutualiser-le-code-back-end-pour-de-multiples-clients&#34;&gt;Pour mutualiser le code back-end pour de multiples clients&lt;/h3&gt;
-&lt;p&gt;&lt;img
-  src=&#34;image.png&#34;
-  alt=&#34;schema API front back&#34;
-  loading=&#34;lazy&#34;
-  decoding=&#34;async&#34;
-  class=&#34;full-width&#34;
-/&gt;
-
-&lt;/p&gt;
-&lt;p&gt;Un atout majeur de cette architecture est la mise en place d&amp;rsquo;une API : orientée fonctionnel et développée dans une technologie standard comme JSON sur HTTP, celle-ci pourra être utilisée par de nombreux autres clients que l&amp;rsquo;application Web initiale. De plus, c&amp;rsquo;est un pattern d&amp;rsquo;architecture déjà connu car c&amp;rsquo;est en général celui utilisé par les applications mobiles : on a donc déjà une certaine expérience dans les DSI pour mettre en place une brique de Web services faisant une façade devant la complexité du SI et utilisable par les applications mobiles. Cependant avec une architecture Web MVC server-side, on aurait dû développer tout d&amp;rsquo;abord le service côté serveur qui appelle le back-office métier, puis l&amp;rsquo;expose à l&amp;rsquo;application Web. Avec une architecture MV* côté client, on n&amp;rsquo;a plus besoin de cette couche et consommer directement les services de l&amp;rsquo;API si elle existe déjà. De même, si on part de zéro, on peut investir dès le début sur une API &amp;ldquo;propre&amp;rdquo; débarrassée de toute spécificité liée à la technologie utilisée pour les IHM.&lt;/p&gt;
-&lt;h3 id=&#34;-et-ouvrir-une-api-vers-lextérieur-&#34;&gt;&amp;hellip; et ouvrir une API vers l&amp;rsquo;extérieur ?&lt;/h3&gt;
-&lt;p&gt;Si vous détenez une API pour vos applications, la rendre accessible à l&amp;rsquo;extérieur sera d&amp;rsquo;autant plus facilitée. Je vous invite à relire cet article sur notre blog : les Patterns des Grands du Web : « OpenAPI » ou écosystème ouvert. Cela nécessite bien évidemment d&amp;rsquo;autres éléments, notamment une démarche particulière et la mise en place d&amp;rsquo;un écosystème pour les clients de l&amp;rsquo;API, mais avoir déjà développé les services est une opportunité à bien considérer !&lt;/p&gt;
-&lt;h2 id=&#34;pour-améliorer-la-productivité-des-développements&#34;&gt;Pour améliorer la productivité des développements&lt;/h2&gt;
-&lt;p&gt;Avec le recul que nous avons chez OCTO, où l&amp;rsquo;on a déjà réalisé sur cette architecture et mis en production plus d&amp;rsquo;une dizaine de projets de tous types, Web mobile ou desktop, applications métier ou de Dataviz, utiliser des technologies comme AngularJS et BackboneJS améliore sensiblement la productivité, par-rapport à utiliser des frameworks MVC server-side comme JSF ou GWT par exemple dans le monde Java. Cela est tout de même plus nuancé si l&amp;rsquo;on compare avec des outils de développements plus proche du Web comme Rails ou PHP, où les archis MV* côté client conservent tout de même l&amp;rsquo;avantage de la consommation d&amp;rsquo;API agnostiques comme vu précédemment. Mais si on a des serveurs sur Java ou .Net par exemple, et qu&amp;rsquo;on ne veut pas introduire un nouveau middleware dans son infra, alors la productivité des développements front-end avec des technologies comme AngularJS sera un très fort atout.&lt;/p&gt;
-&lt;h2 id=&#34;pour-produire-des-applications-web-plus-puissantes-plus-riches-plus-ergonomiques&#34;&gt;Pour produire des applications Web plus puissantes, plus riches, plus ergonomiques&lt;/h2&gt;
-&lt;p&gt;Au-delà de la productivité, il faut aussi comparer le produit final. Or quand on développe avec un framework MV*, on développe toute l&amp;rsquo;application dans et pour le navigateur. Cela permet au développeur d&amp;rsquo;accéder directement et facilement à tous les services offerts par celui-ci, et depuis l&amp;rsquo;avènement de HTML5 ils sont nombreux : stockage de données, offline, accès au système de fichier, multi-threading, push de données&amp;hellip; Nous n&amp;rsquo;exploitons aujourd&amp;rsquo;hui même pas 10% des capacités de nos navigateurs, et cela non pas par manque de cas d&amp;rsquo;usages mais par manque de facilités pour le développement JavaScript dans le navigateur. Or justement avec ces nouvelles technologies, on gagne la possibilité d&amp;rsquo;expérimenter souvent et rapidement car l&amp;rsquo;environnement de développement est extrêmement rapide (notamment le &lt;strong&gt;live-reload&lt;/strong&gt; qui permet de recharger du code dans le navigateur à peine après avoir enregistré un fichier source et à l&amp;rsquo;utilisation de NodeJs en serveur de développement, beaucoup plus rapide que les serveurs Java ou .Net). On se ré-approprie véritablement le navigateur, qui n&amp;rsquo;est plus la boîte noire qui vous veut du mal comme quand il fallait sans cesse débugger du code sur les navigateurs standards du marchés. Il est la nouvelle plateforme, qui vous ouvre des nouveaux horizons de créativité.&lt;/p&gt;
-&lt;p&gt;&lt;img
-  src=&#34;image-1.png&#34;
-  alt=&#34;HTML5 offre de nombreuses nouvelles fonctionnalités&#34;
-  loading=&#34;lazy&#34;
-  decoding=&#34;async&#34;
-  class=&#34;full-width&#34;
-/&gt;
-
-&lt;/p&gt;
-&lt;p&gt;Combien en utilisez-vous aujourd&amp;rsquo;hui? Combien en exploiterez-vous dans 1 an?&lt;/p&gt;
-&lt;h2 id=&#34;pour-remplacer-une-application-lourde-complexe-et-la-déployer-en-saas&#34;&gt;Pour remplacer une application lourde complexe et la déployer en SAAS&lt;/h2&gt;
-&lt;p&gt;Les éditeurs sont sont de plus en plus nombreux à porter leurs solutions client lourd vers des technologies Web. On pourra évoquer Google Apps qui fournit un webmail bien connu et une suite office depuis longtemps. Mais on est encore plus frappé par la dernière mouture de Microsoft Office, Office 365, qui est intégralement sur le cloud, et de modèle de vente par licence à des abonnements en mode SAAS. Cela est rendu possible par l&amp;rsquo;exploitation des nouvelles capacités des navigateurs, et utiliser des architectures MV* massivement Javascript et bien outillées est clairement la solution aujourd&amp;rsquo;hui pour adresser ces besoins.&lt;/p&gt;
-&lt;p&gt;Enfin, un domaine jusqu&amp;rsquo;ici souvent réservé aux applications lourdes est celui des applications métiers complexes. Cela s&amp;rsquo;expliquait principalement par un manque de performances des technos Web. Les DSI souhaitent généralement se désendetter de technologies de clients lourds comme VB ou Swing, mais peu de nouvelles solutions pérennes et ouvertes ont émergé. Un des derniers challenger était Flex, mais son destin est entre les mains d&amp;rsquo;Adobe et ne semble guère rassurant. Un autre est .Net avec WPF, lié à l&amp;rsquo;écosystème Microsoft. GWT avait tenté et réussi à rendre le développement d&amp;rsquo;applications Web relativement complexes un choix réaliste. Mais de même Google, toujours pionnier en matière technologique, a décidé de réduire ses investissements sur cette plateforme, et d&amp;rsquo;embaucher les développeurs du framework AngularJS et de développer la plateforme Dart. L&amp;rsquo;alternative à la conservation des anciennes applications est aujourd&amp;rsquo;hui à chercher dans les nouvelles architectures Web. On restera tout de même encore mesurés devant un relatif manque de maturité des technologies avant de déclencher des refontes d&amp;rsquo;applications complexes, non pas que les plateformes elles-mêmes (le Web et les navigateurs) ne soient assez matures, mais que les technologies de développements évoluent très vite et peuvent induire un coût de maintenance non négligeable pour une DSI qui n&amp;rsquo;est pas &amp;ldquo;pure player&amp;rdquo; du Web.&lt;/p&gt;
-&lt;h2 id=&#34;quels-impacts-sur-ma-dsi&#34;&gt;Quels impacts sur ma DSI?&lt;/h2&gt;
-&lt;p&gt;Les impacts de ces technologies sur la DSI du point de vue technique sont finalement assez faibles : on savait déjà développer et faire tourner des applications Web en production. De même, la mise en place d&amp;rsquo;une API implique peu de nouveautés et les patterns pour les sécuriser sont déjà connus car utilisés dans les applications mobiles et les RIA.&lt;/p&gt;
-&lt;p&gt;La nouveauté est plus à chercher dans les compétences requises pour le développement, et notamment en JavaScript.&lt;/p&gt;
-&lt;h2 id=&#34;le-besoin-de-nouvelles-compétences-javascript&#34;&gt;Le besoin de nouvelles compétences JavaScript&lt;/h2&gt;
-&lt;p&gt;Il faut revenir à 5 ou 10 ans en arrière pour comprendre l&amp;rsquo;aversion des DSI au développement en JavaScript. A l&amp;rsquo;époque, ce langage était très difficilement maintenable car il offre nativement peu de garde-fous : par de typage, pas de compilation, pas de modèle objet&amp;hellip; JavaScript était vu comme un langage de bidouilleurs à bannir en production et dont le seul mérite était d&amp;rsquo;être utilisé par tous les navigateurs. A l&amp;rsquo;aune du Web 2.0, pour faire des applications Web plus riches, on a donc créé des frameworks de développements pour générer du JavaScript sans en écrire : JSF, GWT, ASP.Net, etc. Les limites engendrées par ces librairies (difficultés à introduire du comportement non standard, complexité de debuggage, dépendances fortes avec les éditeurs de librairies) ainsi que l&amp;rsquo;illusion de pouvoir confier à des développeurs purement &amp;ldquo;backs&amp;rdquo; Java ou .Net ont conduits à des désillusions tant sur les applications produites que sur la productivité.&lt;/p&gt;
-&lt;p&gt;Avec les nouveaux frameworks MV*, on retrouve une liberté dans les développements et une meilleure productivité, à condition d&amp;rsquo;accepter de développer directement en JavaScript. Le prix à payer est donc l&amp;rsquo;acquisition de compétences en JavaScript, et même de nouvelles compétences : typiquement, il ne s&amp;rsquo;agit plus de savoir intégrer un plug-in jQuery pour apporter un peu de dynamisme à une page web statique, mais de développer une application entière avec du JavaScript et un framework approprié.&lt;/p&gt;
-&lt;p&gt;Des connaissances en architecture applicative et en industrialisation des développements (tests, etc.) sont un pré-requis pour ces nouvelles technologies. Heureusement, la facilité d&amp;rsquo;utilisation des derniers frameworks MV* et les cadres structurants qu&amp;rsquo;ils offrent permettent de réduire très largement le ticket d&amp;rsquo;entrée pour un développeur encore non expert.&lt;/p&gt;
-&lt;p&gt;Et c&amp;rsquo;est bien là le fait majeur de cette évolution : &lt;em&gt;&lt;em&gt;la prise en main du développement d&amp;rsquo;applications MV&lt;/em&gt; côté client est désormais aussi aisée que celle d&amp;rsquo;applications MVC classiques.&lt;/em&gt;*&lt;/p&gt;
-&lt;h2 id=&#34;la-tentation-de-créer-des-équipes-par-technos-front-end-et-back-end&#34;&gt;La tentation de créer des équipes par technos front-end et back-end&lt;/h2&gt;
-&lt;p&gt;Le découplage technologique grandissant entre technologies front Web HTML/CSS/JavaScript et back (sauf à utiliser NodeJS sur le serveur!) engendrent une plus grande distinction entre les développeurs suivant la couche technique sur laquelle ils travaillent. C&amp;rsquo;est une opportunité d&amp;rsquo;améliorer l&amp;rsquo;expertise sur une technologie et la complexification fonctionnelle des applications le nécessite souvent, mais c&amp;rsquo;est aussi un risque de perdre une certaine polyvalence.&lt;/p&gt;
-&lt;p&gt;Un autre impact concerne l&amp;rsquo;organisation des équipes : on pourra plus facilement dédier des équipes au développement front et d&amp;rsquo;autres au développement back. Mais cette idée a déjà été abordé dans cet article, où l&amp;rsquo;on constate qu&amp;rsquo;elle n&amp;rsquo;est pas forcément le meilleur choix : &lt;a href=&#34;https://blog.octo.com/feature-team/&#34;&gt;https://blog.octo.com/feature-team/&lt;/a&gt;. En synthèse si vous n&amp;rsquo;avez pas le temps de le relire, le mode d&amp;rsquo;organisation le plus efficace est plutôt de grouper les équipes en &amp;ldquo;feature teams&amp;rdquo; dédiées à des fonctionnalité et couvrant l&amp;rsquo;ensemble des compétences nécessaires pour les mettre en place.&lt;/p&gt;
-&lt;h2 id=&#34;conclusion--quelques-écueils-à-éviter&#34;&gt;Conclusion : quelques écueils à éviter&lt;/h2&gt;
-&lt;p&gt;En conclusion, on gardera à l&amp;rsquo;esprit que les nouvelles architecture Web apportent de grandes opportunités pour le développement d&amp;rsquo;applications et les usages pouvant être faits par les utilisateurs finaux et les DSI.&lt;/p&gt;
-&lt;p&gt;On évoquera tout de même quelques axes de réflexions à ne pas écarter lors d&amp;rsquo;un choix de technologies : - ces solutions ne sont pas forcément les meilleurs pour tous les cas d&amp;rsquo;usages : par exemple pour un site statique, on peut trouver des solutions plus performantes par-rapport aux performances et au référencement - la comparaison avec des applications natives, véritable point de tension dans les choix pour adresser les usages en mobilité, n&amp;rsquo;est pas encore à l&amp;rsquo;avantage du Web : il reste toujours de nombreuses choses possibles en natif impossibles en Web. A chaque contexte correspondra une stratégie de choix différente.&lt;/p&gt;
-&lt;h2 id=&#34;pour-aller-plus-loin&#34;&gt;Pour aller plus loin&lt;/h2&gt;
-&lt;p&gt;une présentation de Julien Jakubowski à Devoxx sur l&amp;rsquo;industrialisation avec JavaScript : &lt;a href=&#34;http://parleys.com/play/517bf74ee4b0736a5fa66a38/chapter0/about&#34;&gt;http://parleys.com/play/517bf74ee4b0736a5fa66a38/chapter0/about&lt;/a&gt;
-sur la problématique de référencement de single page application : &lt;a href=&#34;https://blog.octo.com/seo-spa-angular/&#34;&gt;https://blog.octo.com/seo-spa-angular/&lt;/a&gt;&lt;/p&gt;
-</description>
-      <author>François Petitit</author>
-      <guid>https://francoispetitit.com/posts/les-nouvelles-architectures-web-et-leur-impact-sur-les-dsi-partie-2/</guid>
-      <pubDate>Wed, 30 Oct 2013 15:11:39 +0200</pubDate>
-    </item>
-    
-    <item>
-      <title>Les Nouvelles Architectures Web Et Leur Impact Sur Les Dsi Partie 1</title>
-      <link>https://francoispetitit.com/posts/les-nouvelles-architectures-web-et-leur-impact-sur-les-dsi/</link>
-      <description>&lt;p&gt;&lt;em&gt;cet article a été publié une première fois le 29/10/2013 sur le blog d&amp;rsquo;OCTO Technology : &lt;a href=&#34;https://blog.octo.com/les-nouvelles-architectures-front-web-et-leur-impact-sur-les-dsi-partie-1&#34;&gt;https://blog.octo.com/les-nouvelles-architectures-front-web-et-leur-impact-sur-les-dsi-partie-1&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Les applications Web évoluent. Depuis les premiers sites en HTML statique jusqu&amp;rsquo;aux applications AJAX de ces dernières années, en passant par les multiples technologies de sites Web dynamiques (PHP, ASP, Java, Rails&amp;hellip;), les architectures applicatives et les outils pour les mettre en place connaissent régulièrement des avancées majeures et des points de ruptures.&lt;/p&gt;
-&lt;p&gt;Depuis deux ans, nous voyons venir une nouvelle vague technologique qui submerge le paysage des applications Web. Celle-ci n&amp;rsquo;a pas encore de nom bien défini comme ont pu l&amp;rsquo;avoir les RIA ou AJAX. Nous les appellerons les &amp;ldquo;architectures MV* côté client&amp;rdquo;.&lt;/p&gt;
-&lt;p&gt;Elles se constituent principalement de ce principe d&amp;rsquo;architecture : le serveur ne doit plus gérer l&amp;rsquo;affichage mais seulement envoyer des données brutes à afficher, et toute la génération des écrans et la gestion des interactions avec l&amp;rsquo;utilisateur doivent être géré côté client, c&amp;rsquo;est-à-dire dans le navigateur.&lt;/p&gt;
-&lt;p&gt;Dans ce billet, nous préciserons cette architecture et expliquer les raisons de son émergence. Dans un second billet, nous verrons pourquoi il est pertinent de les mettre en place dès aujourd&amp;rsquo;hui, les opportunités qu&amp;rsquo;elles offrent, et quels sont les impacts à prévoir pour les DSI.&lt;/p&gt;
-&lt;h2 id=&#34;les-nouvelles-archis-front-web--de-quoi-parle-t-on-&#34;&gt;Les nouvelles archis front Web : de quoi parle-t-on ?&lt;/h2&gt;
-&lt;p&gt;Le schéma ci-dessous illustre l&amp;rsquo;évolution des architectures d&amp;rsquo;applications Web :&lt;/p&gt;
-&lt;p&gt;&lt;img
-  src=&#34;image.png&#34;
-  alt=&#34;évolution des architectures web&#34;
-  loading=&#34;lazy&#34;
-  decoding=&#34;async&#34;
-  class=&#34;full-width&#34;
-/&gt;
-
-&lt;/p&gt;
-&lt;h3 id=&#34;modèle-1--application-web-classique&#34;&gt;Modèle 1 : application Web classique&lt;/h3&gt;
-&lt;p&gt;Dans le premier schema, l&amp;rsquo;application Web est principalement exécutée côté serveur. Celui-ci envoie donc directement au navigateur les pages HTML, le CSS et éventuellement du JavaScript pour faire quelques comportement riches. Ensuite, à chaque action utilisateur nécessitant de nouvelles données, le serveur est interrogé et renvoie la nouvelle page HTML.&lt;/p&gt;
-&lt;h3 id=&#34;modèle-2--application-web-ajax&#34;&gt;Modèle 2 : application Web AJAX&lt;/h3&gt;
-&lt;p&gt;Le deuxième schema introduit le pattern AJAX, pour Asynchronous Javascript And XML. apparu au milieu des années 2000 (voir l&amp;rsquo;article de Jesse James Garrett : &lt;a href=&#34;http://www.adaptivepath.com/ideas/ajax-new-approach-web-applications/&#34;&gt;http://www.adaptivepath.com/ideas/ajax-new-approach-web-applications/&lt;/a&gt; ).&lt;/p&gt;
-&lt;p&gt;Ce principe d&amp;rsquo;architecture permet de rendre l&amp;rsquo;application plus réactive en réduisant les échanges entre le navigateur et le serveur : lorsqu&amp;rsquo;une action utilisateur engendre un appel client pour récupérer des nouvelles données, on ne va rafraîchir qu&amp;rsquo;une portion de l&amp;rsquo;écran et non plus toute la page. Le serveur va alors renvoyer seulement des fragments d&amp;rsquo;IHM. Cela nécessitait la mise en place d&amp;rsquo;outils JavaScript côté client pour gérer ces rafraîchissements partiels, que ce soit par exemple en utilisant la librairie jQuery et sa fonction $.ajax, ou en utilisant des outils plus intégrés aux plateformes serveurs comme Java Server Faces ou Google Web Toolkit pour Java.&lt;/p&gt;
-&lt;p&gt;Cette architecture apportait plus de réactivité mais aussi plus de complexité. Les outils pour la mettre en place engendraient de nombreux écueils : l&amp;rsquo;&lt;strong&gt;utilisation massive de jQuery rendait une application impossible à maintenir&lt;/strong&gt; sans mettre en place des règles d&amp;rsquo;architectures techniques précises et nécessitant de très fortes compétences (ce qu&amp;rsquo;offrent aujourd&amp;rsquo;hui les frameworks MV* comme Backbone JS ou AngularJS), et &lt;strong&gt;les frameworks côté serveur comme JSF pour Java étaient trop lourds et trop complexes&lt;/strong&gt; malgré leur volonté apparente de simplifier les développements, induisant de nombreux bugs et problèmes de performances.&lt;/p&gt;
-&lt;h3 id=&#34;modèle-3--application-web-mv-côté-client&#34;&gt;Modèle 3 : application Web MV* côté client&lt;/h3&gt;
-&lt;p&gt;Le troisième schéma représente la nouvelle architecture dont il est question ici : les &lt;em&gt;&lt;em&gt;architectures MV&lt;/em&gt; côté client&lt;/em&gt;*. Le principe est ici en rupture avec les deux premières : cette fois le &lt;strong&gt;serveur ne renvoie que des données brutes non mises en forme pour l&amp;rsquo;affichage. C&amp;rsquo;est côté client, dans le navigateur, que l&amp;rsquo;écran est généré.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Le terme &lt;strong&gt;MV&lt;/strong&gt;* se réfère au pattern MVC pour [http://fr.wikipedia.org/wiki/Mod%C3%A8le-vue-contr%C3%B4leur](&lt;strong&gt;Modèle Vue Contrôleur&lt;/strong&gt;), qui est très utilisé côté serveur pour découper les différentes problématiques de gestion des vues et des données. Nous utilisons de plus en plus le terme MV* pour les nouvelles architectures afin de montrer que l&amp;rsquo;implémentation dans les applications est souvent, par pragmatisme, un peu différente du MVC pur. Cela reste un débat d&amp;rsquo;expert&amp;hellip;&lt;/p&gt;
-&lt;p&gt;L&amp;rsquo;important dans cette nouvelle architecture est donc le &lt;strong&gt;déplacement de toute la logique d&amp;rsquo;IHM du serveur vers le client&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;Cette séparation des responsabilités entre le serveur et le client qui n&amp;rsquo;est pas une nouveauté en soi a été remise au goût du jour par les applications natives pour mobiles, consommant des API indépendantes des clients consommateurs. Les nouvelles architectures d&amp;rsquo;applications Web étendent ce choix aux applications Web.&lt;/p&gt;
-&lt;p&gt;Pourquoi ces nouvelles architectures n&amp;rsquo;ont pas été mises en oeuvre plus tôt ?
-Au fond, le langage JavaScript existe depuis que le Web existe, le principe ne semble pas si révolutionnaire que ça surtout qu&amp;rsquo;il s&amp;rsquo;apparente fortement aux applications client-serveur classiques existant avant le Web, alors pourquoi ne pas avoir pensé à ces architectures plus tôt ?&lt;/p&gt;
-&lt;p&gt;La réponse est simple : ce n&amp;rsquo;était pas possible, sauf à s&amp;rsquo;appeler Google !&lt;/p&gt;
-&lt;p&gt;En effet, 2 facteurs bridaient les possibilités de développement JavaScript :&lt;/p&gt;
-&lt;p&gt;les capacités et les performances limitées des navigateurs
-le manque d&amp;rsquo;industrialisation du développement JavaScript
-La fin des limitations des navigateurs
-Le premier point était évident jusqu&amp;rsquo;à l&amp;rsquo;arrivée des dernières version d&amp;rsquo;Internet Explorer 9 et encore plus Internet Explorer 10. Les lenteurs et les nombreux bugs des versions précédentes d&amp;rsquo;Internet Explorer interdisaient de déployer des applications utilisant massivement JavaScript.&lt;/p&gt;
-&lt;p&gt;Sauf à disposer de la force de frappe d&amp;rsquo;une équipe d&amp;rsquo;ingénieurs Google, vouloir développer un Gmail dans Internet Explorer 6 n&amp;rsquo;était tout simplement pas réaliste.&lt;/p&gt;
-&lt;p&gt;Cela a bien changé depuis que Firefox et encore plus Chrome ont bousculé le marché et que Microsoft a rattrapé son retard, comme le montre le graphique ci-dessous :&lt;/p&gt;
-&lt;p&gt;&lt;img
-  src=&#34;image-1.png&#34;
-  alt=&#34;Résultats des navigateurs par-rapport au test de performances Javascript Sunspider
-&#34;
-  loading=&#34;lazy&#34;
-  decoding=&#34;async&#34;
-  class=&#34;full-width&#34;
-/&gt;
-
-&lt;/p&gt;
-&lt;p&gt;Montrant les résultats des tests de performances JavaScript Sunspider de différents navigateurs, ce schema illustre parfaitement la rupture qui est arrivée aux alentours de 2010, avec l&amp;rsquo;amélioration des performances d&amp;rsquo;Internet Explorer : &lt;strong&gt;les performances entre IE 6 et IE8 à ce test ont été améliorées d&amp;rsquo;un facteur x25 en passant de 177000 ms à 7000 ms !&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Depuis les performances continuent de s&amp;rsquo;améliorer sensiblement, et cela couplé aux nouvelles capacités des terminaux aussi bien mobiles que fixes permet d&amp;rsquo;utiliser le navigateurs pour autre chose que l&amp;rsquo;affichage de pages Web : générer les pages dynamiquement, faire du dessin 2D ou 3D, exécuter des algorithmes complexes, etc.&lt;/p&gt;
-&lt;p&gt;L&amp;rsquo;industrialisation du développement JavaScript
-Avoir une plateforme d&amp;rsquo;exécution puissante ne servirait à rien si on ne pouvait pas développer efficacement pour.&lt;/p&gt;
-&lt;p&gt;La deuxième révolution technologique du développement Web concerne justement l&amp;rsquo;outillage de développement JavaScript.&lt;/p&gt;
-&lt;p&gt;Si vous suivez le blog OCTO, vous avez déjà pu voir passer des articles concernant par exemple &lt;strong&gt;AngularJS&lt;/strong&gt; ou &lt;strong&gt;Grunt&lt;/strong&gt;. Ce sont justement deux outils illustrant le nouvel écosystème de développement JavaScript, que l&amp;rsquo;on peut résumer en deux grandes familles d&amp;rsquo;outils :&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;les frameworks de développement&lt;/strong&gt; : là où on utilisait déjà des librairies comme jQuery, qui facilitaient certains développement en JavaScript, les développeurs disposent désormais de véritables frameworks permettant de structurer l&amp;rsquo;application. L&amp;rsquo;intérêt de ces frameworks est double : accélérer les développements et assurer une bonne maintenabilité du code. Parmi les plus connus aujourd&amp;rsquo;hui on trouve notamment AngularJS, BackboneJS et EmberJS.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;les outils d&amp;rsquo;industrialisation&lt;/strong&gt; : l&amp;rsquo;industrialisation des développements JavaScript a explosé ces deux dernières années, en s&amp;rsquo;inspirant fortement de ce qui a déjà été fait pour les autres plateformes comme Java. &lt;strong&gt;De la même manière que les développeurs Java utilisent Maven pour automatiser le build et les tests de leurs applications, les développeurs JavaScript peuvent aujourd&amp;rsquo;hui utiliser Grunt pour automatiser les tests et la construction de leur application&lt;/strong&gt;, ainsi que le workflow spécifique au développement front : concaténation des fichiers, obfuscation, minification, génération de sprites CSS, etc. L&amp;rsquo;ensemble de ces outils a déjà été abordé dans cet article du blog : &lt;a href=&#34;https://blog.octo.com/jenkins-pour-le-back-notepad-pour-le-front/&#34;&gt;https://blog.octo.com/jenkins-pour-le-back-notepad-pour-le-front/&lt;/a&gt; .&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;L&amp;rsquo;industrialisation du développement Javascript est par ailleurs poussée également par le fait que l&amp;rsquo;utilisation de Javascript s&amp;rsquo;étend à d&amp;rsquo;autres domaines que les applications Web, et notamment au développement serveur avec NodeJS. Cela d&amp;rsquo;autant plus frappant que NodeJS est utilisé comme socle technique par GruntJS et ses nombreux plug-ins.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;En conclusion, tous les outils sont là en 2013 pour faire du développement JavaScript de manière efficace et industrielle.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Conclusion de la première partie
-Dans cet article, nous avons présenté ce que l&amp;rsquo;on entend par &amp;ldquo;architectures MV* côté client&amp;rdquo;, et pourquoi elles émergent aujourd&amp;rsquo;hui.&lt;/p&gt;
-&lt;p&gt;Dans les parties suivantes, &lt;strong&gt;nous verrons pourquoi il faut utiliser ces architectures dès aujourd&amp;rsquo;hui, quels sont les écueils à éviter et quels sont les impacts sur vos DSI.&lt;/strong&gt;&lt;/p&gt;
-</description>
-      <author>François Petitit</author>
-      <guid>https://francoispetitit.com/posts/les-nouvelles-architectures-web-et-leur-impact-sur-les-dsi/</guid>
-      <pubDate>Tue, 29 Oct 2013 15:11:39 +0200</pubDate>
-    </item>
-    
-    <item>
-      <title>Paris Web Atelier HTML5 Pour Mon Ordinateur Et Mon Mobile</title>
-      <link>https://francoispetitit.com/posts/paris-web-atelier-html5-pour-mon-ordinateur-et-mon-mobile/</link>
-      <description>&lt;p&gt;In 2010, with my friend and former colleague Mickael Morier, I presented a workshop at &lt;a href=&#34;https://www.paris-web.fr/&#34;&gt;Paris Web&lt;/a&gt; entitled &amp;ldquo;HTML5 for my computer and my mobile&amp;rdquo;.&lt;/p&gt;
-&lt;iframe src=&#34;http://www.dailymotion.com/embed/video/xh43oe?logo=0&#34; width=&#34;594&#34; height=&#34;475&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;</description>
-      <author>François Petitit</author>
-      <guid>https://francoispetitit.com/posts/paris-web-atelier-html5-pour-mon-ordinateur-et-mon-mobile/</guid>
-      <pubDate>Sun, 10 Oct 2010 11:46:52 +0200</pubDate>
-    </item>
-    
-  </channel>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>François Petitit</title>
+        <link>http://localhost:1313/</link>
+        <description>François Petitit</description>
+        <generator>Hugo -- gohugo.io</generator><language>fr-fr</language><lastBuildDate>Fri, 05 Apr 2024 13:48:04 &#43;0200</lastBuildDate>
+            <atom:link href="http://localhost:1313/atom.xml" rel="self" type="application/rss+xml" />
+        <item>
+    <title>IA - the Beginning of the End of the Party ?</title>
+    <link>http://localhost:1313/posts/ia-the-beginning-of-the-end-of-the-party/</link>
+    <pubDate>Fri, 05 Apr 2024 13:48:04 &#43;0200</pubDate><author>
+        <name>Author</name>
+    </author><guid>http://localhost:1313/posts/ia-the-beginning-of-the-end-of-the-party/</guid>
+    <description><![CDATA[I learned this morning that Stability AI, the company that develops and operates the Stable Diffusion image generator, is in financial trouble:
+https://www.theregister.com/2024/04/03/stability_ai_bills/
+On the face of it, the reason is simple: to generate images via AI, you need a lot of calculations, and therefore a lot of GPUs. And that&rsquo;s expensive. Very expensive: $99 million per year, according to the article. And generative AI, which can generate images and videos, currently generates very little revenue.]]></description>
+</item><item>
+    <title>Writing a New Blog With Hugo</title>
+    <link>http://localhost:1313/posts/writing-a-new-blog-with-hugo/</link>
+    <pubDate>Thu, 04 Apr 2024 15:37:14 &#43;0200</pubDate><author>
+        <name>Author</name>
+    </author><guid>http://localhost:1313/posts/writing-a-new-blog-with-hugo/</guid>
+    <description><![CDATA[As you can see from this post, I&rsquo;ve just launched a new blog.
+It already includes a few old articles published elsewhere, here and there, and I&rsquo;ll try to publish new ones regularly.
+But let&rsquo;s get technical !
+This blog has been developed using the following tools:
+Hugo as the blog engine: https://gohugo.io/ Github to store the code, compile the production version and deploy on Github Pages . You can take a look at the source code here : https://github.]]></description>
+</item><item>
+    <title>How We Used React Virtualized to Boost Our Sale Page</title>
+    <link>http://localhost:1313/posts/how-we-used-react-virtualized-to-boost-our-sale-page/</link>
+    <pubDate>Wed, 18 Jul 2018 09:52:49 &#43;0200</pubDate><author>
+        <name>Author</name>
+    </author><guid>http://localhost:1313/posts/how-we-used-react-virtualized-to-boost-our-sale-page/</guid>
+    <description><![CDATA[This article was previously published here : https://medium.com/la-ruche-qui-dit-oui/how-we-used-react-virtualized-to-boost-our-sale-page-6e2f087039ca
+How we used React Virtualized to boost our sale pageOur mission at La Ruche qui dit Oui ! is to provide good and fair products to our customers, directly from farmers and craftsmen.
+Since last year, we have been working to improve and expand our product offerings, bringing more and more producers and more and more products to our customers.
+Challenges arise at many levels: logistics, communication, marketing, but also the user experience offered by our website.]]></description>
+</item><item>
+    <title>Paris Web Openid Connect France Connect</title>
+    <link>http://localhost:1313/posts/paris-web-openid-connect-france-connect/</link>
+    <pubDate>Sat, 10 Oct 2015 12:01:46 &#43;0200</pubDate><author>
+        <name>Author</name>
+    </author><guid>http://localhost:1313/posts/paris-web-openid-connect-france-connect/</guid>
+    <description><![CDATA[Présentation à Paris Web - OpenID Connect : mise en oeuvre sur France ConnectJ&rsquo;ai eu la chance et l&rsquo;opportunité de présenter un retour d&rsquo;expérience à Paris Web : il s&rsquo;agit de l&rsquo;utilisation du protocole OpenID Connect sur le projet France Connect, lorsque j&rsquo;étais le Technical Leader de l&rsquo;équipe.
+La vidéo est disponibile ici :
+OpenID Connect, le nouveau standard d&#039;authentification sur le web : mise en oeuvre sur FranceConnect from Paris Web on Vimeo.]]></description>
+</item><item>
+    <title>Les Nouvelles Architectures Web Et Leur Impact Sur Les Dsi Partie 2</title>
+    <link>http://localhost:1313/posts/les-nouvelles-architectures-web-et-leur-impact-sur-les-dsi-partie-2/</link>
+    <pubDate>Wed, 30 Oct 2013 15:11:39 &#43;0200</pubDate><author>
+        <name>Author</name>
+    </author><guid>http://localhost:1313/posts/les-nouvelles-architectures-web-et-leur-impact-sur-les-dsi-partie-2/</guid>
+    <description><![CDATA[cet article a été publié une première fois le 29/10/2013 sur le blog d&rsquo;OCTO Technology : https://blog.octo.com/les-nouvelles-architectures-front-web-et-leur-impact-sur-la-dsi-partie-2
+Dans la partie 1 de cet article, nous avons traité des nouvelles architectures front-end basées sur des applications Web massivement Javascript appelant des API offertes par un serveur back-end : les nouvelles architectures front Web et leur impact sur les DSI - Partie 1.
+Nous avons vu qu&rsquo;elles sont apparues ces dernières années grâce à l&rsquo;augmentation des performances des navigateurs et à l&rsquo;amélioration des outils d&rsquo;industrialisation des développements Javascript.]]></description>
+</item><item>
+    <title>Les Nouvelles Architectures Web Et Leur Impact Sur Les Dsi Partie 1</title>
+    <link>http://localhost:1313/posts/les-nouvelles-architectures-web-et-leur-impact-sur-les-dsi/</link>
+    <pubDate>Tue, 29 Oct 2013 15:11:39 &#43;0200</pubDate><author>
+        <name>Author</name>
+    </author><guid>http://localhost:1313/posts/les-nouvelles-architectures-web-et-leur-impact-sur-les-dsi/</guid>
+    <description><![CDATA[cet article a été publié une première fois le 29/10/2013 sur le blog d&rsquo;OCTO Technology : https://blog.octo.com/les-nouvelles-architectures-front-web-et-leur-impact-sur-les-dsi-partie-1
+Les applications Web évoluent. Depuis les premiers sites en HTML statique jusqu&rsquo;aux applications AJAX de ces dernières années, en passant par les multiples technologies de sites Web dynamiques (PHP, ASP, Java, Rails&hellip;), les architectures applicatives et les outils pour les mettre en place connaissent régulièrement des avancées majeures et des points de ruptures.]]></description>
+</item><item>
+    <title>Paris Web Atelier HTML5 Pour Mon Ordinateur Et Mon Mobile</title>
+    <link>http://localhost:1313/posts/paris-web-atelier-html5-pour-mon-ordinateur-et-mon-mobile/</link>
+    <pubDate>Sun, 10 Oct 2010 11:46:52 &#43;0200</pubDate><author>
+        <name>Author</name>
+    </author><guid>http://localhost:1313/posts/paris-web-atelier-html5-pour-mon-ordinateur-et-mon-mobile/</guid>
+    <description><![CDATA[In 2010, with my friend and former colleague Mickael Morier, I presented a workshop at Paris Web entitled &ldquo;HTML5 for my computer and my mobile&rdquo;.]]></description>
+</item></channel>
 </rss>

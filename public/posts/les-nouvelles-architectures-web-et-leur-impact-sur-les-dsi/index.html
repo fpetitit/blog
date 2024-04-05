@@ -1,145 +1,135 @@
-<!doctype html>
-<html lang="en">
-  <head>
+
+
+<!DOCTYPE html>
+<html lang="fr-fr">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="Liste - https://francoispetitit.com/">
-    <title>Les Nouvelles Architectures Web Et Leur Impact Sur Les Dsi Partie 1 | François Petitit</title>
-    <meta name="description" content="François Petitit">
-    <meta property="og:title" content="Les Nouvelles Architectures Web Et Leur Impact Sur Les Dsi Partie 1" />
+    <meta name="robots" content="noodp" /><title>Les Nouvelles Architectures Web Et Leur Impact Sur Les Dsi Partie 1 - François Petitit</title><meta name="Description" content="François Petitit"><meta property="og:title" content="Les Nouvelles Architectures Web Et Leur Impact Sur Les Dsi Partie 1" />
 <meta property="og:description" content="cet article a été publié une première fois le 29/10/2013 sur le blog d&rsquo;OCTO Technology : https://blog.octo.com/les-nouvelles-architectures-front-web-et-leur-impact-sur-les-dsi-partie-1
 Les applications Web évoluent. Depuis les premiers sites en HTML statique jusqu&rsquo;aux applications AJAX de ces dernières années, en passant par les multiples technologies de sites Web dynamiques (PHP, ASP, Java, Rails&hellip;), les architectures applicatives et les outils pour les mettre en place connaissent régulièrement des avancées majeures et des points de ruptures." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://francoispetitit.com/posts/les-nouvelles-architectures-web-et-leur-impact-sur-les-dsi/" /><meta property="article:section" content="posts" />
+<meta property="og:url" content="http://localhost:1313/posts/les-nouvelles-architectures-web-et-leur-impact-sur-les-dsi/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2013-10-29T15:11:39+02:00" />
 <meta property="article:modified_time" content="2013-10-29T15:11:39+02:00" />
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Les Nouvelles Architectures Web Et Leur Impact Sur Les Dsi Partie 1"/>
+<meta name="twitter:description" content="cet article a été publié une première fois le 29/10/2013 sur le blog d&rsquo;OCTO Technology : https://blog.octo.com/les-nouvelles-architectures-front-web-et-leur-impact-sur-les-dsi-partie-1
+Les applications Web évoluent. Depuis les premiers sites en HTML statique jusqu&rsquo;aux applications AJAX de ces dernières années, en passant par les multiples technologies de sites Web dynamiques (PHP, ASP, Java, Rails&hellip;), les architectures applicatives et les outils pour les mettre en place connaissent régulièrement des avancées majeures et des points de ruptures."/>
+<meta name="application-name" content="François Petitit">
+<meta name="apple-mobile-web-app-title" content="François Petitit">
 
-    <meta itemprop="name" content="Les Nouvelles Architectures Web Et Leur Impact Sur Les Dsi Partie 1">
-<meta itemprop="description" content="cet article a été publié une première fois le 29/10/2013 sur le blog d&rsquo;OCTO Technology : https://blog.octo.com/les-nouvelles-architectures-front-web-et-leur-impact-sur-les-dsi-partie-1
-Les applications Web évoluent. Depuis les premiers sites en HTML statique jusqu&rsquo;aux applications AJAX de ces dernières années, en passant par les multiples technologies de sites Web dynamiques (PHP, ASP, Java, Rails&hellip;), les architectures applicatives et les outils pour les mettre en place connaissent régulièrement des avancées majeures et des points de ruptures."><meta itemprop="datePublished" content="2013-10-29T15:11:39+02:00" />
-<meta itemprop="dateModified" content="2013-10-29T15:11:39+02:00" />
-<meta itemprop="wordCount" content="1358">
-<meta itemprop="keywords" content="" />
-    
-    <link rel="canonical" href="https://francoispetitit.com/posts/les-nouvelles-architectures-web-et-leur-impact-sur-les-dsi/">
-    <link rel="icon" href="https://francoispetitit.com//assets/favicon.ico">
-    <link rel="dns-prefetch" href="https://www.google-analytics.com">
-    <link href="https://www.google-analytics.com" rel="preconnect" crossorigin>
-    <link rel="alternate" type="application/atom+xml" title="François Petitit" href="https://francoispetitit.com//atom.xml" />
-    <link rel="alternate" type="application/json" title="François Petitit" href="https://francoispetitit.com//feed.json" />
-    <link rel="shortcut icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII=">
-    
-    
-    <style>*,:after,:before{box-sizing:border-box;padding:0}body{font:1rem/1.5 '-apple-system',BlinkMacSystemFont,avenir next,avenir,helvetica,helvetica neue,ubuntu,roboto,noto,segoe ui,arial,sans-serif;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;padding:2rem;background:#f5f5f5;color:#000}.skip-link{position:absolute;top:-40px;left:0;background:#eee;z-index:100}.skip-link:focus{top:0}h1,h2,h3,h4,h5,strong,b{font-size:inherit;font-weight:600}header{line-height:2;padding-bottom:1.5rem}.link{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-decoration:none}.time{font-variant-numeric:tabular-nums;white-space:nowrap}blockquote{border-left:5px solid #eee;padding-left:1rem;margin:0}a,a:visited{color:inherit}a:hover,a.heading-link{text-decoration:none}pre{padding:.5rem;overflow:auto;overflow-x:scroll;overflow-wrap:normal}code,pre{font-family:San Francisco Mono,Monaco,consolas,lucida console,dejavu sans mono,bitstream vera sans mono,monospace;font-size:normal;font-size:small;background:#eee}code{margin:.1rem;border:none}ul{list-style-type:square}ul,ol{padding-left:1.2rem}.list{line-height:2;list-style-type:none;padding-left:0}.list li{padding-bottom:.1rem}.meta{color:#777}.content{max-width:70ch;margin:0 auto}header{line-height:2;display:flex;justify-content:space-between;padding-bottom:1rem}header a{text-decoration:none}header ul{list-style-type:none;padding:0}header li,header a{display:inline}h2.post{padding-top:.5rem}header ul a:first-child{padding-left:1rem}.nav{height:1px;background:#000;content:'';max-width:10%}.list li{display:flex;align-items:baseline}.list li time{flex:initial}.hr-list{margin-top:0;margin-bottom:0;margin-right:.5rem;margin-left:.5rem;height:1px;border:0;border-bottom:1px dotted #ccc;flex:1 0 1rem}.m,hr{border:0;margin:3rem 0}img{max-width:100%;height:auto}.post-date{margin:5% 0}.index-date{color:#9a9a9a}.animate-blink{animation:opacity 1s infinite;opacity:1}@keyframes opacity{0%{opacity:1}50%{opacity:.5}100%{opacity:0}}.tags{display:flex;justify-content:space-between}.tags ul{padding:0;margin:0}.tags li{display:inline}.avatar{height:120px;width:120px;position:relative;margin:-10px 0 0 15px;float:right;border-radius:50%}table{width:100%;border-collapse:collapse}th,td{border:1px solid #ddd;text-align:left;padding:8px}th{background-color:#f2f2f2} </style>
-  
-    
-  
-  
-  <script type="application/ld+json">
-  {
-      "@context": "http://schema.org",
-      "@type": "BlogPosting",
-      "articleSection": "posts",
-      "name": "Les Nouvelles Architectures Web Et Leur Impact Sur Les Dsi Partie 1",
-      "headline": "Les Nouvelles Architectures Web Et Leur Impact Sur Les Dsi Partie 1",
-      "alternativeHeadline": "",
-      "description": "cet article a été publié une première fois le 29\/10\/2013 sur le blog d\u0026rsquo;OCTO Technology : https:\/\/blog.octo.com\/les-nouvelles-architectures-front-web-et-leur-impact-sur-les-dsi-partie-1\nLes applications Web évoluent. Depuis les premiers sites en HTML statique jusqu\u0026rsquo;aux applications AJAX de ces dernières années, en passant par les multiples technologies de sites Web dynamiques (PHP, ASP, Java, Rails\u0026hellip;), les architectures applicatives et les outils pour les mettre en place connaissent régulièrement des avancées majeures et des points de ruptures.",
-      "inLanguage": "fr-fr",
-      "isFamilyFriendly": "true",
-      "mainEntityOfPage": {
-          "@type": "WebPage",
-          "@id": "https:\/\/francoispetitit.com\/posts\/les-nouvelles-architectures-web-et-leur-impact-sur-les-dsi\/"
-      },
-      "author" : {
-          "@type": "Person",
-          "name": ""
-      },
-      "creator" : {
-          "@type": "Person",
-          "name": ""
-      },
-      "accountablePerson" : {
-          "@type": "Person",
-          "name": ""
-      },
-      "copyrightHolder" : "François Petitit",
-      "copyrightYear" : "2013",
-      "dateCreated": "2013-10-29T15:11:39.00Z",
-      "datePublished": "2013-10-29T15:11:39.00Z",
-      "dateModified": "2013-10-29T15:11:39.00Z",
-      "publisher":{
-          "@type":"Organization",
-          "name": "François Petitit",
-          "url": "https://francoispetitit.com/",
-          "logo": {
-              "@type": "ImageObject",
-              "url": "https:\/\/francoispetitit.com\/assets\/favicon.ico",
-              "width":"32",
-              "height":"32"
+<meta name="theme-color" content="#f8f8f8"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+
+<link rel="canonical" href="http://localhost:1313/posts/les-nouvelles-architectures-web-et-leur-impact-sur-les-dsi/" /><link rel="prev" href="http://localhost:1313/posts/paris-web-atelier-html5-pour-mon-ordinateur-et-mon-mobile/" /><link rel="next" href="http://localhost:1313/posts/les-nouvelles-architectures-web-et-leur-impact-sur-les-dsi-partie-2/" />
+<link rel="stylesheet" href="/css/main.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/lib/animate/animate.min.css">
+        <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">{"@context": "https://schema.org","@type": "BlogPosting",
+        "headline": "Les Nouvelles Architectures Web Et Leur Impact Sur Les Dsi Partie 1",
+        "inLanguage": "fr-fr",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "http://localhost:1313/posts/les-nouvelles-architectures-web-et-leur-impact-sur-les-dsi/"
+        },"genre": "posts","wordcount":  1354 ,
+        "url": "http://localhost:1313/posts/les-nouvelles-architectures-web-et-leur-impact-sur-les-dsi/","datePublished": "2013-10-29T15:11:39+02:00","dateModified": "2013-10-29T15:11:39+02:00","publisher": {
+            "@type": "Organization",
+            "name": "Author"},"author": {
+                "@type": "Person",
+                "name": "Author",
+                "url": "/"
+            },"description": ""
+    }</script></head>
+
+<body header-desktop="" header-mobile=""><script type="text/javascript">
+        function setTheme(theme) {
+          document.body.setAttribute('theme', theme); 
+          document.documentElement.style.setProperty('color-scheme', theme === 'light' ? 'light' : 'dark');
+          if (theme === 'light') {
+            document.documentElement.classList.remove('tw-dark')
+          } else {
+            document.documentElement.classList.add('tw-dark')
           }
-      },
-      "image": "https://francoispetitit.com/assets/favicon.ico",
-      "url" : "https:\/\/francoispetitit.com\/posts\/les-nouvelles-architectures-web-et-leur-impact-sur-les-dsi\/",
-      "wordCount" : "1358",
-      "genre" : [ ],
-      "keywords" : [ ]
-  }
-  </script>
-  
-  
-  </head>
-
-<body>
-  <a class="skip-link" href="#main">Skip to main</a>
-  <main id="main">
-  <div class="content">
-    <header>
-<p style="padding: 0;margin: 0;">
-  <a href="/">
-    <b>François Petitit</b>
-    <span class="text-stone-500 animate-blink">▮</span>
-  </a>
-</p>
-<ul style="padding: 0;margin: 0;">
-  
-  
-  <li class="">
-    <a href="/posts/"><span>Post</span></a>
-    
-  <li class="">
-    <a href="/about/"><span>About</span></a>
-    
-  </li>
-</ul>
+          window.theme = theme;   
+          window.isDark = window.theme !== 'light' 
+        }
+        function saveTheme(theme) {window.localStorage && localStorage.setItem('theme', theme);}
+        function getMeta(metaName) {const metas = document.getElementsByTagName('meta'); for (let i = 0; i < metas.length; i++) if (metas[i].getAttribute('name') === metaName) return metas[i]; return '';}
+        if (window.localStorage && localStorage.getItem('theme')) {let theme = localStorage.getItem('theme');theme === 'light' || theme === 'dark' || theme === 'black' ? setTheme(theme) : (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? setTheme('dark') : setTheme('light')); } else { if ('' === 'light' || '' === 'dark' || '' === 'black') setTheme(''), saveTheme(''); else saveTheme('auto'), window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? setTheme('dark') : setTheme('light');}
+        let metaColors = {'light': '#f8f8f8','dark': '#252627','black': '#000000'}
+        getMeta('theme-color').content = metaColors[document.body.getAttribute('theme')];
+        window.switchThemeEventSet = new Set()
+    </script>
+    <div id="back-to-top"></div>
+    <div id="mask"></div><div class="wrapper"><header class="desktop print:!tw-hidden" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="François Petitit">François Petitit</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item"
+                    href="/posts/" > Post </a><a class="menu-item"
+                    href="/about/" > About </a><span class="menu-item delimiter"></span><button class="menu-item theme-switch" aria-label="Switch Theme">
+                    <svg class="icon"
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M8 256c0 136.966 111.033 248 248 248s248-111.034 248-248S392.966 8 256 8 8 119.033 8 256zm248 184V72c101.705 0 184 82.311 184 184 0 101.705-82.311 184-184 184z"/></svg>
+                </button></div>
+        </div>
+    </div>
+</header><header class="mobile print:!tw-hidden" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="François Petitit">François Petitit</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><a class="menu-item" href="/posts/" title="" >Post</a><a class="menu-item" href="/about/" title="" >About</a><button class="menu-item theme-switch tw-w-full" aria-label="Switch Theme">
+                <svg class="icon"
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M8 256c0 136.966 111.033 248 248 248s248-111.034 248-248S392.966 8 256 8 8 119.033 8 256zm248 184V72c101.705 0 184 82.311 184 184 0 101.705-82.311 184-184 184z"/></svg>
+            </button></div>
+    </div>
 </header>
-<hr class="hr-list" style="padding: 0;margin: 0;">
-    <section>
-      <h2 class="post">Les Nouvelles Architectures Web Et Leur Impact Sur Les Dsi Partie 1</h2>
-      <p><em>cet article a été publié une première fois le 29/10/2013 sur le blog d&rsquo;OCTO Technology : <a href="https://blog.octo.com/les-nouvelles-architectures-front-web-et-leur-impact-sur-les-dsi-partie-1">https://blog.octo.com/les-nouvelles-architectures-front-web-et-leur-impact-sur-les-dsi-partie-1</a></em></p>
+<div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+</div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div><main class="main">
+            <div class="container"><article class="page single print:!tw-w-full print:!tw-max-w-none print:!tw-m-0 print:!tw-p-0"><h1 class="single-title animate__animated animate__flipInX">Les Nouvelles Architectures Web Et Leur Impact Sur Les Dsi Partie 1</h1><div class="post-meta">
+            <div class="post-meta-line">
+                <span class="post-author"><svg class="icon"
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm0 96c48.6 0 88 39.4 88 88s-39.4 88-88 88-88-39.4-88-88 39.4-88 88-88zm0 344c-58.7 0-111.3-26.6-146.5-68.2 18.8-35.4 55.6-59.8 98.5-59.8 2.4 0 4.8.4 7.1 1.1 13 4.2 26.6 6.9 40.9 6.9 14.3 0 28-2.7 40.9-6.9 2.3-.7 4.7-1.1 7.1-1.1 42.9 0 79.7 24.4 98.5 59.8C359.3 421.4 306.7 448 248 448z"/></svg><a href="/" title="Author" rel=" author" class="author">Author</a>
+                </span></div>
+            <div class="post-meta-line"><svg class="icon"
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M148 288h-40c-6.6 0-12-5.4-12-12v-40c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12zm108-12v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm96 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm-96 96v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm-96 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm192 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm96-260v352c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V112c0-26.5 21.5-48 48-48h48V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h128V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h48c26.5 0 48 21.5 48 48zm-48 346V160H48v298c0 3.3 2.7 6 6 6h340c3.3 0 6-2.7 6-6z"/></svg>&nbsp;<time datetime="2013-10-29">2013-10-29</time>&nbsp;<svg class="icon"
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M402.3 344.9l32-32c5-5 13.7-1.5 13.7 5.7V464c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V112c0-26.5 21.5-48 48-48h273.5c7.1 0 10.7 8.6 5.7 13.7l-32 32c-1.5 1.5-3.5 2.3-5.7 2.3H48v352h352V350.5c0-2.1.8-4.1 2.3-5.6zm156.6-201.8L296.3 405.7l-90.4 10c-26.2 2.9-48.5-19.2-45.6-45.6l10-90.4L432.9 17.1c22.9-22.9 59.9-22.9 82.7 0l43.2 43.2c22.9 22.9 22.9 60 .1 82.8zM460.1 174L402 115.9 216.2 301.8l-7.3 65.3 65.3-7.3L460.1 174zm64.8-79.7l-43.2-43.2c-4.1-4.1-10.8-4.1-14.8 0L436 82l58.1 58.1 30.9-30.9c4-4.2 4-10.8-.1-14.9z"/></svg>&nbsp;<time datetime="2013-10-29">2013-10-29</time>&nbsp;<svg class="icon"
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M497.9 142.1l-46.1 46.1c-4.7 4.7-12.3 4.7-17 0l-111-111c-4.7-4.7-4.7-12.3 0-17l46.1-46.1c18.7-18.7 49.1-18.7 67.9 0l60.1 60.1c18.8 18.7 18.8 49.1 0 67.9zM284.2 99.8L21.6 362.4.4 483.9c-2.9 16.4 11.4 30.6 27.8 27.8l121.5-21.3 262.6-262.6c4.7-4.7 4.7-12.3 0-17l-111-111c-4.8-4.7-12.4-4.7-17.1 0zM124.1 339.9c-5.5-5.5-5.5-14.3 0-19.8l154-154c5.5-5.5 14.3-5.5 19.8 0s5.5 14.3 0 19.8l-154 154c-5.5 5.5-14.3 5.5-19.8 0zM88 424h48v36.3l-64.5 11.3-31.1-31.1L51.7 376H88v48z"/></svg>&nbsp;1354 words&nbsp;<svg class="icon"
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm61.8-104.4l-84.9-61.7c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h32c6.6 0 12 5.4 12 12v141.7l66.8 48.6c5.4 3.9 6.5 11.4 2.6 16.8L334.6 349c-3.9 5.3-11.4 6.5-16.8 2.6z"/></svg>&nbsp;7 minutes&nbsp;</div>
+        </div><div class="content" id="content"><p><em>cet article a été publié une première fois le 29/10/2013 sur le blog d&rsquo;OCTO Technology : <a href="https://blog.octo.com/les-nouvelles-architectures-front-web-et-leur-impact-sur-les-dsi-partie-1" target="_blank" rel="noopener noreferrer">https://blog.octo.com/les-nouvelles-architectures-front-web-et-leur-impact-sur-les-dsi-partie-1</a></em></p>
 <p>Les applications Web évoluent. Depuis les premiers sites en HTML statique jusqu&rsquo;aux applications AJAX de ces dernières années, en passant par les multiples technologies de sites Web dynamiques (PHP, ASP, Java, Rails&hellip;), les architectures applicatives et les outils pour les mettre en place connaissent régulièrement des avancées majeures et des points de ruptures.</p>
 <p>Depuis deux ans, nous voyons venir une nouvelle vague technologique qui submerge le paysage des applications Web. Celle-ci n&rsquo;a pas encore de nom bien défini comme ont pu l&rsquo;avoir les RIA ou AJAX. Nous les appellerons les &ldquo;architectures MV* côté client&rdquo;.</p>
 <p>Elles se constituent principalement de ce principe d&rsquo;architecture : le serveur ne doit plus gérer l&rsquo;affichage mais seulement envoyer des données brutes à afficher, et toute la génération des écrans et la gestion des interactions avec l&rsquo;utilisateur doivent être géré côté client, c&rsquo;est-à-dire dans le navigateur.</p>
 <p>Dans ce billet, nous préciserons cette architecture et expliquer les raisons de son émergence. Dans un second billet, nous verrons pourquoi il est pertinent de les mettre en place dès aujourd&rsquo;hui, les opportunités qu&rsquo;elles offrent, et quels sont les impacts à prévoir pour les DSI.</p>
-<h2 id="les-nouvelles-archis-front-web--de-quoi-parle-t-on-">Les nouvelles archis front Web : de quoi parle-t-on ?</h2>
-<p>Le schéma ci-dessous illustre l&rsquo;évolution des architectures d&rsquo;applications Web :</p>
-<p><img
-  src="image.png"
-  alt="évolution des architectures web"
-  loading="lazy"
-  decoding="async"
-  class="full-width"
-/>
-
-</p>
-<h3 id="modèle-1--application-web-classique">Modèle 1 : application Web classique</h3>
-<p>Dans le premier schema, l&rsquo;application Web est principalement exécutée côté serveur. Celui-ci envoie donc directement au navigateur les pages HTML, le CSS et éventuellement du JavaScript pour faire quelques comportement riches. Ensuite, à chaque action utilisateur nécessitant de nouvelles données, le serveur est interrogé et renvoie la nouvelle page HTML.</p>
-<h3 id="modèle-2--application-web-ajax">Modèle 2 : application Web AJAX</h3>
-<p>Le deuxième schema introduit le pattern AJAX, pour Asynchronous Javascript And XML. apparu au milieu des années 2000 (voir l&rsquo;article de Jesse James Garrett : <a href="http://www.adaptivepath.com/ideas/ajax-new-approach-web-applications/">http://www.adaptivepath.com/ideas/ajax-new-approach-web-applications/</a> ).</p>
+<h2 id="les-nouvelles-archis-front-web--de-quoi-parle-t-on-" class="headerLink">
+    <a href="#les-nouvelles-archis-front-web--de-quoi-parle-t-on-" class="header-mark"></a>Les nouvelles archis front Web : de quoi parle-t-on ?</h2><p>Le schéma ci-dessous illustre l&rsquo;évolution des architectures d&rsquo;applications Web :</p>
+<p><figure><img
+        
+        loading="lazy"
+        src="/posts/les-nouvelles-architectures-web-et-leur-impact-sur-les-dsi/image.png"
+        srcset="/posts/les-nouvelles-architectures-web-et-leur-impact-sur-les-dsi/image.png 500w,
+            /posts/les-nouvelles-architectures-web-et-leur-impact-sur-les-dsi/image.png 500w,
+            /posts/les-nouvelles-architectures-web-et-leur-impact-sur-les-dsi/image.png 500w"
+        title="évolution des architectures web" height="374"   width="500" ></figure></p>
+<h3 id="modèle-1--application-web-classique" class="headerLink">
+    <a href="#mod%c3%a8le-1--application-web-classique" class="header-mark"></a>Modèle 1 : application Web classique</h3><p>Dans le premier schema, l&rsquo;application Web est principalement exécutée côté serveur. Celui-ci envoie donc directement au navigateur les pages HTML, le CSS et éventuellement du JavaScript pour faire quelques comportement riches. Ensuite, à chaque action utilisateur nécessitant de nouvelles données, le serveur est interrogé et renvoie la nouvelle page HTML.</p>
+<h3 id="modèle-2--application-web-ajax" class="headerLink">
+    <a href="#mod%c3%a8le-2--application-web-ajax" class="header-mark"></a>Modèle 2 : application Web AJAX</h3><p>Le deuxième schema introduit le pattern AJAX, pour Asynchronous Javascript And XML. apparu au milieu des années 2000 (voir l&rsquo;article de Jesse James Garrett : <a href="http://www.adaptivepath.com/ideas/ajax-new-approach-web-applications/" target="_blank" rel="noopener noreferrer">http://www.adaptivepath.com/ideas/ajax-new-approach-web-applications/</a> ).</p>
 <p>Ce principe d&rsquo;architecture permet de rendre l&rsquo;application plus réactive en réduisant les échanges entre le navigateur et le serveur : lorsqu&rsquo;une action utilisateur engendre un appel client pour récupérer des nouvelles données, on ne va rafraîchir qu&rsquo;une portion de l&rsquo;écran et non plus toute la page. Le serveur va alors renvoyer seulement des fragments d&rsquo;IHM. Cela nécessitait la mise en place d&rsquo;outils JavaScript côté client pour gérer ces rafraîchissements partiels, que ce soit par exemple en utilisant la librairie jQuery et sa fonction $.ajax, ou en utilisant des outils plus intégrés aux plateformes serveurs comme Java Server Faces ou Google Web Toolkit pour Java.</p>
 <p>Cette architecture apportait plus de réactivité mais aussi plus de complexité. Les outils pour la mettre en place engendraient de nombreux écueils : l&rsquo;<strong>utilisation massive de jQuery rendait une application impossible à maintenir</strong> sans mettre en place des règles d&rsquo;architectures techniques précises et nécessitant de très fortes compétences (ce qu&rsquo;offrent aujourd&rsquo;hui les frameworks MV* comme Backbone JS ou AngularJS), et <strong>les frameworks côté serveur comme JSF pour Java étaient trop lourds et trop complexes</strong> malgré leur volonté apparente de simplifier les développements, induisant de nombreux bugs et problèmes de performances.</p>
-<h3 id="modèle-3--application-web-mv-côté-client">Modèle 3 : application Web MV* côté client</h3>
-<p>Le troisième schéma représente la nouvelle architecture dont il est question ici : les <em><em>architectures MV</em> côté client</em>*. Le principe est ici en rupture avec les deux premières : cette fois le <strong>serveur ne renvoie que des données brutes non mises en forme pour l&rsquo;affichage. C&rsquo;est côté client, dans le navigateur, que l&rsquo;écran est généré.</strong></p>
+<h3 id="modèle-3--application-web-mv-côté-client" class="headerLink">
+    <a href="#mod%c3%a8le-3--application-web-mv-c%c3%b4t%c3%a9-client" class="header-mark"></a>Modèle 3 : application Web MV* côté client</h3><p>Le troisième schéma représente la nouvelle architecture dont il est question ici : les <em><em>architectures MV</em> côté client</em>*. Le principe est ici en rupture avec les deux premières : cette fois le <strong>serveur ne renvoie que des données brutes non mises en forme pour l&rsquo;affichage. C&rsquo;est côté client, dans le navigateur, que l&rsquo;écran est généré.</strong></p>
 <p>Le terme <strong>MV</strong>* se réfère au pattern MVC pour [http://fr.wikipedia.org/wiki/Mod%C3%A8le-vue-contr%C3%B4leur](<strong>Modèle Vue Contrôleur</strong>), qui est très utilisé côté serveur pour découper les différentes problématiques de gestion des vues et des données. Nous utilisons de plus en plus le terme MV* pour les nouvelles architectures afin de montrer que l&rsquo;implémentation dans les applications est souvent, par pragmatisme, un peu différente du MVC pur. Cela reste un débat d&rsquo;expert&hellip;</p>
 <p>L&rsquo;important dans cette nouvelle architecture est donc le <strong>déplacement de toute la logique d&rsquo;IHM du serveur vers le client</strong>.</p>
 <p>Cette séparation des responsabilités entre le serveur et le client qui n&rsquo;est pas une nouveauté en soi a été remise au goût du jour par les applications natives pour mobiles, consommant des API indépendantes des clients consommateurs. Les nouvelles architectures d&rsquo;applications Web étendent ce choix aux applications Web.</p>
@@ -153,16 +143,15 @@ La fin des limitations des navigateurs
 Le premier point était évident jusqu&rsquo;à l&rsquo;arrivée des dernières version d&rsquo;Internet Explorer 9 et encore plus Internet Explorer 10. Les lenteurs et les nombreux bugs des versions précédentes d&rsquo;Internet Explorer interdisaient de déployer des applications utilisant massivement JavaScript.</p>
 <p>Sauf à disposer de la force de frappe d&rsquo;une équipe d&rsquo;ingénieurs Google, vouloir développer un Gmail dans Internet Explorer 6 n&rsquo;était tout simplement pas réaliste.</p>
 <p>Cela a bien changé depuis que Firefox et encore plus Chrome ont bousculé le marché et que Microsoft a rattrapé son retard, comme le montre le graphique ci-dessous :</p>
-<p><img
-  src="image-1.png"
-  alt="Résultats des navigateurs par-rapport au test de performances Javascript Sunspider
-"
-  loading="lazy"
-  decoding="async"
-  class="full-width"
-/>
-
-</p>
+<p><figure><img
+        
+        loading="lazy"
+        src="/posts/les-nouvelles-architectures-web-et-leur-impact-sur-les-dsi/image-1.png"
+        srcset="/posts/les-nouvelles-architectures-web-et-leur-impact-sur-les-dsi/image-1.png 496w,
+            /posts/les-nouvelles-architectures-web-et-leur-impact-sur-les-dsi/image-1.png 496w,
+            /posts/les-nouvelles-architectures-web-et-leur-impact-sur-les-dsi/image-1.png 496w"
+        title="Résultats des navigateurs par-rapport au test de performances Javascript Sunspider
+" height="366"   width="496" ></figure></p>
 <p>Montrant les résultats des tests de performances JavaScript Sunspider de différents navigateurs, ce schema illustre parfaitement la rupture qui est arrivée aux alentours de 2010, avec l&rsquo;amélioration des performances d&rsquo;Internet Explorer : <strong>les performances entre IE 6 et IE8 à ce test ont été améliorées d&rsquo;un facteur x25 en passant de 177000 ms à 7000 ms !</strong></p>
 <p>Depuis les performances continuent de s&rsquo;améliorer sensiblement, et cela couplé aux nouvelles capacités des terminaux aussi bien mobiles que fixes permet d&rsquo;utiliser le navigateurs pour autre chose que l&rsquo;affichage de pages Web : générer les pages dynamiquement, faire du dessin 2D ou 3D, exécuter des algorithmes complexes, etc.</p>
 <p>L&rsquo;industrialisation du développement JavaScript
@@ -174,7 +163,7 @@ Avoir une plateforme d&rsquo;exécution puissante ne servirait à rien si on ne 
 <p><strong>les frameworks de développement</strong> : là où on utilisait déjà des librairies comme jQuery, qui facilitaient certains développement en JavaScript, les développeurs disposent désormais de véritables frameworks permettant de structurer l&rsquo;application. L&rsquo;intérêt de ces frameworks est double : accélérer les développements et assurer une bonne maintenabilité du code. Parmi les plus connus aujourd&rsquo;hui on trouve notamment AngularJS, BackboneJS et EmberJS.</p>
 </li>
 <li>
-<p><strong>les outils d&rsquo;industrialisation</strong> : l&rsquo;industrialisation des développements JavaScript a explosé ces deux dernières années, en s&rsquo;inspirant fortement de ce qui a déjà été fait pour les autres plateformes comme Java. <strong>De la même manière que les développeurs Java utilisent Maven pour automatiser le build et les tests de leurs applications, les développeurs JavaScript peuvent aujourd&rsquo;hui utiliser Grunt pour automatiser les tests et la construction de leur application</strong>, ainsi que le workflow spécifique au développement front : concaténation des fichiers, obfuscation, minification, génération de sprites CSS, etc. L&rsquo;ensemble de ces outils a déjà été abordé dans cet article du blog : <a href="https://blog.octo.com/jenkins-pour-le-back-notepad-pour-le-front/">https://blog.octo.com/jenkins-pour-le-back-notepad-pour-le-front/</a> .</p>
+<p><strong>les outils d&rsquo;industrialisation</strong> : l&rsquo;industrialisation des développements JavaScript a explosé ces deux dernières années, en s&rsquo;inspirant fortement de ce qui a déjà été fait pour les autres plateformes comme Java. <strong>De la même manière que les développeurs Java utilisent Maven pour automatiser le build et les tests de leurs applications, les développeurs JavaScript peuvent aujourd&rsquo;hui utiliser Grunt pour automatiser les tests et la construction de leur application</strong>, ainsi que le workflow spécifique au développement front : concaténation des fichiers, obfuscation, minification, génération de sprites CSS, etc. L&rsquo;ensemble de ces outils a déjà été abordé dans cet article du blog : <a href="https://blog.octo.com/jenkins-pour-le-back-notepad-pour-le-front/" target="_blank" rel="noopener noreferrer">https://blog.octo.com/jenkins-pour-le-back-notepad-pour-le-front/</a> .</p>
 </li>
 </ul>
 <p>L&rsquo;industrialisation du développement Javascript est par ailleurs poussée également par le fait que l&rsquo;utilisation de Javascript s&rsquo;étend à d&rsquo;autres domaines que les applications Web, et notamment au développement serveur avec NodeJS. Cela d&rsquo;autant plus frappant que NodeJS est utilisé comme socle technique par GruntJS et ses nombreux plug-ins.</p>
@@ -182,31 +171,62 @@ Avoir une plateforme d&rsquo;exécution puissante ne servirait à rien si on ne 
 <p>Conclusion de la première partie
 Dans cet article, nous avons présenté ce que l&rsquo;on entend par &ldquo;architectures MV* côté client&rdquo;, et pourquoi elles émergent aujourd&rsquo;hui.</p>
 <p>Dans les parties suivantes, <strong>nous verrons pourquoi il faut utiliser ces architectures dès aujourd&rsquo;hui, quels sont les écueils à éviter et quels sont les impacts sur vos DSI.</strong></p>
+</div>
 
-      
-      <div class="post-date">
-        <span class="g time">October 29, 2013 </span> &#8729;
-         
-      </div>
-      
-    </section>
-    
-    
-    <div id="comments">
-      
-<script src="https://utteranc.es/client.js"
-    repo=fpetitit/blog
-    issue-term="pathname"
-    theme=github-light
-    crossorigin="anonymous"
-    async>
-</script>
-
-
+        <div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2013-10-29</span>
+            </div>
+            <div class="post-info-license"></div>
+        </div>
+        <div class="post-info-line print:!tw-hidden">
+            <div class="post-info-md"></div>
+            <div class="post-info-share"></div>
+        </div>
     </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"></section>
+        <section class="print:!tw-hidden">
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav print:tw-hidden"><a href="/posts/paris-web-atelier-html5-pour-mon-ordinateur-et-mon-mobile/" class="prev" rel="prev" title="Paris Web Atelier HTML5 Pour Mon Ordinateur Et Mon Mobile"><svg class="icon"
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z"/></svg>Paris Web Atelier HTML5 Pour Mon Ordinateur Et Mon Mobile</a>
+            <a href="/posts/les-nouvelles-architectures-web-et-leur-impact-sur-les-dsi-partie-2/" class="next" rel="next" title="Les Nouvelles Architectures Web Et Leur Impact Sur Les Dsi Partie 2">Les Nouvelles Architectures Web Et Leur Impact Sur Les Dsi Partie 2<svg class="icon"
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"/></svg></a></div>
+</div>
+</article></div>
+        </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">
+                    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreferrer" title="Hugo 0.124.1">Hugo</a>&nbsp;|&nbsp;Theme - <a href="https://github.com/HEIGE-PCloud/DoIt" target="_blank" rel="noopener noreferrer" title="DoIt 0.4.0"><svg class="icon"
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M402.3 344.9l32-32c5-5 13.7-1.5 13.7 5.7V464c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V112c0-26.5 21.5-48 48-48h273.5c7.1 0 10.7 8.6 5.7 13.7l-32 32c-1.5 1.5-3.5 2.3-5.7 2.3H48v352h352V350.5c0-2.1.8-4.1 2.3-5.6zm156.6-201.8L296.3 405.7l-90.4 10c-26.2 2.9-48.5-19.2-45.6-45.6l10-90.4L432.9 17.1c22.9-22.9 59.9-22.9 82.7 0l43.2 43.2c22.9 22.9 22.9 60 .1 82.8zM460.1 174L402 115.9 216.2 301.8l-7.3 65.3 65.3-7.3L460.1 174zm64.8-79.7l-43.2-43.2c-4.1-4.1-10.8-4.1-14.8 0L436 82l58.1 58.1 30.9-30.9c4-4.2 4-10.8-.1-14.9z"/></svg> DoIt</a>
+                </div><div class="footer-line"><svg class="icon"
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 448c-110.532 0-200-89.451-200-200 0-110.531 89.451-200 200-200 110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200zm107.351-101.064c-9.614 9.712-45.53 41.396-104.065 41.396-82.43 0-140.484-61.425-140.484-141.567 0-79.152 60.275-139.401 139.762-139.401 55.531 0 88.738 26.62 97.593 34.779a11.965 11.965 0 0 1 1.936 15.322l-18.155 28.113c-3.841 5.95-11.966 7.282-17.499 2.921-8.595-6.776-31.814-22.538-61.708-22.538-48.303 0-77.916 35.33-77.916 80.082 0 41.589 26.888 83.692 78.277 83.692 32.657 0 56.843-19.039 65.726-27.225 5.27-4.857 13.596-4.039 17.82 1.738l19.865 27.17a11.947 11.947 0 0 1-1.152 15.518z"/></svg>2024<span class="author">&nbsp;<a href="/" target="_blank" rel="noopener noreferrer"></a></span></div>
+            <div class="footer-line"></div>
+            <div class="footer-line">
+            </div>
+        </div></footer></div>
+
+    <div id="fixed-buttons" class="print:!tw-hidden"><a href="#back-to-top" id="back-to-top-button" class="fixed-button" title="Back to Top">
+            <svg class="icon"
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M34.9 289.5l-22.2-22.2c-9.4-9.4-9.4-24.6 0-33.9L207 39c9.4-9.4 24.6-9.4 33.9 0l194.3 194.3c9.4 9.4 9.4 24.6 0 33.9L413 289.4c-9.5 9.5-25 9.3-34.3-.4L264 168.6V456c0 13.3-10.7 24-24 24h-32c-13.3 0-24-10.7-24-24V168.6L69.2 289.1c-9.3 9.8-24.8 10-34.3.4z"/></svg>
+        </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+            <svg class="icon"
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M256 32C114.6 32 0 125.1 0 240c0 49.6 21.4 95 57 130.7C44.5 421.1 2.7 466 2.2 466.5c-2.2 2.3-2.8 5.7-1.5 8.7S4.8 480 8 480c66.3 0 116-31.8 140.6-51.4 32.7 12.3 69 19.4 107.4 19.4 141.4 0 256-93.1 256-208S397.4 32 256 32z"/></svg>
+        </a>
+    </div><div class="assets"><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":10},"comment":{}};</script><script
+    src="/lib/clipboard/clipboard.min.js"
     
+  ></script><script
+    src="/js/theme.min.js"
     
-  </div>
-</main>
+      defer
+    
+  ></script></div>
 </body>
+
 </html>
