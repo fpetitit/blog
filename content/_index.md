@@ -1,6 +1,6 @@
 ## Hi there! 👋
 
-Hey, I'm François Petitit - a human being who lives in France, has been working in software development for a long time, and has many passions ;)
+Hey, I'm François Petitit - a French resident with extensive experience in software development and a wide range of passions (•‿•)
 
 Currently, I work as a co-founder CTO of an innovative property management company : [Owwner](https://www.owwner.com). 
 
