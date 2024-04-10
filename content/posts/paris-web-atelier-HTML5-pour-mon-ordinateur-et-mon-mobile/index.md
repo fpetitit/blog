@@ -2,6 +2,7 @@
 title = 'Paris Web Atelier HTML5 Pour Mon Ordinateur Et Mon Mobile'
 date = 2010-10-10T11:46:52+02:00
 draft = false
+author = 'François Petitit'
 +++
 
 In 2010, with my friend and former colleague Mickael Morier, I presented a workshop at [Paris Web](https://www.paris-web.fr/) entitled "HTML5 for my computer and my mobile".

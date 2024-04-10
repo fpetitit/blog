@@ -2,6 +2,7 @@
 title = 'Paris Web Openid Connect France Connect'
 date = 2015-10-10T12:01:46+02:00
 draft = false
+author = 'François Petitit'
 +++
 
 # Présentation à Paris Web - OpenID Connect : mise en oeuvre sur France Connect

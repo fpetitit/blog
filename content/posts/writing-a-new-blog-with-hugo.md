@@ -2,6 +2,7 @@
 title = 'Writing a New Blog With Hugo'
 date = 2024-04-04T15:37:14+02:00
 draft = false
+author = 'François Petitit'
 +++
 
 As you can see from this post, I've just launched a new blog.

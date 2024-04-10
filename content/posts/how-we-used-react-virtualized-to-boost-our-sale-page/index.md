@@ -2,6 +2,7 @@
 title = 'How We Used React Virtualized to Boost Our Sale Page'
 date = 2018-07-18T09:52:49+02:00
 draft = false
+author = 'François Petitit'
 +++
 
 This article was previously published here : https://medium.com/la-ruche-qui-dit-oui/how-we-used-react-virtualized-to-boost-our-sale-page-6e2f087039ca

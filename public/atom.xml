@@ -3,13 +3,20 @@
         <title>François Petitit</title>
         <link>http://localhost:1313/</link>
         <description>François Petitit</description>
-        <generator>Hugo -- gohugo.io</generator><language>fr-fr</language><lastBuildDate>Fri, 05 Apr 2024 13:48:04 &#43;0200</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>fr-fr</language><lastBuildDate>Wed, 10 Apr 2024 04:00:49 &#43;0200</lastBuildDate>
             <atom:link href="http://localhost:1313/atom.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Paas Versus Serverless</title>
+    <link>http://localhost:1313/posts/paas-versus-serverless/</link>
+    <pubDate>Wed, 10 Apr 2024 04:00:49 &#43;0200</pubDate><author>
+        <name>François Petitit</name>
+    </author><guid>http://localhost:1313/posts/paas-versus-serverless/</guid>
+    <description><![CDATA[Demystifying the Cloud: Comparing PaaS and Serverless ArchitectureIn the ever-evolving landscape of Cloud computing, two terms have become fundamental pillars: Platform as a Service (PaaS) and serverless architectures. As the technological landscape continues to diversify, it&rsquo;s crucial to understand the nuances between these two approaches, along with the benefits and drawbacks they offer. To illustrate this, we&rsquo;ll take Heroku as an example of PaaS and Amazon Web Services Lambda as an example of serverless architecture.]]></description>
+</item><item>
     <title>IA - the Beginning of the End of the Party ?</title>
     <link>http://localhost:1313/posts/ia-the-beginning-of-the-end-of-the-party/</link>
     <pubDate>Fri, 05 Apr 2024 13:48:04 &#43;0200</pubDate><author>
-        <name>Author</name>
+        <name>François Petitit</name>
     </author><guid>http://localhost:1313/posts/ia-the-beginning-of-the-end-of-the-party/</guid>
     <description><![CDATA[I learned this morning that Stability AI, the company that develops and operates the Stable Diffusion image generator, is in financial trouble:
 https://www.theregister.com/2024/04/03/stability_ai_bills/
@@ -18,7 +25,7 @@ On the face of it, the reason is simple: to generate images via AI, you need a l
     <title>Writing a New Blog With Hugo</title>
     <link>http://localhost:1313/posts/writing-a-new-blog-with-hugo/</link>
     <pubDate>Thu, 04 Apr 2024 15:37:14 &#43;0200</pubDate><author>
-        <name>Author</name>
+        <name>François Petitit</name>
     </author><guid>http://localhost:1313/posts/writing-a-new-blog-with-hugo/</guid>
     <description><![CDATA[As you can see from this post, I&rsquo;ve just launched a new blog.
 It already includes a few old articles published elsewhere, here and there, and I&rsquo;ll try to publish new ones regularly.
@@ -29,7 +36,7 @@ Hugo as the blog engine: https://gohugo.io/ Github to store the code, compile th
     <title>How We Used React Virtualized to Boost Our Sale Page</title>
     <link>http://localhost:1313/posts/how-we-used-react-virtualized-to-boost-our-sale-page/</link>
     <pubDate>Wed, 18 Jul 2018 09:52:49 &#43;0200</pubDate><author>
-        <name>Author</name>
+        <name>François Petitit</name>
     </author><guid>http://localhost:1313/posts/how-we-used-react-virtualized-to-boost-our-sale-page/</guid>
     <description><![CDATA[This article was previously published here : https://medium.com/la-ruche-qui-dit-oui/how-we-used-react-virtualized-to-boost-our-sale-page-6e2f087039ca
 How we used React Virtualized to boost our sale pageOur mission at La Ruche qui dit Oui ! is to provide good and fair products to our customers, directly from farmers and craftsmen.
@@ -39,7 +46,7 @@ Challenges arise at many levels: logistics, communication, marketing, but also t
     <title>Paris Web Openid Connect France Connect</title>
     <link>http://localhost:1313/posts/paris-web-openid-connect-france-connect/</link>
     <pubDate>Sat, 10 Oct 2015 12:01:46 &#43;0200</pubDate><author>
-        <name>Author</name>
+        <name>François Petitit</name>
     </author><guid>http://localhost:1313/posts/paris-web-openid-connect-france-connect/</guid>
     <description><![CDATA[Présentation à Paris Web - OpenID Connect : mise en oeuvre sur France ConnectJ&rsquo;ai eu la chance et l&rsquo;opportunité de présenter un retour d&rsquo;expérience à Paris Web : il s&rsquo;agit de l&rsquo;utilisation du protocole OpenID Connect sur le projet France Connect, lorsque j&rsquo;étais le Technical Leader de l&rsquo;équipe.
 La vidéo est disponibile ici :
@@ -48,7 +55,7 @@ OpenID Connect, le nouveau standard d&#039;authentification sur le web : mise en
     <title>Les Nouvelles Architectures Web Et Leur Impact Sur Les Dsi Partie 2</title>
     <link>http://localhost:1313/posts/les-nouvelles-architectures-web-et-leur-impact-sur-les-dsi-partie-2/</link>
     <pubDate>Wed, 30 Oct 2013 15:11:39 &#43;0200</pubDate><author>
-        <name>Author</name>
+        <name>François Petitit</name>
     </author><guid>http://localhost:1313/posts/les-nouvelles-architectures-web-et-leur-impact-sur-les-dsi-partie-2/</guid>
     <description><![CDATA[cet article a été publié une première fois le 29/10/2013 sur le blog d&rsquo;OCTO Technology : https://blog.octo.com/les-nouvelles-architectures-front-web-et-leur-impact-sur-la-dsi-partie-2
 Dans la partie 1 de cet article, nous avons traité des nouvelles architectures front-end basées sur des applications Web massivement Javascript appelant des API offertes par un serveur back-end : les nouvelles architectures front Web et leur impact sur les DSI - Partie 1.
@@ -57,7 +64,7 @@ Nous avons vu qu&rsquo;elles sont apparues ces dernières années grâce à l&rs
     <title>Les Nouvelles Architectures Web Et Leur Impact Sur Les Dsi Partie 1</title>
     <link>http://localhost:1313/posts/les-nouvelles-architectures-web-et-leur-impact-sur-les-dsi/</link>
     <pubDate>Tue, 29 Oct 2013 15:11:39 &#43;0200</pubDate><author>
-        <name>Author</name>
+        <name>François Petitit</name>
     </author><guid>http://localhost:1313/posts/les-nouvelles-architectures-web-et-leur-impact-sur-les-dsi/</guid>
     <description><![CDATA[cet article a été publié une première fois le 29/10/2013 sur le blog d&rsquo;OCTO Technology : https://blog.octo.com/les-nouvelles-architectures-front-web-et-leur-impact-sur-les-dsi-partie-1
 Les applications Web évoluent. Depuis les premiers sites en HTML statique jusqu&rsquo;aux applications AJAX de ces dernières années, en passant par les multiples technologies de sites Web dynamiques (PHP, ASP, Java, Rails&hellip;), les architectures applicatives et les outils pour les mettre en place connaissent régulièrement des avancées majeures et des points de ruptures.]]></description>
@@ -65,7 +72,7 @@ Les applications Web évoluent. Depuis les premiers sites en HTML statique jusqu
     <title>Paris Web Atelier HTML5 Pour Mon Ordinateur Et Mon Mobile</title>
     <link>http://localhost:1313/posts/paris-web-atelier-html5-pour-mon-ordinateur-et-mon-mobile/</link>
     <pubDate>Sun, 10 Oct 2010 11:46:52 &#43;0200</pubDate><author>
-        <name>Author</name>
+        <name>François Petitit</name>
     </author><guid>http://localhost:1313/posts/paris-web-atelier-html5-pour-mon-ordinateur-et-mon-mobile/</guid>
     <description><![CDATA[In 2010, with my friend and former colleague Mickael Morier, I presented a workshop at Paris Web entitled &ldquo;HTML5 for my computer and my mobile&rdquo;.]]></description>
 </item></channel>

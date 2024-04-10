@@ -2,6 +2,7 @@
 title = 'Les Nouvelles Architectures Web Et Leur Impact Sur Les Dsi Partie 1'
 date = 2013-10-29T15:11:39+02:00
 draft = false
+author = 'François Petitit'
 +++
 
 *cet article a été publié une première fois le 29/10/2013 sur le blog d'OCTO Technology : https://blog.octo.com/les-nouvelles-architectures-front-web-et-leur-impact-sur-les-dsi-partie-1*

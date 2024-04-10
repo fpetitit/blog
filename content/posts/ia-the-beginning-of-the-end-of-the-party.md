@@ -2,6 +2,7 @@
 title = 'IA - the Beginning of the End of the Party ?'
 date = 2024-04-05T13:48:04+02:00
 draft = false
+author = 'François Petitit'
 +++
 
 I learned this morning that Stability AI, the company that develops and operates the Stable Diffusion image generator, is in financial trouble:
