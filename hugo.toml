@@ -1,7 +1,7 @@
 baseURL = 'https://francoispetitit.com'
 languageCode = 'fr-fr'
 title = 'François Petitit'
-paginate = 10
+pagination.paperSize = 10
 theme = 'DoIt'
 
 [permalinks]
@@ -10,7 +10,8 @@ theme = 'DoIt'
 [params]
   logo = '/assets/favicon.ico'
   description = "François Petitit"
-  author = 'François Petitit'
+  [params.author]
+    name = 'François Petitit'
 
   [params.comments]
     enabled = true
