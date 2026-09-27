@@ -11,7 +11,7 @@ theme = 'DoIt'
   logo = '/assets/favicon.ico'
   description = "Blog de François Petitit, consultant senior : architecture logicielle, développement Web, cloud et transformation des SI."
   # Image de partage par défaut (og:image) quand une page n'en a pas
-  images = ['/images/avatar.webp']
+  images = ['/images/photo-francois-petitit.webp']
   [params.author]
     name = 'François Petitit'
 
@@ -74,7 +74,7 @@ theme = 'DoIt'
 [params.home.profile]
   enable = true
   # URL of avatar shown in home page
-  avatarURL = "/images/avatar.webp"
+  avatarURL = "/images/photo-francois-petitit.webp"
   # URL the avatar links to
   avatarLinkURL = ""
 
