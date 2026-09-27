@@ -2,6 +2,7 @@
 title = 'How We Used React Virtualized to Boost Our Sale Page'
 date = 2018-07-18T09:52:49+02:00
 draft = false
+description = "How La Ruche qui dit Oui ! used React Virtualized to keep its sale page fast while displaying more and more farmers and products."
 author = 'François Petitit'
 +++
 

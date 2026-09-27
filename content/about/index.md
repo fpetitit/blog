@@ -1,7 +1,8 @@
 +++
-title = 'About'
+title = 'À propos'
 date = 2024-04-04T11:29:13+02:00
 draft = false
+description = "Qui je suis : consultant senior, ancien CTO cofondateur d'Owwner, développeur Web passionné d'architecture et de produit."
 +++
 
 

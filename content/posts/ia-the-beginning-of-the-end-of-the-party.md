@@ -2,6 +2,7 @@
 title = 'IA - the Beginning of the End of the Party ?'
 date = 2024-04-05T13:48:04+02:00
 draft = false
+description = "Stability AI's financial troubles show how expensive generative AI really is: is the free-for-all party coming to an end?"
 author = 'François Petitit'
 +++
 
