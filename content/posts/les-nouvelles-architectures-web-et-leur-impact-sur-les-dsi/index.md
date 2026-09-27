@@ -2,6 +2,7 @@
 title = 'Les Nouvelles Architectures Web Et Leur Impact Sur Les Dsi Partie 1'
 date = 2013-10-29T15:11:39+02:00
 draft = false
+description = "Partie 1 : ce que sont les architectures front Web « MV* côté client », où le navigateur gère l'affichage et le serveur ne fournit plus que des données via des API."
 author = 'François Petitit'
 +++
 

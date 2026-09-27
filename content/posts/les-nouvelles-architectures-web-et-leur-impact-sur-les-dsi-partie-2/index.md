@@ -2,6 +2,7 @@
 title = 'Les Nouvelles Architectures Web Et Leur Impact Sur Les Dsi Partie 2'
 date = 2013-10-30T15:11:39+02:00
 draft = false
+description = "Partie 2 : pourquoi adopter les nouvelles architectures front Web, les opportunités qu'elles offrent et leurs conséquences sur l'organisation des DSI."
 author = 'François Petitit'
 +++
 

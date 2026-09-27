@@ -2,6 +2,7 @@
 title = 'Writing a New Blog With Hugo'
 date = 2024-04-04T15:37:14+02:00
 draft = false
+description = "How this blog is built: Hugo as the static site generator, GitHub to store the code and GitHub Pages to deploy it."
 author = 'François Petitit'
 +++
 

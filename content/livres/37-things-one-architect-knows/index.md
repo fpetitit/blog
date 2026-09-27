@@ -2,8 +2,11 @@
 title = "37 Things One Architect Knows About IT Transformation"
 date = 2026-09-27T10:00:00+02:00
 draft = false
+description = "Mes notes sur le livre de Gregor Hohpe : l'Architect Elevator, les économies de vitesse et l'architecte qui vend des options."
 author = 'François Petitit'
 +++
+
+<img src="cover.jpg" alt="Couverture du livre 37 Things One Architect Knows About IT Transformation, de Gregor Hohpe" width="220" style="float: right; margin: 0 0 1rem 1.5rem;">
 
 **Auteur :** Gregor Hohpe
 **Sous-titre :** *A Chief Architect's Journey*

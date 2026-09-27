@@ -2,6 +2,7 @@
 title = 'Paris Web Atelier HTML5 Pour Mon Ordinateur Et Mon Mobile'
 date = 2010-10-10T11:46:52+02:00
 draft = false
+description = "Video of the \"HTML5 for my computer and my mobile\" workshop presented at Paris Web 2010 with Mickael Morier."
 author = 'François Petitit'
 +++
 
