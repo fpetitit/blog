@@ -30,6 +30,11 @@ theme = 'DoIt'
     name = "Post"
     url = "/posts/"
     weight = -200
+  [[menu.main]]
+    identifier = "livres"
+    name = "Livres"
+    url = "/livres/"
+    weight = -150
 
 [markup]
   [markup.goldmark.renderer]
