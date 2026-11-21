@@ -4,6 +4,7 @@ date = 2026-11-21T12:00:00+01:00
 draft = false
 description = "Le livre de Philip Kiely sur l'inférence en production : GPU, moteurs d'inférence, optimisations et exploitation à l'échelle."
 author = 'François Petitit'
+bookAuthor = 'Philip Kiely'
 +++
 
 <img src="cover.jpg" alt="Couverture du livre Inference Engineering, de Philip Kiely" width="220" style="float: right; margin: 0 0 1rem 1.5rem;">

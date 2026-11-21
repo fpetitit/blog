@@ -4,6 +4,7 @@ date = 2026-11-21T14:00:00+01:00
 draft = false
 description = "L'essai d'Irénée Régnauld sur le projet technologique autoritaire qui se structure en France et les pistes d'une critique progressiste."
 author = 'François Petitit'
+bookAuthor = 'Irénée Régnauld'
 +++
 
 <img src="cover.jpg" alt="Couverture du livre La sommation technologique, d'Irénée Régnauld" width="220" style="float: right; margin: 0 0 1rem 1.5rem;">
