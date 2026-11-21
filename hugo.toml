@@ -10,6 +10,9 @@ theme = 'DoIt'
 [params]
   logo = '/assets/favicon.ico'
   description = "Blog de François Petitit, consultant senior : architecture logicielle, développement Web, cloud et transformation des SI."
+  # Code GoatCounter (sous-domaine). Laisser vide pour désactiver le suivi.
+  # Une fois le code connu : goatcounterCode = 'MONCODE'
+  goatcounterCode = 'efpy'
   # Image de partage par défaut (og:image) quand une page n'en a pas
   images = ['/images/photo-francois-petitit.webp']
   [params.author]
